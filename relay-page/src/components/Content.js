@@ -33,13 +33,12 @@ const Content = () => (
             </div>
 
             <table>
+                <thead>
                 <tr>
-                    <td>
-                        <div className="title">
-                            <strong> Our Vision </strong>
-                        </div>
+                    <td className="title">
+                        <strong> Our Vision </strong>
                     </td>
-                    <td rowSpan="2" style={{paddingTop:"60px"}}>
+                    <td rowSpan="2" style={{paddingTop:"30px", paddingLeft:"70px"}}>
                         <SimpleImageSlider
                             width={450}
                             height={300}
@@ -51,16 +50,13 @@ const Content = () => (
                         />
                     </td>
                 </tr>
-                <tr>
-                <div className="description">
-                    <ul className="square_list_type">
-                        <li> 우리는 각자의 경험을 나누고 함께 발전하는것을 좋아합니다. </li>
-                        <li> 막히는 것이 있다면 언제든 편하게 같이 이야기합니다. </li>
-                        <li> 각자의 자리에서 가진 고민들을 함께 나누며 성장하고 있습니다.</li>
-                        <li> 앗, 물론 개발만이 아니라 함께 놀기도 합니다!! </li>
-                    </ul>
-                </div>
+                <tr className="square_list_type">
+                    <li> 우리는 각자의 경험을 나누고 함께 발전하는것을 좋아합니다. </li>
+                    <li> 막히는 것이 있다면 언제든 편하게 같이 이야기합니다. </li>
+                    <li> 각자의 자리에서 가진 고민들을 함께 나누며 성장하고 있습니다.</li>
+                    <li> 앗, 물론 개발만이 아니라 함께 놀기도 합니다!! </li>
                 </tr>
+                </thead>
             </table>
         </div>
     </div>

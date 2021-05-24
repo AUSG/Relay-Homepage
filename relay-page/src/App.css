@@ -29,10 +29,10 @@ html, body{height:100%}
 .main .doc_content .title {margin: 20px 0 20px 0;}
 .main .doc_content .title strong{color: #6B66FF; font-size: xx-large; font-weight: bolder;}
 .main .doc_content .description {padding-left: 50px;} 
-.main .doc_content .description .square_list_type li{list-style: square; line-height: 2;} 
 .main .doc_content .description li{list-style: none; line-height: 2;} 
 .main .doc_content .description ul{margin: 15px 0 15px 0;}
-
+.main .doc_content table {margin: 20px 0 20px 0; width: 100%;}
+.main .doc_content .square_list_type li{list-style: square; line-height: 2; padding-left: 30px;} 
 
 .main .box_image{overflow:hidden;position:relative;width:220px;height:352px;margin:0 auto;border-radius:11px}
 .main .box_image .img_g{width:100%;height:100%}
