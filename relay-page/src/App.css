@@ -14,13 +14,31 @@ a:active, a:hover{text-decoration:underline}
 a:active{background-color:transparent}
 address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 
+/* layout */
+html, body{height:100%}
+.container_doc{display:-webkit-box;display:-ms-flexbox;display:flex;min-height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.doc_main{padding:121px 0 60px;-webkit-box-flex:1;-ms-flex:1;flex:1}
+.wrap_comm{width:680px;margin:0 auto}
+
 /* head */
 .doc_header{display:-webkit-box;display:-ms-flexbox;display:flex;position:fixed;top:0;right:0;left:0;z-index:100;height:60px;padding:0 30px;border-bottom:1px solid #e6e6e6;background-color:#fff;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .doc_header .img_logo{width:127px}
+
+/* main */
+.main .doc_content {display: block; padding-left: 300px;}
+.main .doc_content .title {margin: 20px 0 20px 0;}
+.main .doc_content .title strong{color: #6B66FF; font-size: xx-large; font-weight: bolder;}
+.main .doc_content .description .content_list {padding-left: 40px; } 
+.main .doc_content .description ul {list-style: square;} 
+
+.main .box_image{overflow:hidden;position:relative;width:220px;height:352px;margin:0 auto;border-radius:11px}
+.main .box_image .img_g{width:100%;height:100%}
+.main .image{display:block;width:100%;height:100%}
 
 /* footer */
 .doc_footer{padding:60px 0; width: 680px; margin: 0 auto;}
 .doc_footer .list_policy{display:-webkit-box;display:-ms-flexbox;display:flex}
 .doc_footer .list_policy h4{color:#999}
 .doc_footer .txt_copyright{display:block;margin-top:16px;color:#ccc}
-.doc_footer .txt_copyright .link_kakao{color:#ccc;text-decoration:none}
+.doc_footer .txt_copyright .link_ausg{color:#ccc;text-decoration:none}
+
