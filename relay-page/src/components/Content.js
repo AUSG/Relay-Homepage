@@ -1,4 +1,12 @@
 import React from 'react'; 
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+    { url: "images/-1.jpg" },
+    { url: "images/0.jpg" },
+    { url: "images/9.png" },
+    { url: "images/18.jpg" },
+];
 
 const Content = () => ( 
     <div className="main">
@@ -24,17 +32,36 @@ const Content = () => (
                 </ul>
             </div>
 
-            <div className="title">
-                <strong> Our Vision </strong>
-            </div>
-            <div className="description">
-                <ul className="square_list_type">
-                    <li> 우리는 각자의 경험을 나누고 함께 발전하는것을 좋아합니다. </li>
-                    <li> 막히는 것이 있다면 언제든 편하게 같이 이야기합니다. </li>
-                    <li> 각자의 자리에서 가진 고민들을 함께 나누며 성장하고 있습니다.</li>
-                    <li> 앗, 물론 개발만이 아니라 함께 놀기도 합니다!! </li>
-                </ul>
-            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div className="title">
+                            <strong> Our Vision </strong>
+                        </div>
+                    </td>
+                    <td rowSpan="2" style={{paddingTop:"60px"}}>
+                        <SimpleImageSlider
+                            width={450}
+                            height={300}
+                            images={images}
+                            onClickNav={(idx)=>{}}
+                            onClickBullets={(idx)=>{}}
+                            showNavs={true}
+                            showBullets={true}
+                        />
+                    </td>
+                </tr>
+                <tr>
+                <div className="description">
+                    <ul className="square_list_type">
+                        <li> 우리는 각자의 경험을 나누고 함께 발전하는것을 좋아합니다. </li>
+                        <li> 막히는 것이 있다면 언제든 편하게 같이 이야기합니다. </li>
+                        <li> 각자의 자리에서 가진 고민들을 함께 나누며 성장하고 있습니다.</li>
+                        <li> 앗, 물론 개발만이 아니라 함께 놀기도 합니다!! </li>
+                    </ul>
+                </div>
+                </tr>
+            </table>
         </div>
     </div>
 )

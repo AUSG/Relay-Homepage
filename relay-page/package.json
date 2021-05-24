@@ -9,6 +9,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-simple-image-slider": "^2.1.0",
     "tailwindcss": "^2.1.2",
     "web-vitals": "^1.0.1"
   },
