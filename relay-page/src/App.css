@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
-}
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes: none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle}
+input::-ms-clear{display:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+body{background:#fff}
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.43;font-family:"Noto Sans KR", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo", "Malgun Gothic", "맑은 고딕", sans-serif;color:#000}
+a{color:#333;text-decoration:none}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* head */
+.doc_header{display:-webkit-box;display:-ms-flexbox;display:flex;position:fixed;top:0;right:0;left:0;z-index:100;height:60px;padding:0 30px;border-bottom:1px solid #e6e6e6;background-color:#fff;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.doc_header .img_logo{width:127px}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* footer */
+.doc_footer{padding:60px 0}
+.doc_footer .list_policy{display:-webkit-box;display:-ms-flexbox;display:flex}
+.doc_footer .list_policy li{margin-left:24px}
+.doc_footer .list_policy li:first-child{margin-left:0}
+.doc_footer .list_policy .link_policy{color:#999}
+.doc_footer .txt_copyright{display:block;margin-top:16px;color:#ccc}
+.doc_footer .txt_copyright .link_kakao{color:#ccc;text-decoration:none}
