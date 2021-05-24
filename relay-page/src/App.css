@@ -19,10 +19,8 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .doc_header .img_logo{width:127px}
 
 /* footer */
-.doc_footer{padding:60px 0}
+.doc_footer{padding:60px 0; width: 680px; margin: 0 auto;}
 .doc_footer .list_policy{display:-webkit-box;display:-ms-flexbox;display:flex}
-.doc_footer .list_policy li{margin-left:24px}
-.doc_footer .list_policy li:first-child{margin-left:0}
-.doc_footer .list_policy .link_policy{color:#999}
+.doc_footer .list_policy h4{color:#999}
 .doc_footer .txt_copyright{display:block;margin-top:16px;color:#ccc}
 .doc_footer .txt_copyright .link_kakao{color:#ccc;text-decoration:none}
