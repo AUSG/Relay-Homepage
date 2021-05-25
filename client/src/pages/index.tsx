@@ -7,7 +7,9 @@ import {
 } from "@ausg/components/common";
 import React from "react";
 
-const Main = () => {
+interface HomeProps {}
+
+const Home: React.FC<HomeProps> = () => {
   return (
     <Layout>
       <Header />
@@ -18,4 +20,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;

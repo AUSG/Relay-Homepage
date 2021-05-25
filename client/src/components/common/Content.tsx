@@ -35,7 +35,7 @@ const Content: React.FC<ContentProps> = () => (
 
         <ul>
           <li>
-            AWS 한국사용자모임(https://awskrug.github.io/)과 함께하고 있어요! 😎{" "}
+            AWS 한국사용자모임(https://awskrug.github.io/)과 함께하고 있어요! 😎
           </li>
         </ul>
       </div>
