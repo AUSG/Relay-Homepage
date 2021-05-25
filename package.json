@@ -1,9 +1,18 @@
 {
   "license": "MIT",
   "devDependencies": {
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "client:lint": "cd client; yarn lint; cd ..",
+    "client:test": "cd client; yarn test; cd .."
+  },
+  "lint-staged": {
+    "client/src/**/*.{js, jsx, ts, tsx}": [
+      "yarn client:lint",
+      "yarn client:test"
+    ]
   }
 }
