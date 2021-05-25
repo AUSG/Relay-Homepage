@@ -19,6 +19,7 @@
     "@types/jest": "^26.0.23",
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
     "date-fns": "^2.11.1",
     "dotenv-load": "^2.0.0",
     "gray-matter": "^4.0.2",
