@@ -11,4 +11,9 @@ module.exports = {
     "node_modules/variables/.+\\.(j|t)sx?$": "ts-jest",
   },
   transformIgnorePatterns: ["node_modules/(?!variables/.*)"],
+  globals: {
+    "ts-jest": {
+      tsconfig: "./tsconfig.test.json",
+    },
+  },
 };
