@@ -1,4 +1,4 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
@@ -10,7 +10,9 @@ const images = [
   { url: "images/18.jpg" },
 ];
 
-const Content = () => (
+interface ContentProps {}
+
+const Content: React.FC<ContentProps> = () => (
   <div className="main">
     <div className="doc_content">
       <div className="title">

@@ -3,13 +3,11 @@ import React from "react";
 
 export const siteTitle = "AUSG";
 
-export default function Layout({
-  children,
-  home,
-}: {
-  children: React.ReactNode;
+interface LayoutProps {
   home?: boolean;
-}) {
+}
+
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [url, setUrl] = React.useState("");
 
   React.useEffect(() => {
@@ -47,4 +45,6 @@ export default function Layout({
       <main>{children}</main>
     </div>
   );
-}
+};
+
+export default Layout;

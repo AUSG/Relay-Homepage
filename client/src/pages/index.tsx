@@ -1,11 +1,11 @@
-import Layout from "@ausg/components/layout";
-import Head from "next/head";
+import {
+  Banner,
+  Content,
+  Footer,
+  Header,
+  Layout,
+} from "@ausg/components/common";
 import React from "react";
-
-import Banner from "../components/Banner";
-import Content from "../components/Content";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 const Main = () => {
   return (

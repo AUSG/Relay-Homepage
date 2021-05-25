@@ -1,6 +1,8 @@
 import React from "react";
 
-const Footer = () => (
+interface FooterProps {}
+
+const Footer: React.FC<FooterProps> = () => (
   <footer className="doc_footer">
     <div className="wrap_comm">
       <h4 className="list_policy">Contact Us : </h4>

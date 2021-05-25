@@ -23,7 +23,16 @@ yarn dev
 
 #### Notice
 
-.eslintrc.js에 나오는 에러는 에디터 버그임
+.eslintrc.js, postcss.config.js, tailwind.config.js에 나오는 Parsing error: "parserOptions.project" has been set for @typescript-eslint/parser 에러는 에디터 버그임 신경 꺼도됨
+
+#### Styling
+
+tailwindcss에서 제공하는 디자인 가이드를 따름. => 사용을 위해서 [vscode 확장 프로그램 중 tailwindcss IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)를 설치하고 컴포넌트 className를 입력하려고 하면 추천받을 수 있음.
+
+![tailwind-guide1](./public/images/tailwind-guide1.png)
+![tailwind-guide2](./public/images/tailwind-guide2.png)
+
+-> 참고로 주희님이 만든 css는 그대로 둠
 
 ### deploy
 

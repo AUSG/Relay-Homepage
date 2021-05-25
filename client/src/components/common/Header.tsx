@@ -1,7 +1,9 @@
 import React from "react";
 // import logosvg from '../images/logo-white.svg';
 
-const Header = () => (
+interface HeaderProps {}
+
+const Header: React.FC<HeaderProps> = () => (
   <div className="header">
     <div className="doc_header">
       <h1 className="doc_title">
