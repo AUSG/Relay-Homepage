@@ -59,3 +59,7 @@ html, body{height:100%}
 .doc_footer .txt_copyright{display:block;margin-top:16px;color:#ccc}
 .doc_footer .txt_copyright .link_ausg{color:#ccc;text-decoration:none}
 
+.vision_wrapper{
+  display: flex;
+  justify-content: space-between;
+}

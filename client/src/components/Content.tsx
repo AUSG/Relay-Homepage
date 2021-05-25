@@ -1,4 +1,7 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
 
 const images = [
   { url: "images/-1.jpg" },
@@ -35,23 +38,10 @@ const Content = () => (
         </ul>
       </div>
 
-      <div>
+      <div className="vision_wrapper">
         <div>
-          <div>
-            <div className="title">
-              <strong> Our Vision </strong>
-            </div>
-            {/* <td rowSpan={2} style={{ paddingTop: "30px", paddingLeft: "70px" }}>
-              <Slide
-                width={450}
-                height={300}
-                images={images}
-                onClickNav={(idx) => {}}
-                onClickBullets={(idx) => {}}
-                showNavs={true}
-                showBullets={true}
-              />
-            </td> */}
+          <div className="title">
+            <strong> Our Vision </strong>
           </div>
           <ul className="square_list_type">
             <li> 우리는 각자의 경험을 나누고 함께 발전하는것을 좋아합니다. </li>
@@ -61,6 +51,25 @@ const Content = () => (
             </li>
             <li> 앗, 물론 개발만이 아니라 함께 놀기도 합니다!! </li>
           </ul>
+        </div>
+        <div style={{ marginRight: "10rem" }}>
+          <Carousel
+            autoPlay
+            showArrows
+            emulateTouch
+            infiniteLoop
+            swipeable
+            stopOnHover
+            showThumbs={false}
+            axis="horizontal"
+            width={450}
+          >
+            {images.map((image) => (
+              <div key={image.url} style={{ height: "100%" }}>
+                <img src={image.url} style={{ height: "100%" }} />
+              </div>
+            ))}
+          </Carousel>
         </div>
       </div>
     </div>
