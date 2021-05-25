@@ -1,8 +1,12 @@
 module.exports = {
-  preset: "jest",
-  setupFiles: [
-    "<rootDir>/node_modules/react-native/jest/setup.js",
-    "<rootDir>/test/setup.ts",
-  ],
-  testPathIgnorePatterns: ["/node_modules/", "/e2e"],
+  moduleNameMapper: {
+    "^@ausg/(.*)$": "<rootDir>/src/$1",
+    "^@root/(.*)$": "<rootDir>/$1",
+  },
+  preset: "ts-jest",
+  testEnvironment: "jsdom",
+  transform: {
+    "node_modules/variables/.+\\.(j|t)sx?$": "ts-jest",
+  },
+  transformIgnorePatterns: ["node_modules/(?!variables/.*)"],
 };
