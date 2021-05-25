@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
- 
-yarn client:test
+
+cd client
+
+yarn test && echo "모든 test를 통과했습니다." && exit 0
+
+echo "하나 이상의 test를 통과하지 못했습니다." && exit 1
