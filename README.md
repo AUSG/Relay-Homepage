@@ -52,3 +52,5 @@
 
 - 테일윈드 CSS
     [테일윈드 CSS](https://tailwindcss.com/)
+
+# 메인의 Node Package 지우지 마시오 - for husky

@@ -12,7 +12,8 @@
     "format:json": "prettier --write \"**/*.json\"",
     "format:md": "prettier --write \"**/*.md\"",
     "format:ts": "prettier --write \"**/*.ts{,x}\"",
-    "lint": "eslint src --fix --ext .js,.ts,.tsx && yarn format"
+    "lint": "eslint src --fix --ext .js,.ts,.tsx && yarn format",
+    "test": "echo test"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
