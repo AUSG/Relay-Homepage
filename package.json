@@ -5,8 +5,7 @@
     "lint-staged": "^11.0.0"
   },
   "scripts": {
-    "prepare": "husky install",
-    "client:test": "cd client; yarn test; cd .."
+    "prepare": "husky install"
   },
   "lint-staged": {}
 }
