@@ -48,4 +48,4 @@
 
 - [테일윈드 CSS](https://tailwindcss.com/)
 - **메인의 Node Package 삭제 금지 (for husky)**
-  - 수정 시 husky 문서 및 https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/ 참고
+  - 수정 시 husky 문서 및 [https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/] 참고
