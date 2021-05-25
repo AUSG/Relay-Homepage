@@ -1,6 +1,7 @@
 # Relay Homepage Client Guide - 프로젝트 시작 전 필독!!!!!!!!!
 
 - 해보시다가 도저히 안되겠으면 호출해주세요.. - 명진
+
 ## 대략적으로 사용된 도구
 
 - typescript(그러나 js로 개발할 수 있음 - 하단 참고)
@@ -13,8 +14,8 @@
 - 제작된 컴포넌트를 src/pages에서 import 후 붙이기
 
 위 두 내용은 src/components/Example.tsx 파일과 src/pages/example.tsx 파일을 참고하시면 됩니다!
-- 할 일 목록을 넣으려면 주석을 활용해 // TODO과 같은 형태로 안내 ex) TODO: 이거이거 해야 함
 
+- 할 일 목록을 넣으려면 주석을 활용해 // TODO과 같은 형태로 안내 ex) TODO: 이거이거 해야 함
 
 ### test
 
