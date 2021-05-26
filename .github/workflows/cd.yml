@@ -3,7 +3,7 @@ name: Continuous Deployment
 on:
   push:
     branches:
-      - test
+      - dev
 
 jobs:
   deploy:
@@ -20,6 +20,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: Package Setup
+      run: yarn
+      working-directory: ./client
+
     - name: Test
       run: yarn test
       working-directory: ./client
@@ -29,8 +33,7 @@ jobs:
       working-directory: ./client
 
     - name: Deploy
-      working-directory: ./client
-      uses: serverless/github-action@master
+      run: npx serverless
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
