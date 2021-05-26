@@ -458,6 +458,7 @@ module.exports = {
       auto: "auto",
       ...theme("spacing"),
       ...negative(theme("spacing")),
+      header: "60px",
     }),
     maxHeight: (theme) => ({
       ...theme("spacing"),

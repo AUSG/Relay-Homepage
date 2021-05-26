@@ -4,7 +4,7 @@ import React from "react";
 interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => (
-  <div className="header">
+  <div className="header m-header">
     <div className="doc_header flex-none px-16">
       <h1 className="doc_title">
         <a href="/" className="link_logo">
@@ -13,13 +13,13 @@ const Header: React.FC<HeaderProps> = () => (
       </h1>
       <div className="flex flex-row text-black space-x-16">
         <a href="/blog" className="py-4 hover:no-underline">
-          Blog
+          BLOG
         </a>
         <a href="/people" className="py-4 hover:no-underline">
-          People
+          PEOPLE
         </a>
         <a href="/contact" className="py-4 hover:no-underline">
-          Contact
+          CONTACT
         </a>
       </div>
     </div>
