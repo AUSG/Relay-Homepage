@@ -14,7 +14,6 @@ jobs:
         node-version: [14.x]
     steps:
     - uses: actions/checkout@v2
-      working-directory: ./client
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -22,10 +21,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - run: yarn test
+      working-directory: ./client
 
     - run: yarn anaylze
+      working-directory: ./client
 
     - name: serverless deploy
+      working-directory: ./client
       uses: serverless/github-action@master
       with:
         args: deploy
