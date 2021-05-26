@@ -1,22 +1,15 @@
-import {
-  Banner,
-  Content,
-  Footer,
-  Header,
-  Layout,
-} from "@ausg/components/common";
+import { Banner, Content } from "@ausg/components/common";
+import AppLayout from "@ausg/components/templates/AppLayout";
 import React from "react";
 
 interface HomeProps {}
 
 const Home: React.FC<HomeProps> = () => {
   return (
-    <Layout>
-      <Header />
+    <AppLayout>
       <Banner />
       <Content />
-      <Footer />
-    </Layout>
+    </AppLayout>
   );
 };
 
