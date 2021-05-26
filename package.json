@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {}
+}

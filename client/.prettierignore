@@ -1,0 +1,9 @@
+node_modules
+.vscode
+package.json
+!.build
+.build/*
+!.build/test.js
+!.next
+.next/*
+!.next/test.js

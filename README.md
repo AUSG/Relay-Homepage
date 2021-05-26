@@ -42,4 +42,10 @@
 - 부족한 부분 혹은 중간 중간에 들어갔어야 하는 요소가 더 있다면,
   - 직접 구현하시면 좋습니다.
   - 공개된 채널에 알려주셔도 좋습니다.
-- 모든 내용은 각 운영진에게 공유하여 주시면 빠른 피드백이 가능합니다.
+  - 모든 내용은 각 운영진에게 공유하여 주시면 빠르게 피드백을 제공하겠습니다.
+
+## 개발 참고사항
+
+- [테일윈드 CSS](https://tailwindcss.com/)
+- **메인의 Node Package 삭제 금지 (for husky)**
+  - 수정 시 husky 문서 및 [https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/] 참고
