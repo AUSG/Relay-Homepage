@@ -18,8 +18,8 @@ const Header: React.FC<HeaderProps> = () => (
         <a href="/people" className="py-4 hover:no-underline">
           People
         </a>
-        <a href="/about" className="py-4 hover:no-underline">
-          About
+        <a href="/contact" className="py-4 hover:no-underline">
+          Contact
         </a>
       </div>
     </div>
