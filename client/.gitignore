@@ -24,3 +24,5 @@ __snapshots__
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.serverless_nextjs
+.serverless
