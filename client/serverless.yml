@@ -1,0 +1,14 @@
+ausgHomepage:
+  component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    domain: ["www", "ausg.me"]
+    domainType: "both"
+    bucketName: "t3xndl-hfgrfxo"
+    cloudfront:
+      distributionId: "E54C1B2MKSWXD"
+    name:
+      defaultLambda: "sbytufh-shjmjsm"
+      apiLambda: "sbytufh-c7otev"
+    certificate:
+      cloudFrontDefaultCertificate: false
+      acmCertificateArn: "arn:aws:acm:us-east-1:978567334665:certificate/212b55f9-3dd0-4ecd-a3f7-6e134ccdfaa9"
