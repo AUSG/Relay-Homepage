@@ -1,4 +1,5 @@
-name: "test"
+name: "PR check with testing"
+
 on:
   pull_request:
     branches:
@@ -20,11 +21,6 @@ jobs:
         run: yarn
         working-directory: ./client
 
-      - name: Status change test
-        uses: Sibz/github-status-action@v1
-        with:
-          authToken: ${{secrets.GITHUB_TOKEN}}
-          context: "Test run"
-          description: "Passed"
-          state: "success" # success | error | failure | pending
-          sha: ${{github.event.pull_request.head.sha || github.sha}}
+      - name: Test
+        run: yarn test
+        working-directory: ./client
