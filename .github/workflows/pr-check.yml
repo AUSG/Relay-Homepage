@@ -1,0 +1,30 @@
+name: "test"
+on:
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Package Setup
+        run: yarn
+        working-directory: ./client
+
+      - name: Status change test
+        uses: Sibz/github-status-action@v1
+        with:
+          authToken: ${{secrets.GITHUB_TOKEN}}
+          context: "Test run"
+          description: "Passed"
+          state: "success" # success | error | failure | pending
+          sha: ${{github.event.pull_request.head.sha || github.sha}}
