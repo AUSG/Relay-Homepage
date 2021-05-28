@@ -1,7 +1,7 @@
 import { Footer, Header, Layout } from "@ausg/components/common";
-import { FC } from "react";
+import React from "react";
 
-const AppLayout: FC = ({ children }) => {
+const AppLayout: React.FC = ({ children }) => {
   return (
     <Layout>
       <Header />
