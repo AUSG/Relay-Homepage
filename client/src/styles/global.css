@@ -173,11 +173,17 @@ body {
 /* main */
 .main .doc_content {
   display: block;
-  padding-left: 300px;
+  box-sizing: border-box;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .main .doc_content .title {
   margin: 20px 0 20px 0;
+  border-color: #6b66ff #6b66ff;
+  border-style: solid none solid;
+  border-width: 1px 1px;
 }
+
 .main .doc_content .title strong {
   color: #6b66ff;
   font-size: xx-large;

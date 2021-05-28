@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = () => (
         </a>
       </h1>
       <div className="flex flex-row text-black space-x-16">
-        <a href="/blog" className="py-4 hover:no-underline">
+        <a href="/blog" rel="nofollow" className="py-4 hover:no-underline">
           BLOG
         </a>
         <a href="/people" className="py-4 hover:no-underline">
