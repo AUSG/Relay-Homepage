@@ -31,10 +31,10 @@ const Footer: React.FC<FooterProps> = () => (
           <i className="fab fa-github"></i>
         </a>
         <a
-            className="social_btn"
-            title="AUSG on GitHub"
-            href="https://velog.io/@ausg"
-            target="_blank"
+          className="social_btn"
+          title="AUSG on velog.io"
+          href="https://velog.io/@ausg"
+          target="_blank"
         >
           <i className="fab fa-vimeo-v"></i>
         </a>

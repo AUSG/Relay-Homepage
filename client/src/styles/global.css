@@ -227,6 +227,78 @@ body {
   height: 100%;
 }
 
+/*Contact Page*/
+
+.contact {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.contact .boxes {
+  border-width: 2px;
+  border-color: #cccccc;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  resize: none;
+}
+
+.contact .boxes:focus {
+  border-color: #F19E39;
+}
+
+.contact .half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.contact .right {
+  width: 50%;
+}
+
+.contact .left {
+  margin-right: 2%;
+}
+
+.contact #message {
+  height: 187px;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+  }
+}
+
+.sendbutton {
+  margin-top: 15px;
+  height: 60px;
+  width: 600px;
+  border-radius: 8px;
+  background-color: #6b66ff;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.sendbutton i{
+  color: #F19E39;
+  font-size: 20px;
+}
+
+.sendbutton:hover {
+  background-color: #F19E39;
+}
+
+.sendbutton:hover > i{
+  color: #6b66ff;
+  transform: scale(1.1);
+}
 /* footer */
 .doc_footer {
   padding: 60px 0;
