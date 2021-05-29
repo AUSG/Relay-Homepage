@@ -2,6 +2,7 @@
 // @ts-ignore
 
 import React from "react";
+import CrewCard from "@ausg/components/people/CrewCard"
 
 interface Crew {
     id: number;
@@ -11,8 +12,12 @@ interface Crew {
 }
 
 const teamData: Crew[] = [
-    { id: 0, url: "images/2.png", name: "민태", introduce: "5기 organizer" },
-    { id: 1, url: "images/2.png", name: "성혁", introduce: "4기 organizer" }
+    { id: 0, url: "images/2.png", name: "김민태", introduce: "5기 organizer" },
+    { id: 1, url: "images/2.png", name: "문성혁", introduce: "4기 organizer" },
+    { id: 2, url: "images/2.png", name: "우수연", introduce: "5기 운영진" },
+    { id: 3, url: "images/2.png", name: "권주희", introduce: "5기 운영진" },
+    { id: 4, url: "images/2.png", name: "김은수", introduce: "5기 운영진" },
+    { id: 5, url: "images/2.png", name: "김성익", introduce: "5기 운영진" },
 ]
 
 interface teamProps { }
@@ -31,15 +36,12 @@ const Team: React.FC<teamProps> = () => {
                     {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
                     <div className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10">
                         {teamData.map((crew) => (
-                            <div className="xl:w-1/3 sm:w-1/2 mx-auto sm:max-w-xs mb-20 xl:max-w-sm lg:w-1/2 relative">
-                                <div className="bg-top bg-cover bg-no-repeat h-64">
-                                    <img src={crew.url} alt="" className="h-full w-full overflow-hidden object-cover rounded shadow" />
-                                </div>
-                                <div className="py-5 bg-white flex flex-col justify-center w-11/12 mx-auto absolute rounded shadow -mt-12 right-0 left-0">
-                                    <p className="text-xl text-center text-gray-800 font-normal mb-1">{crew.name}</p>
-                                    <p className="text-center text-base text-gray-600">{crew.introduce}</p>
-                                </div>
-                            </div>
+                            <CrewCard
+                                key={crew.id}
+                                url={crew.url}
+                                name={crew.name}
+                                introduce={crew.introduce}
+                            />
                         ))}
                     </div>
                 </div>
