@@ -9,15 +9,16 @@ interface Crew {
     url: string;
     name: string;
     introduce: string;
+    description: string;
 }
 
 const teamData: Crew[] = [
-    { id: 0, url: "images/2.png", name: "김민태", introduce: "5기 organizer" },
-    { id: 1, url: "images/2.png", name: "문성혁", introduce: "4기 organizer" },
-    { id: 2, url: "images/2.png", name: "우수연", introduce: "5기 운영진" },
-    { id: 3, url: "images/2.png", name: "권주희", introduce: "5기 운영진" },
-    { id: 4, url: "images/2.png", name: "김은수", introduce: "5기 운영진" },
-    { id: 5, url: "images/2.png", name: "김성익", introduce: "5기 운영진" },
+    { id: 0, url: "images/2.png", name: "김민태", introduce: "5기 organizer", description: "열정! 열정! 열정!!!" },
+    { id: 1, url: "images/2.png", name: "문성혁", introduce: "4기 organizer", description: "열정! 열정! 열정!!!" },
+    { id: 2, url: "images/2.png", name: "우수연", introduce: "5기 운영진", description: "열정! 열정! 열정!!!" },
+    { id: 3, url: "images/2.png", name: "권주희", introduce: "5기 운영진", description: "열정! 열정! 열정!!!" },
+    { id: 4, url: "images/2.png", name: "김은수", introduce: "5기 운영진", description: "열정! 열정! 열정!!!" },
+    { id: 5, url: "images/2.png", name: "김성익", introduce: "5기 운영진", description: "열정! 열정! 열정!!!" },
 ]
 
 interface teamProps { }
@@ -41,6 +42,7 @@ const Team: React.FC<teamProps> = () => {
                                 url={crew.url}
                                 name={crew.name}
                                 introduce={crew.introduce}
+                                description={crew.description}
                             />
                         ))}
                     </div>
