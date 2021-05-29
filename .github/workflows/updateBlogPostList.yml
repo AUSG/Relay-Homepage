@@ -3,15 +3,6 @@ name: "Parsing/Crawling AUSG members' blog and update each members' newest post 
 on:
   schedule:
     - cron: "0 0 * * *" # 1 time per day
-  push:
-    branches:
-      - "**"
-  workflow_dispatch:
-    inputs:
-      project:
-        description: "Environment"
-        required: true
-        default: "development"
 
 jobs:
   codeTest:
