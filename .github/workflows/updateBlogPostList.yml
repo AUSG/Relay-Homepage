@@ -1,0 +1,48 @@
+name: "Parsing/Crawling AUSG members' blog and update each members' newest post in a file"
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 1 time per day
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Environment"
+        required: true
+        default: "development"
+
+jobs:
+  codeTest:
+    name: Run Parser/Crawler
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        working-directory: "lib/blogSpider"
+
+      - name: Run
+        run: python main.py
+        working-directory: "lib/blogSpider"
+
+      - name: Commit updated newestPosts.json
+        run: |
+          git config --local user.email "blogCrawler.github.action.bot@noreply.ausg.me"
+          git config --local user.name "BlogCrawler"
+          git commit -m "Update newest posts" -a || echo "Nothing to update"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
