@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --local user.email "blogCrawler.github.action.bot@noreply.ausg.me"
           git config --local user.name "BlogCrawler"
-          git commit -m "Update newest posts" -a || echo "Nothing to update"
+          git commit -m "[GithubActionBot] Update newest blog posts" -a || echo "Nothing to update"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
