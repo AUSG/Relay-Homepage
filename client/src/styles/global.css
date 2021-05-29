@@ -249,7 +249,7 @@ body {
 }
 
 .contact .boxes:focus {
-  border-color: #F19E39;
+  border-color: #f19e39;
 }
 
 .contact .half {
@@ -284,19 +284,19 @@ body {
   border-radius: 8px;
   background-color: #6b66ff;
   overflow: hidden;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.sendbutton i{
-  color: #F19E39;
+.sendbutton i {
+  color: #f19e39;
   font-size: 20px;
 }
 
 .sendbutton:hover {
-  background-color: #F19E39;
+  background-color: #f19e39;
 }
 
-.sendbutton:hover > i{
+.sendbutton:hover > i {
   color: #6b66ff;
   transform: scale(1.1);
 }
@@ -357,7 +357,7 @@ body {
   color: #F19E39;
 }
 
-.doc_footer .social_btn::before{
+.doc_footer .social_btn::before {
   content: "";
   position: absolute;
   width: 120%;
@@ -374,17 +374,19 @@ body {
   left: -10%;
 }
 
-@keyframes aaa{
-  0%{
+@keyframes aaa {
+  0% {
     left: -110%;
     top: 90%;
-  }50%{
-     left: 10%;
-     top: -30%;
-   }100%{
-      top: -10%;
-      left: -10%;
-    }
+  }
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+  100% {
+    top: -10%;
+    left: -10%;
+  }
 }
 
 .vision_wrapper {
@@ -487,4 +489,9 @@ h1 {
   h1 {
     font-size: 24px;
   }
+}
+
+a:hover span {
+  display: inline-block;
+  text-decoration: none !important;
 }
