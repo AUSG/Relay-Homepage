@@ -27,18 +27,24 @@ PARSERS = {
         '[class^="Feed-module--feed__item-description--"]',
     ],
     "ETC3": ["header h2", "section"],
-    "XML1":["item", 0],
-    "XML2":["item", 1],
+    "XML1": ["item", 0],
+    "XML2": ["item", 1],
 }
+
 
 async def fetch(session, url):
     async with session.get(url) as response:
         return await response.text()
 
+
 async def crawlXml(blogType, url):
     async with aiohttp.ClientSession() as sess:
-        async with sess.get(url,compress=False, headers={"user-agent": "Mozilla/5.0", "accept-encoding":"utf-8"}) as res:
-            text = await res.text('utf-8')
+        async with sess.get(
+            url,
+            compress=False,
+            headers={"user-agent": "Mozilla/5.0", "accept-encoding": "utf-8"},
+        ) as res:
+            text = await res.text("utf-8")
 
     try:
         tag, firstItemIdx = PARSERS[blogType.name]
