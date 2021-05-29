@@ -22,5 +22,5 @@ def writePostList(posts):
     dictedPosts = [post.__dict__ for post in posts]
     postsDict = {"posts": dictedPosts}
 
-    with open("./newestPosts.json", "w", encoding='utf-8') as f:
+    with open("./newestPosts.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(postsDict, ensure_ascii=False))

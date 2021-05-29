@@ -2,6 +2,7 @@ import asyncio
 from parsingService import parsingService
 from ioService import ioService
 
+
 async def main():
     blogs = ioService.readBlogList()
     posts = await parsingService.parse(blogs)

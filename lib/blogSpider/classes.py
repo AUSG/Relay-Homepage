@@ -15,7 +15,6 @@ class BlogType(Enum):
     XML2 = 302
 
 
-
 class Blog:
     def __init__(self, url, author, blogType):
         self.url = url
