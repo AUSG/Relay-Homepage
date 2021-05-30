@@ -5,6 +5,13 @@ interface FooterProps {}
 const Footer: React.FC<FooterProps> = () => (
   <footer className="doc_footer">
     <div className="wrap_comm">
+      <small className="txt_copyright">
+        Copyright ©
+        <a href="#none" target="_blank" className="link_ausg">
+          {'\u00A0'}2021 AUSG.{'\u00A0'}
+        </a>
+        All rights reserved
+      </small>
       <div className="social-links">
         <a
           className="social_btn"
@@ -39,13 +46,6 @@ const Footer: React.FC<FooterProps> = () => (
           <i className="fab fa-vimeo-v"></i>
         </a>
       </div>
-      <small className="txt_copyright">
-        Copyright ©
-        <a href="#none" target="_blank" className="link_ausg">
-          Ausg.
-        </a>
-        All rights reserved
-      </small>
     </div>
   </footer>
 );
