@@ -6,8 +6,8 @@ import useAxios from "axios-hooks";
 import ReactLoading from "react-loading";
 
 const BlogPage = () => {
-  const [{ data, loading, error }, refetch] = useAxios(
-    "https://raw.githubusercontent.com/AUSG/Relay-Homepage/feature/blogPage/lib/blogSpider/newestPosts.csv",
+  const [{ data, loading, error }, _refetch] = useAxios(
+    "https://raw.githubusercontent.com/AUSG/Relay-Homepage/feature/blogPage/lib/blogSpider/newestPosts.json",
   );
 
   let mainComponent;
@@ -53,8 +53,6 @@ const BlogPage = () => {
         title="AUSG Blog"
         description="AUSG 팀원들이 작성한 블로그 게시글을 둘러보세요"
       />
-
-      {/*  */}
       {mainComponent}
     </AppLayout>
   );
