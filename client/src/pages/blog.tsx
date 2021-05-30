@@ -7,7 +7,7 @@ import useAxios from "axios-hooks";
 import ReactLoading from "react-loading";
 
 const BlogPage: NextPage = () => {
-  const [{ data, loading, error }, _refetch] = useAxios(
+  const [{ data, loading, error }] = useAxios(
     "https://raw.githubusercontent.com/AUSG/Relay-Homepage/feature/blogPage/lib/blogSpider/newestPosts.json",
     { ssr: false },
   );
