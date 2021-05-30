@@ -1,122 +1,20 @@
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap");
 
-body {
+body,
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Noto Sans KR", "Montserrat", sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Source Code Pro";
 }
 
-/* reset */
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-textarea,
-p,
-blockquote,
-th,
-td,
-input,
-select,
-button {
-  margin: 0;
-  padding: 0;
-}
-fieldset,
-img {
-  border: 0 none;
-}
-dl,
-ul,
-ol,
-menu,
-li {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-input,
-select,
-textarea,
-button {
-  vertical-align: middle;
-}
-input::-ms-clear {
-  display: none;
-}
-button {
-  border: 0 none;
-  background-color: transparent;
-  cursor: pointer;
-}
-body {
-  background: #fff;
-}
-body,
-th,
-td,
-input,
-select,
-textarea,
-button {
-  font-size: 14px;
-  line-height: 1.43;
-  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Apple SD 산돌고딕 Neo",
-    "Malgun Gothic", "맑은 고딕", sans-serif;
-  color: #000;
-}
-a {
-  color: #333;
-  text-decoration: none;
-}
-a:active,
-a:hover {
-  text-decoration: underline;
-}
-a:active {
-  background-color: transparent;
-}
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-var {
-  font-style: normal;
-  font-weight: normal;
+/* Commons */
+.typography {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* layout */
@@ -124,6 +22,7 @@ html,
 body {
   height: 100%;
 }
+
 .container_doc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,7 +227,7 @@ body {
   right: 0px;
 }
 
-.doc_footer .social_btn{
+.doc_footer .social_btn {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -344,13 +243,13 @@ body {
 .doc_footer .social_btn i {
   line-height: 30px;
   margin-left: 7px;
-  font-size : 16px;
+  font-size: 16px;
   transition: 0.2s linear;
 }
 
 .doc_footer .social_btn:hover i {
   transform: scale(1.2);
-  color: #F19E39;
+  color: #f19e39;
 }
 
 .doc_footer .social_btn::before {
@@ -390,10 +289,7 @@ body {
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
   letter-spacing: 2px;
-  font-size: 48px;
 }
 .header {
   position: relative;
@@ -484,6 +380,7 @@ h1 {
 
 a:hover span {
   display: inline-block;
+
   text-decoration: none !important;
 }
 
