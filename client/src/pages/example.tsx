@@ -1,10 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-
 import Example from "@ausg/components/Example";
-import React from "react";
+import { NextPage } from "next";
 
-const ExamplePage = () => {
+const ExamplePage: NextPage = () => {
   // 이 밑에 자신이 만든 컴포넌트를 넣을 수 있음
   return <Example />;
 
