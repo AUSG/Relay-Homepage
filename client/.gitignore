@@ -19,8 +19,6 @@ __snapshots__
 # misc
 .DS_Store
 .env*
-!.env.example
-
 
 # debug
 npm-debug.log*
