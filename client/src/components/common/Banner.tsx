@@ -2,9 +2,11 @@ import React from "react";
 
 import LogoWhiteSVG from "./LogoWhiteSVG";
 
+interface BannerProps {}
+
 // TODO: 밑으로 스크롤을 안내하는 아이콘을 넣어주세요 - 다이빙하는 느낌으로 해주는 것도 좋을 듯?
 
-const Banner: React.FC = () => {
+const Banner: React.FC<BannerProps> = () => {
   return (
     <div className="">
       <div className="header">

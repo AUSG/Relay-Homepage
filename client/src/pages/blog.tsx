@@ -1,4 +1,3 @@
-import { NextPage } from 'next'
 import BlogCard from "@ausg/components/molecules/BlogCard";
 import Intro from "@ausg/components/molecules/Intro";
 import AppLayout from "@ausg/components/templates/AppLayout";
@@ -6,7 +5,7 @@ import useAxios from "axios-hooks";
 
 import ReactLoading from "react-loading";
 
-const BlogPage: NextPage = () => {
+const BlogPage = () => {
   const [{ data, loading, error }, _refetch] = useAxios(
     "https://raw.githubusercontent.com/AUSG/Relay-Homepage/feature/blogPage/lib/blogSpider/newestPosts.json",
     { ssr: false },
