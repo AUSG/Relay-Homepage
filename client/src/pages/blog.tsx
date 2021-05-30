@@ -1,9 +1,8 @@
-import { NextPage } from 'next'
 import BlogCard from "@ausg/components/molecules/BlogCard";
 import Intro from "@ausg/components/molecules/Intro";
 import AppLayout from "@ausg/components/templates/AppLayout";
 import useAxios from "axios-hooks";
-
+import { NextPage } from "next";
 import ReactLoading from "react-loading";
 
 const BlogPage: NextPage = () => {
@@ -33,12 +32,13 @@ const BlogPage: NextPage = () => {
       </div>
     );
   } else if (data) {
-    const blogCards = data["posts"].map((blog) => (
+    const blogCards = data.posts.map((blog, blogIndex) => (
       <BlogCard
-        title={blog["title"]}
-        preface={blog["preface"]}
-        url={blog["url"]}
-        author={blog["author"]}
+        key={blogIndex}
+        title={blog.title}
+        preface={blog.preface}
+        url={blog.url}
+        author={blog.author}
       />
     ));
 
