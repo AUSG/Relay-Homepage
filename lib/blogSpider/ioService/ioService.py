@@ -11,7 +11,7 @@ def readBlogList():
         lines = csv.reader(f, delimiter=",")
         for line in lines:
             try:
-                if len(line) == 4: # 파싱할 URL과 홈페이지 URL이 다를 경우 (ex. RSS)
+                if len(line) == 4:  # 파싱할 URL과 홈페이지 URL이 다를 경우 (ex. RSS)
                     blogs.append(Blog(line[0], line[1], line[2], line[3]))
                 else:
                     blogs.append(Blog(line[0], line[1], line[2], line[0]))
