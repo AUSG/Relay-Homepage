@@ -24,17 +24,26 @@ const Header: React.FC = () => {
         <Space />
         <Nav>
           <Link href="/blog" as="/blog">
-            <NavItem active={router.pathname.indexOf("/blog") === 0}>
+            <NavItem
+              className="hover:text-black"
+              active={router.pathname.indexOf("/blog") === 0}
+            >
               BLOG
             </NavItem>
           </Link>
           <Link href="/people" as="/people">
-            <NavItem active={router.pathname.indexOf("/people") === 0}>
+            <NavItem
+              className="hover:text-black"
+              active={router.pathname.indexOf("/people") === 0}
+            >
               PEOPLE
             </NavItem>
           </Link>
           <Link href="/contact" as="/contact">
-            <NavItem active={router.pathname.indexOf("/contact") === 0}>
+            <NavItem
+              className="hover:text-black"
+              active={router.pathname.indexOf("/contact") === 0}
+            >
               CONTACT
             </NavItem>
           </Link>
