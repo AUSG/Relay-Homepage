@@ -8,6 +8,7 @@ import ReactLoading from "react-loading";
 const BlogPage = () => {
   const [{ data, loading, error }, _refetch] = useAxios(
     "https://raw.githubusercontent.com/AUSG/Relay-Homepage/feature/blogPage/lib/blogSpider/newestPosts.json",
+    { ssr: false },
   );
 
   let mainComponent;
