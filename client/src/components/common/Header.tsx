@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
-import { useRouter } from "next/router";
+import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
 import React from "react";
 
