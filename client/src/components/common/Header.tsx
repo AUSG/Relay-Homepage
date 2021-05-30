@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 
 const Header: React.FC = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   return (
     <div className="header m-header">
@@ -24,19 +24,13 @@ const Header: React.FC = () => {
         <Space />
         <Nav>
           <Link href="/blog" as="/blog">
-            <NavItem active={router.pathname.indexOf("/blog") === 0}>
-              BLOG
-            </NavItem>
+            <NavItem active={router.pathname.indexOf('/blog') === 0}>BLOG</NavItem>
           </Link>
           <Link href="/people" as="/people">
-            <NavItem active={router.pathname.indexOf("/people") === 0}>
-              PEOPLE
-            </NavItem>
+            <NavItem active={router.pathname.indexOf('/people') === 0}>PEOPLE</NavItem>
           </Link>
           <Link href="/contact" as="/contact">
-            <NavItem active={router.pathname.indexOf("/contact") === 0}>
-              CONTACT
-            </NavItem>
+            <NavItem active={router.pathname.indexOf('/contact') === 0}>CONTACT</NavItem>
           </Link>
         </Nav>
       </div>
@@ -60,12 +54,10 @@ const NavItem = styled.a<{ active?: boolean }>`
   &:hover {
     text-decoration: none;
   }
-  ${(props) =>
-    props.active &&
-    css`
-      color: #212529;
-      font-weight: 500;
-    `}
+  ${(props) => props.active && css`
+    color: #212529;
+    font-weight: 500;
+  `}
 `;
 
 export default Header;

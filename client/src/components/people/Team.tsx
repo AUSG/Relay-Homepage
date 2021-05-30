@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 
-import CrewCard from "@ausg/components/people/CrewCard";
+import CrewCard from "@ausg/components/people/CrewCard"
 import React, { useState } from "react";
 
 export interface Crew {
@@ -56,18 +56,14 @@ const Team: React.FC = () => {
       introduce: "5기 운영진",
       description: "열정! 열정! 열정!!!",
     },
-  ]);
+  ])
 
   return (
     <div>
       <div className="container flex justify-center mx-auto pt-16">
         <div>
-          <p className="text-gray-500 text-lg text-center font-normal pb-3">
-            AUSG 5기 크루
-          </p>
-          <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">
-            지금 활동하고 있는 크루들을 소개합니다.
-          </h1>
+          <p className="text-gray-500 text-lg text-center font-normal pb-3">AUSG 5기 크루</p>
+          <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">지금 활동하고 있는 크루들을 소개합니다.</h1>
         </div>
       </div>
       <div className="w-full px-10">
