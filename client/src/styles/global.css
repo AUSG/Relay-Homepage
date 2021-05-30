@@ -57,8 +57,8 @@ body {
   z-index: 100;
   height: 60px;
   padding: 0 30px;
-  box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, .05);
-  background-color: rgba(255, 255, 255, .5);
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   align-items: center;
 }
@@ -199,7 +199,7 @@ body {
 .doc_footer {
   display: block;
   box-sizing: border-box;
-  padding: 30px 15%;
+  padding: 50px 15% 60px;
   margin: 0 auto;
   border-top: 1px solid #e6e6e6;
 }
