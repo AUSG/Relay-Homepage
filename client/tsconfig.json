@@ -11,7 +11,7 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "sourceMap": true,
-    "target": "esnext",
+    "target": "es2015",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "resolveJsonModule": true,
@@ -20,7 +20,7 @@
       "@ausg/*": ["./src/*"],
       "@root/*": ["./*"]
     },
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
