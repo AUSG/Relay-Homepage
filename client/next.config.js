@@ -1,4 +1,4 @@
-require('dotenv-safe').config()
+require("dotenv-safe").config();
 
 const nextEnv = require("next-env");
 
