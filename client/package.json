@@ -13,7 +13,7 @@
     "format:md": "prettier --write \"**/*.md\"",
     "format:ts": "prettier --write \"**/*.ts{,x}\"",
     "lint": "eslint src --fix --ext .js,.ts,.tsx && yarn format",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "jest"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",

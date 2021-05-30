@@ -5,7 +5,7 @@ const Footer: React.FC = () => (
     <div className="wrap_comm">
       <small className="txt_copyright">
         Copyright ©
-        <a href="#none" target="_blank" className="link_ausg">
+        <a href="#none" target="_blank" rel="noreferrer" className="link_ausg">
           {"\u00A0"}2021 AUSG.{"\u00A0"}
         </a>
         All rights reserved

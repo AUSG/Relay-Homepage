@@ -1,4 +1,5 @@
-import { Banner, Content } from "@ausg/components/common";
+import Banner from "@ausg/components/common/Banner";
+import Content from "@ausg/components/common/Content";
 import AppLayout from "@ausg/components/templates/AppLayout";
 import React from "react";
 
