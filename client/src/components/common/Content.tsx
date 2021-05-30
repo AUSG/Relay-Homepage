@@ -2,7 +2,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import styled from '@emotion/styled'
 
 const images = [
   { url: "images/-1.jpg" },
@@ -172,9 +171,8 @@ const Content: React.FC = () => (
             </li>
             <li> 2021.06.20(일) 23:59 까지 </li>
             <li>
-              <Button href='http://bit.ly/ausg-5th'>
-                5th AUSG 지원하기
-              </Button>
+              {" "}
+              <a href="http://bit.ly/ausg-5th"> ▶ 5th AUSG 지원하기 ◀ </a>{" "}
             </li>
           </ul>
         </div>
@@ -182,27 +180,5 @@ const Content: React.FC = () => (
     </div>
   </div>
 );
-
-const Button = styled.a`
-  padding: .5rem 1rem;
-  background-color: red;
-  border-radius: .5rem;
-  display: inline-block;
-  background-color: #e7f5ff;
-  color: #1971c2;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: .875rem;
-  transition: transform 200ms;
-  margin-top: 1rem;
-
-  &:hover {
-    text-decoration: none;
-  }
-  &:active {
-    transform: scale(0.95);
-    background-color: #e7f5ff;
-  }
-`
 
 export default Content;
