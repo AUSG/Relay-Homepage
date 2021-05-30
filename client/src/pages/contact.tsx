@@ -1,7 +1,8 @@
 import Intro from "@ausg/components/molecules/Intro";
 import AppLayout from "@ausg/components/templates/AppLayout";
+import { NextPage } from "next";
 
-const ContactPage = () => {
+const ContactPage: NextPage = () => {
   return (
     <AppLayout>
       <Intro
