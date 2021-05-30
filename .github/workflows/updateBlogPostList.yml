@@ -2,7 +2,7 @@ name: "Parsing/Crawling AUSG members' blog and update each members' newest post 
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 1 time per day
+    - cron: "* * * * *" # 1 time per day
 
 jobs:
   codeTest:
