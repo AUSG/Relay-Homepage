@@ -2,17 +2,29 @@ import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useState } from "react";
 
 const Header: React.FC = () => {
   const router = useRouter();
+
+  // Easter egg ~ (발동 조건: 홈 화면으로 가는 로고 10 번 클릭)
+  const [clickLogoCnt, setClickLogoCnt] = useState(0);
+
+  const onClickHandlerForEasterEgg = (e) => {
+    setClickLogoCnt(clickLogoCnt + 1);
+    if (clickLogoCnt === 9) {
+      alert("Grab this egg. This is for you. 🥚");
+    }
+  };
+
+  // ~ Easter egg
 
   return (
     <div className="header m-header">
       <div className="doc_header flex-none px-16">
         <h1 className="doc_title">
           <Link href="/">
-            <a className="link_logo">
+            <a className="link_logo" onClick={onClickHandlerForEasterEgg}>
               <img
                 src="/images/logo-white.svg"
                 alt="AUSG"
