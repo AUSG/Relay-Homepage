@@ -3,6 +3,7 @@ import Intro from "@ausg/components/molecules/Intro";
 import AppLayout from "@ausg/components/templates/AppLayout";
 import useAxios from "axios-hooks";
 import { NextPage } from "next";
+import { useState } from "react";
 import ReactLoading from "react-loading";
 
 const BlogPage: NextPage = () => {
@@ -10,6 +11,16 @@ const BlogPage: NextPage = () => {
     "https://github.com/AUSG/Relay-Homepage/blob/dev/lib/blogSpider/newestPosts.json",
     { ssr: false },
   );
+
+  // Easter egg ~ (발동 조건 : 모든 포스트 링크를 최소 한 번씩 클릭)
+  const [openBlogCnt, setOpenBlogCnt] = useState(0);
+
+  const onClickHandlerForEasterEgg = () => {
+    setOpenBlogCnt(openBlogCnt + 1);
+    if (openBlogCnt > 0 && openBlogCnt === data.posts.length - 1)
+      alert("Thank you! By the way you found one of our easter eggs! 🥚");
+  };
+  // ~ Easter egg
 
   let mainComponent;
   if (loading) {
@@ -39,6 +50,7 @@ const BlogPage: NextPage = () => {
         preface={blog.preface}
         url={blog.url}
         author={blog.author}
+        callback={onClickHandlerForEasterEgg}
       />
     ));
 

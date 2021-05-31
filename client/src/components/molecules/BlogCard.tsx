@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 // import Truncate from "react-truncate";
 
 export enum BlogType {
@@ -17,6 +17,7 @@ interface BlogCardProps {
   preface?: string;
   url: string;
   author: string;
+  callback: () => void;
 }
 
 const BlogButtonIcon: FC<BlogButtonProps> = ({ url }) => {
@@ -71,7 +72,22 @@ const BlogButtonIcon: FC<BlogButtonProps> = ({ url }) => {
   );
 };
 
-const BlogCard: FC<BlogCardProps> = ({ title, preface, url, author }) => {
+const BlogCard: FC<BlogCardProps> = ({
+  title,
+  preface,
+  url,
+  author,
+  callback,
+}) => {
+  const [isFirstClick, setIsFirstClick] = useState(true);
+
+  // Easter egg ~ (발동 조건 : Blog.tsx 참고)
+  const onClickHandlerForEasterEgg = () => {
+    setIsFirstClick(false);
+    if (isFirstClick) callback();
+  };
+  // ~ Easter egg
+
   let cutTitle = (title ?? "").substring(0, 150);
   if (cutTitle.length === 150) cutTitle += "...";
 
@@ -80,7 +96,12 @@ const BlogCard: FC<BlogCardProps> = ({ title, preface, url, author }) => {
 
   return (
     <>
-      <a href={url} target="_blank" rel="noopener noreferrer">
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={onClickHandlerForEasterEgg}
+      >
         {/* <!-- CARD --> */}
         <div className="border-2 border-purple-300 hover:bg-yellow-400 shadow-lg hover:shadow-2xl rounded-xl flex flex-col transition-all duration-150 pt-4 pl-4 pr-4 pb-2 my-4 md:max-w-xs md:mx-4">
           {/* <!-- IMG PROFILE --- TODO (roeniss): profile image?  --> */}
