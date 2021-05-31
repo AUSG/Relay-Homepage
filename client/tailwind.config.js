@@ -28,6 +28,8 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      ausgPurple: "#6b66ff",
+      ausgOrange: "#f19e39",
     },
     spacing: {
       px: "1px",
