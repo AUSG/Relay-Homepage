@@ -128,9 +128,12 @@ body {
 /*Contact Page*/
 
 .contact {
-  max-width: 600px;
-  text-align: center;
+  max-width: 800px;
   margin: 20px auto;
+}
+
+.contact > form {
+  text-align: center;
 }
 
 .contact .boxes {
@@ -150,34 +153,18 @@ body {
 }
 
 .contact .half {
-  float: left;
-  width: 48%;
+  width: 100%;
   margin-bottom: 1em;
 }
 
-.contact .right {
-  width: 50%;
-}
-
-.contact .left {
-  margin-right: 2%;
-}
-
 .contact #message {
-  height: 187px;
-}
-
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-  }
+  height: 120px;
 }
 
 .sendbutton {
   margin-top: 15px;
   height: 60px;
-  width: 600px;
+  width: 100%;
   border-radius: 8px;
   background-color: #6b66ff;
   overflow: hidden;
@@ -186,7 +173,7 @@ body {
 
 .sendbutton i {
   color: #f19e39;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .sendbutton:hover {
@@ -197,6 +184,18 @@ body {
   color: #6b66ff;
   transform: scale(1.1);
 }
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+  }
+  .sendbutton {
+    width: 100%;
+    float: none;
+  }
+}
+
 /* footer */
 .doc_footer {
   box-sizing: border-box;
