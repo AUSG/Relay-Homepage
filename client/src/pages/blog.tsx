@@ -43,8 +43,9 @@ const BlogPage: NextPage = () => {
     ));
 
     mainComponent = (
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-items-center mx-40">
-        {blogCards}
+      // <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-items-center mx-40">
+      <div className="mx-4 md:container md:mx-auto">
+        <div className="flex flex-wrap justify-center">{blogCards}</div>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Truncate from "react-truncate";
+// import Truncate from "react-truncate";
 
 export enum BlogType {
   MEDIUM,
@@ -44,33 +44,45 @@ const BlogButtonIcon: FC<BlogButtonProps> = ({ url }) => {
     default:
       // button using svg
       return (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="p-4 w-16 h-16 inline-block"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-          />
-        </svg>
+        <div className="block">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-8 h-8 inline-block"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+            />
+          </svg>
+        </div>
       );
   }
 
   // button using image (ico)
-  return <img className="p-4 w-16 h-16 inline-block" src={iconSrc} alt="" />;
+  return (
+    <div className="block">
+      <img className="w-8 h-8 inline-block" src={iconSrc} alt="" />
+    </div>
+  );
 };
 
 const BlogCard: FC<BlogCardProps> = ({ title, preface, url, author }) => {
+  let cutTitle = (title ?? "").substring(0, 150);
+  if (cutTitle.length === 150) cutTitle += "...";
+
+  let cutPreface = (preface ?? "").substring(0, 150);
+  if (cutPreface.length === 150) cutPreface += "...";
+
   return (
     <>
       <a href={url} target="_blank" rel="noopener noreferrer">
         {/* <!-- CARD --> */}
-        <div className="border-purple-300 border-2 hover:bg-yellow-400 hover:shadow-2xl h-72 w-28 md:w-96 md:rounded-3xl rounded-full shadow-lg flex flex-col items-center justify-between md:items-start py-1 md:p-5 my-5 transition-all duration-150">
+        <div className="border-2 border-purple-300 hover:bg-yellow-400 shadow-lg hover:shadow-2xl rounded-xl flex flex-col transition-all duration-150 pt-4 pl-4 pr-4 pb-2 my-4 md:max-w-xs md:mx-4">
           {/* <!-- IMG PROFILE --- TODO (roeniss): profile image?  --> */}
           {/* <img
             className="rounded-full w-16 h-16 shadow-sm absolute -top-8 transform md:scale-110 duration-700"
@@ -79,15 +91,17 @@ const BlogCard: FC<BlogCardProps> = ({ title, preface, url, author }) => {
           /> */}
 
           {/* <!-- TEXTS --> */}
-          <div className="transform -rotate-90 md:rotate-0 text-2xl font-semibold text-gray-900 m-auto md:m-0 md:mt-4 text-left">
-            <Truncate lines={4}>{title ?? " "}</Truncate>
+          <div className="transform text-2xl font-bold text-gray-900 text-left mb-4">
+            {/* <Truncate lines={4}>{title ?? " "}</Truncate> */}
+            {cutTitle}
           </div>
           <div className="text-md font-normal text-gray-800 text-left">
-            <Truncate lines={2}>{preface ?? " "}</Truncate>
+            {/* <Truncate lines={2}>{preface ?? " "}</Truncate> */}
+            {cutPreface}
           </div>
 
           {/* <!-- BUTTON and AUTHOR --> */}
-          <div className="flex w-full justify-between">
+          <div className="flex justify-between items-baseline">
             <div className="p-4">
               <span>by {author}</span>
             </div>
