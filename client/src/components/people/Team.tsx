@@ -11,6 +11,8 @@ export interface Crew {
   role: string;
   introduction: string;
   description: string;
+  linkedinURL?: string;
+  githubURL?: string;
 }
 
 const Team: React.FC = () => {
@@ -23,6 +25,7 @@ const Team: React.FC = () => {
       introduction:
         "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
       description: "열정! 열정! 열정!!!",
+      githubURL: "https://github.com/14km",
     },
     {
       id: 1,
@@ -95,6 +98,8 @@ const Team: React.FC = () => {
                 role={crew.role}
                 introduction={crew.introduction}
                 description={crew.description}
+                githubURL={crew.githubURL}
+                linkedinURL={crew.linkedinURL}
               />
             ))}
           </div>
