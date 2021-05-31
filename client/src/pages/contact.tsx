@@ -10,7 +10,11 @@ const ContactPage: NextPage = () => {
 
           <p className="text-base">AUSG와 함께 더 나은 세상을 만들어요</p>
         </div>
-        <form action="https://formspree.io/f/xgeprzaq" noValidate={true} method="post">
+        <form
+          action="https://formspree.io/f/xgeprzaq"
+          noValidate={true}
+          method="post"
+        >
           <div className="half">
             <input
               className="boxes"
@@ -38,7 +42,7 @@ const ContactPage: NextPage = () => {
             ></textarea>
           </div>
           <button className="sendbutton" type="submit" value="Send">
-            <i className="fa fa-paper-plane">   SEND</i>
+            <i className="fa fa-paper-plane"> SEND</i>
           </button>
         </form>
       </div>
