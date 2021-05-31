@@ -12,7 +12,7 @@ import React from "react";
 // ];
 
 const Content: React.FC = () => (
-  <div className="main">
+  <div className="main mx-4">
     <div className="doc_content">
       <div>
         <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
