@@ -125,11 +125,6 @@ body {
 
 /*Contact Page*/
 
-.contact {
-  max-width: 800px;
-  margin: 20px auto;
-}
-
 .contact > form {
   text-align: center;
 }
