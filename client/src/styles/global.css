@@ -370,9 +370,3 @@ a:hover span {
 
   text-decoration: none !important;
 }
-
-.carousel {
-  margin: 1rem 0 5rem;
-  display: flex;
-  justify-content: center;
-}

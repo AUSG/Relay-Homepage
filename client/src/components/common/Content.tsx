@@ -2,14 +2,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import styled from "@emotion/styled";
 import React from "react";
-// import { Carousel } from "react-responsive-carousel";
+import { Carousel } from "react-responsive-carousel";
 
-// const images = [
-//   { url: "images/-1.jpg" },
-//   { url: "images/0.jpg" },
-//   { url: "images/9.png" },
-//   { url: "images/18.jpg" },
-// ];
+const images = [
+  { url: "images/-1.jpg" },
+  { url: "images/0.jpg" },
+  { url: "images/9.png" },
+  { url: "images/18.jpg" },
+];
 
 const Content: React.FC = () => (
   <div className="main mx-4">
@@ -48,27 +48,29 @@ const Content: React.FC = () => (
             </p>
           </div>
         </div>
-        {/* <div className="carousel">
-          <Carousel
-            autoPlay
-            showArrows
-            emulateTouch
-            infiniteLoop
-            swipeable
-            stopOnHover
-            showThumbs={false}
-            axis="horizontal"
-            width={450}
-          >
-            {images.map((image) => (
-              <img
-                key={image.url}
-                src={image.url}
-                className="object-cover h-100"
-              />
-            ))}
-          </Carousel>
-        </div> */}
+        <div className="my-4 flex justify-center">
+          <div className="max-w-3xl">
+            <Carousel
+              // autoPlay
+              showArrows
+              emulateTouch
+              infiniteLoop
+              swipeable
+              stopOnHover
+              showThumbs={false}
+              axis="horizontal"
+            >
+              {images.map((image, idx) => (
+                <img
+                  key={idx}
+                  src={image.url}
+                  className="object-cover"
+                  style={{ height: "100%", width: "none" }}
+                />
+              ))}
+            </Carousel>
+          </div>
+        </div>
       </div>
 
       <div>
