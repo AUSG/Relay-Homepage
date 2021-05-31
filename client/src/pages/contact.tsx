@@ -4,8 +4,8 @@ import { NextPage } from "next";
 const ContactPage: NextPage = () => {
   return (
     <AppLayout>
-      <div className="contact mx-auto">
-        <div className="max-w-4xl mx-4">
+      <div className="contact max-w-4xl mx-auto">
+        <div className="mx-4">
           <div className="py-20 px-3 text-black">
             <h1 className="mb-8 text-4xl font-bold">Contact Us</h1>
 
