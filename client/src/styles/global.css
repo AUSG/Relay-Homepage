@@ -75,11 +75,8 @@ body {
 .main .doc_content {
   display: block;
   box-sizing: border-box;
-  padding-left: 15%;
-  padding-right: 15%;
 }
 .main .doc_content .title {
-  margin: 20px 0 20px 0;
   border-color: var(--ausg-purple) var(--ausg-purple);
   border-style: solid none solid;
   border-width: 1px 1px;
