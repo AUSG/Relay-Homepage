@@ -307,13 +307,7 @@ h1 {
   margin: 0;
   padding: 0;
 }
-.flex {
-  /*Flexbox for containers*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+
 .waves {
   position: relative;
   width: 100%;
