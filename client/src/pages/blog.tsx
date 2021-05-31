@@ -7,7 +7,7 @@ import ReactLoading from "react-loading";
 
 const BlogPage: NextPage = () => {
   const [{ data, loading, error }] = useAxios(
-    "https://raw.githubusercontent.com/AUSG/Relay-Homepage/feature/blogPage/lib/blogSpider/newestPosts.json",
+    "https://github.com/AUSG/Relay-Homepage/blob/dev/lib/blogSpider/newestPosts.json",
     { ssr: false },
   );
 
