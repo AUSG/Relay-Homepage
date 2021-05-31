@@ -3,13 +3,6 @@ import React from "react";
 const Footer: React.FC = () => (
   <footer className="doc_footer">
     <div className="wrap_comm">
-      <small className="txt_copyright">
-        Copyright ©
-        <a href="#none" target="_blank" rel="noreferrer" className="link_ausg">
-          {"\u00A0"}2021 AUSG.{"\u00A0"}
-        </a>
-        All rights reserved
-      </small>
       <div className="social-links">
         <a
           className="social_btn"
@@ -40,7 +33,7 @@ const Footer: React.FC = () => (
         </a>
         <a
           className="social_btn"
-          title="AUSG on velog.io"
+          title="AUSG on Velog"
           href="https://velog.io/@ausg"
           target="_blank"
           rel="noreferrer"
@@ -48,6 +41,15 @@ const Footer: React.FC = () => (
           <i className="fab fa-vimeo-v"></i>
         </a>
       </div>
+
+      <small className="txt_copyright">
+        Copyright ©
+        <a href="#none" target="_blank" rel="noreferrer" className="link_ausg">
+          {" "}
+          2021 AUSG.{" "}
+        </a>
+        All rights reserved
+      </small>
     </div>
   </footer>
 );

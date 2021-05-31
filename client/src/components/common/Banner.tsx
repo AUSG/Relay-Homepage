@@ -11,7 +11,7 @@ const Banner: React.FC = () => {
     <div className="">
       <div className="header">
         <div className="inner-header flex flex-col justify-center">
-          <LogoWhiteSVG width={200} className="mr-4" />
+          <LogoWhiteSVG width={400} className="mx-auto mt-20 mb-10" />
           <h1 className="text-5xl text-white typography mt-10 mx-20">
             AWSKRUG University Student Group
           </h1>

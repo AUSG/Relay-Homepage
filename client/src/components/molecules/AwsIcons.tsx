@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const AWS_RESOURCES_ICONS = [
   "images/awsResources/AR-VR_64.png",
@@ -31,26 +31,24 @@ const AWS_RESOURCES_ICONS = [
 ];
 
 const AwsIcons: React.FC = () => {
+  const [arr, setArr] = useState(AWS_RESOURCES_ICONS);
+  useEffect(() => {
+    setArr(_shuffle(arr));
+  }, []);
+
   const _shuffle = (arr: string[]) => {
-    let j, x, i;
-    for (i = arr.length; i; i -= 1) {
-      j = Math.floor(Math.random() * i);
-      x = arr[i - 1];
-      arr[i - 1] = arr[j];
-      arr[j] = x;
-    }
+    arr.sort(() => Math.random() - 0.5);
+    return arr.slice(0);
   };
 
-  _shuffle(AWS_RESOURCES_ICONS);
-
-  const icons = AWS_RESOURCES_ICONS.map((imageUrl) => (
+  const icons = arr.map((imageUrl) => (
     <div className="m-4" key={imageUrl}>
       <img src={imageUrl} className="w-16 h-16" />
     </div>
   ));
 
   return (
-    <div className="w-9/12 flex flex-row flex-wrap mx-auto my-5 pt-20">
+    <div className="w-9/12 flex flex-row flex-wrap mx-auto my-4 pt-20 overflow-hidden">
       {icons}
     </div>
   );
