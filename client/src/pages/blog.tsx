@@ -25,8 +25,8 @@ const BlogPage: NextPage = () => {
     );
   } else if (error) {
     mainComponent = (
-      <div className="grid grid-cols-1 justify-items-center mx-40">
-        <div className="transform -rotate-90 md:rotate-0 text-2xl font-semibold text-gray-900 m-auto md:m-0 md:mt-8 text-left">
+      <div className="grid grid-cols-1 justify-items-center mx-4">
+        <div className="transform text-2xl font-semibold text-gray-900 mx-auto text-left">
           <p>에러가 발생했습니다. 나중에 다시 시도해주세요.</p>
         </div>
       </div>
