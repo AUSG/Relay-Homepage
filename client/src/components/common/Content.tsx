@@ -16,7 +16,7 @@ const Content: React.FC = () => (
     <div className="doc_content">
       <div>
         <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-          AWSKRUG University Student Group
+          AUSG
         </div>
         <div className="px-2">
           <p>
@@ -25,8 +25,8 @@ const Content: React.FC = () => (
             Student Group 입니다.
           </p>
           <p>
-            대학생부터 직장인까지 AUSG에서 다양한 사람들을 만나 자유로운
-            분위기에서 각자의 경험을 나누고 소통할 수 있습니다.
+            자유로운 분위기에서 다양한 사람들을 만나 각자의 경험을 나누고 소통할
+            수 있습니다.
           </p>
           <p>
             AWS 한국사용자모임(https://awskrug.github.io/)과 함께하고 있어요! 😎
@@ -43,8 +43,8 @@ const Content: React.FC = () => (
             <p>
               우리는 각자의 경험을 나누고 함께 성장하는 것을 추구합니다. 막히는
               것이 있다면 언제든 편하게 같이 이야기합니다. 각자의 자리에서 가진
-              고민들을 함께 나누며 발전하고 있습니다. 앗, 물론 개발만이 아니라
-              함께 놀기도 합니다!!
+              고민들을 함께 나누며 발전하고 있습니다. 개발 뿐만 아니라, 즐거운
+              네트워크 형성도 하고 있습니다!
             </p>
           </div>
         </div>
@@ -109,10 +109,7 @@ const Content: React.FC = () => (
             프로젝트를 진행합니다.
           </p>
           <p>
-            외부 해커톤 및 각종 세미나에 스피커 또는 서포터로 함께 할 예정이며,
-            이번 시즌 저희는
-            <span style={{ fontSize: "16px", fontWeight: "bold" }}>SOPT</span>와
-            함께합니다.
+            외부 해커톤 및 각종 세미나에 스피커 또는 서포터로 함께 할 예정입니다.
           </p>
         </div>
       </div>
