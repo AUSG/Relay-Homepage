@@ -42,7 +42,7 @@ const activityImages = [
 ];
 
 const Content: React.FC = () => (
-  <div className="main mx-4 max-w-screen-xl mx-auto">
+  <div className="main mx-4 max-w-screen-xl md:mx-auto">
     <div className="doc_content">
       <div>
         <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
@@ -106,18 +106,21 @@ const Content: React.FC = () => (
         </div>
       </div>
 
-      <div>
-        <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-          Our Activity
+      <div className="vision_wrapper">
+        <div>
+          <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+            Our Activity
+          </div>
+          <div className="px-2">
+            <p>
+              우리는 AWS에 대한 각자의 경험을 나누고, 스터디 · 프로젝트 · 세미나
+              · 외부동아리와의 연계 등 다양한 활동을 진행합니다.
+            </p>
+            <p> 아래는 저희가 경험했던 다양한 행사들입니다. </p>
+          </div>
         </div>
-        <div className="px-2">
-          <p>
-            우리는 AWS에 대한 각자의 경험을 나누고, 스터디 · 프로젝트 · 세미나 ·
-            외부동아리와의 연계 등 다양한 활동을 진행합니다.
-          </p>
-          <p> 아래는 저희가 경험했던 다양한 행사들입니다. </p>
-
-          <div className="max-w-3xl mx-auto">
+        <div className="my-4 flex justify-center">
+          <div className="md:max-w-3xl">
             <Carousel
               // autoPlay
               showArrows
@@ -140,12 +143,19 @@ const Content: React.FC = () => (
               ))}
             </Carousel>
           </div>
-          <p>
-            이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
-            진행하며 성장을 추구합니다. <br />
-            또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관 등
-            많은 활동을 해오고 있습니다.
-          </p>
+        </div>
+      </div>
+
+      <div className="vision_wrapper">
+        <div>
+          <div className="px-2">
+            <p>
+              이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
+              진행하며 성장을 추구합니다. <br />
+              또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관
+              등 많은 활동을 해오고 있습니다.
+            </p>
+          </div>
         </div>
       </div>
 
