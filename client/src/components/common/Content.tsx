@@ -12,7 +12,7 @@ const images = [
 ];
 
 const Content: React.FC = () => (
-  <div className="main mx-4">
+  <div className="main mx-4 max-w-screen-xl mx-auto">
     <div className="doc_content">
       <div>
         <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
