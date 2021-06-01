@@ -8,8 +8,6 @@ const ContactPage: NextPage = () => {
         <div className="mx-4">
           <div className="py-20 px-3 text-black">
             <h1 className="mb-8 text-4xl font-bold">Contact Us</h1>
-
-            <p className="text-base">AUSG와 함께 더 나은 세상을 만들어요</p>
           </div>
           <form
             action="https://formspree.io/f/xgeprzaq"
