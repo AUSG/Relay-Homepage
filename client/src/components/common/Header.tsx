@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Header: React.FC = () => {
   const router = useRouter();
@@ -10,11 +10,14 @@ const Header: React.FC = () => {
   // Easter egg ~ (발동 조건: 홈 화면으로 가는 로고 10 번 클릭)
   const [clickLogoCnt, setClickLogoCnt] = useState(0);
 
+  useEffect(() => {
+    if (clickLogoCnt !== 10) return;
+
+    alert("Grab this egg. This is for you. 🥚");
+  }, [clickLogoCnt]);
+
   const onClickHandlerForEasterEgg = (e) => {
     setClickLogoCnt(clickLogoCnt + 1);
-    if (clickLogoCnt === 9) {
-      alert("Grab this egg. This is for you. 🥚");
-    }
   };
 
   // ~ Easter egg

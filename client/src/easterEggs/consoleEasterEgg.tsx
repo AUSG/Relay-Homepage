@@ -40,7 +40,7 @@ export const consoleEasterEgg = () => {
 
     for (let i = 0; i < str.length; i++) {
       const ch = str[i];
-      if (ch < "A" || "z" < ch) {
+      if (ch < "A" || ch > "z") {
         res += ch;
       } else {
         const _ch = ch.toUpperCase();

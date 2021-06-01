@@ -3,7 +3,7 @@ import { NextPage } from "next";
 
 const ContactPage: NextPage = () => {
   // Easter egg ~ (발동 조건 : 상단 h1 글씨 클릭)
-  const onClickHandlerForEasterEgg = (e) => {
+  const onClickHandlerForEasterEgg = () => {
     alert("You found another egg! 🥚");
   };
   // ~ Easter egg

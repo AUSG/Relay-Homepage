@@ -14,7 +14,7 @@ export interface Crew {
 
 const Team: React.FC = () => {
   // Easter egg ~ (발동 조건 : People 탭에서 Team 컴포넌트 영역을 좌클릭 후 ausg 타이핑)
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState<string>("");
 
   useEffect(() => {
     if (!input.toLowerCase().includes("ausg")) return;
@@ -23,9 +23,9 @@ const Team: React.FC = () => {
   }, [input]);
 
   const onKeyDownHandlerForEasterEgg = (e) => {
-    const ch = e["key"];
+    const ch = e.key as string;
     if (!ch) return;
-    else if (ch < "A" || "z" < ch) return;
+    else if (ch < "A" || ch > "z") return;
     setInput(input + ch);
   };
   // ~ Easter egg
