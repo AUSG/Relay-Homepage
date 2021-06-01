@@ -126,9 +126,8 @@ const Content: React.FC = () => (
               axis="horizontal"
             >
               {activityImages.map((image, idx) => (
-                <figure>
+                <figure key={idx}>
                   <img
-                    key={idx}
                     src={image.url}
                     className="object-cover"
                     style={{ height: "100%", width: "none" }}
