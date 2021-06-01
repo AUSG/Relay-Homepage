@@ -32,7 +32,7 @@ const Header: React.FC = () => {
                 <img
                   src="/images/logo-white.svg"
                   alt="AUSG"
-                  className="img_logo"
+                  className="md:w-28 sm:w-24 w-20"
                 />
               </a>
             </Link>
