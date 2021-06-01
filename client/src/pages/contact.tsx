@@ -19,8 +19,6 @@ const ContactPage: NextPage = () => {
             >
               Contact Us
             </h1>
-
-            <p className="text-base">AUSG와 함께 더 나은 세상을 만들어요</p>
           </div>
           <form
             action="https://formspree.io/f/xgeprzaq"

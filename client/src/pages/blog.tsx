@@ -8,7 +8,7 @@ import ReactLoading from "react-loading";
 
 const BlogPage: NextPage = () => {
   const [{ data, loading, error }] = useAxios(
-    "https://github.com/AUSG/Relay-Homepage/blob/dev/lib/blogSpider/newestPosts.json",
+    "https://raw.githubusercontent.com/AUSG/Relay-Homepage/dev/lib/blogSpider/newestPosts.json",
     { ssr: false },
   );
 
@@ -40,8 +40,8 @@ const BlogPage: NextPage = () => {
     );
   } else if (error) {
     mainComponent = (
-      <div className="grid grid-cols-1 justify-items-center mx-40">
-        <div className="transform -rotate-90 md:rotate-0 text-2xl font-semibold text-gray-900 m-auto md:m-0 md:mt-8 text-left">
+      <div className="grid grid-cols-1 justify-items-center mx-4">
+        <div className="transform text-2xl font-semibold text-gray-900 mx-auto text-left">
           <p>에러가 발생했습니다. 나중에 다시 시도해주세요.</p>
         </div>
       </div>
@@ -68,10 +68,7 @@ const BlogPage: NextPage = () => {
 
   return (
     <AppLayout>
-      <Intro
-        title="AUSG Blog"
-        description="AUSG 팀원들이 작성한 블로그 게시글을 둘러보세요"
-      />
+      <Intro title="AUSG Blog" />
       {mainComponent}
     </AppLayout>
   );
