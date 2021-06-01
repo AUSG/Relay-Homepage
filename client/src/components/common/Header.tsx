@@ -9,45 +9,47 @@ const Header: React.FC = () => {
 
   return (
     <div className="header m-header">
-      <div className="doc_header flex-none px-16">
-        <h1 className="doc_title">
-          <Link href="/">
-            <a className="link_logo">
-              <img
-                src="/images/logo-white.svg"
-                alt="AUSG"
-                className="img_logo"
-              />
-            </a>
-          </Link>
-        </h1>
-        <Space />
-        <Nav>
-          <Link href="/blog" as="/blog">
-            <NavItem
-              className="hover:text-black"
-              active={router.pathname.indexOf("/blog") === 0}
-            >
-              BLOG
-            </NavItem>
-          </Link>
-          <Link href="/people" as="/people">
-            <NavItem
-              className="hover:text-black"
-              active={router.pathname.indexOf("/people") === 0}
-            >
-              PEOPLE
-            </NavItem>
-          </Link>
-          <Link href="/contact" as="/contact">
-            <NavItem
-              className="hover:text-black"
-              active={router.pathname.indexOf("/contact") === 0}
-            >
-              CONTACT
-            </NavItem>
-          </Link>
-        </Nav>
+      <div className="doc_header">
+        <div className="flex items-center w-full max-w-screen-xl mx-auto">
+          <h1 className="doc_title">
+            <Link href="/">
+              <a className="link_logo">
+                <img
+                  src="/images/logo-white.svg"
+                  alt="AUSG"
+                  className="img_logo"
+                />
+              </a>
+            </Link>
+          </h1>
+          <Space />
+          <Nav>
+            <Link href="/blog" as="/blog">
+              <NavItem
+                className="hover:text-black"
+                active={router.pathname.indexOf("/blog") === 0}
+              >
+                BLOG
+              </NavItem>
+            </Link>
+            <Link href="/people" as="/people">
+              <NavItem
+                className="hover:text-black"
+                active={router.pathname.indexOf("/people") === 0}
+              >
+                PEOPLE
+              </NavItem>
+            </Link>
+            <Link href="/contact" as="/contact">
+              <NavItem
+                className="hover:text-black"
+                active={router.pathname.indexOf("/contact") === 0}
+              >
+                CONTACT
+              </NavItem>
+            </Link>
+          </Nav>
+        </div>
       </div>
     </div>
   );
