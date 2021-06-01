@@ -20,11 +20,17 @@ const Content: React.FC = () => (
         </div>
         <div className="px-2">
           <p>
-            AUSG는 AWSKRUG University Student Group의 약자로, AWS와 Cloud, 프로그래밍에 관심있는 대학생들의 모임입니다.<br />
-            자유로운 분위기에서 다양한 사람을 만나 각자의 경험을 나누고 소통할 수 있습니다.
+            AUSG는 AWSKRUG University Student Group의 약자로, AWS와 Cloud,
+            프로그래밍에 관심있는 대학생들의 모임입니다.
+            <br />
+            자유로운 분위기에서 다양한 사람을 만나 각자의 경험을 나누고 소통할
+            수 있습니다.
           </p>
           <p>
-            <a href="https://awskrug.github.io/"><strong>AWS 한국사용자모임</strong></a>과 함께하고 있어요! 😎
+            <a href="https://awskrug.github.io/">
+              <strong>AWS 한국사용자모임</strong>
+            </a>
+            과 함께하고 있어요! 😎
           </p>
         </div>
       </div>
@@ -36,10 +42,12 @@ const Content: React.FC = () => (
           </div>
           <div className="px-2">
             <p>
-              우리는 각자의 경험을 나누고 함께 성장하는 것을 추구합니다. 막히는
-              것이 있다면 언제든 편하게 같이 이야기합니다. 각자의 자리에서 가진
-              고민들을 함께 나누며 발전하고 있습니다. 개발 뿐만 아니라, 즐거운
-              네트워크 형성도 하고 있습니다!
+              우리는 각자의 경험을 나누고 함께 성장하는 것을 추구합니다. <br />
+              막히는 것이 있다면 언제든 편하게 같이 이야기합니다.
+              <br />
+              각자의 자리에서 가진 고민들을 함께 나누며 발전하고 있습니다.
+              <br />
+              개발 뿐만 아니라, 즐거운 네트워크 형성도 하고 있습니다!
             </p>
           </div>
         </div>
@@ -82,8 +90,8 @@ const Content: React.FC = () => (
           <p>
             이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
             진행하며 성장을 추구합니다. <br />
-            또, 숙명여대 해커톤 클라우드 어시스턴스
-            참여, AWS re:Invent 참관 등 많은 활동을 해오고 있습니다.
+            또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관 등
+            많은 활동을 해오고 있습니다.
           </p>
         </div>
       </div>
@@ -105,7 +113,8 @@ const Content: React.FC = () => (
             프로젝트를 진행합니다.
           </p>
           <p>
-            외부 해커톤 및 각종 세미나에도 스피커, 혹은 서포터로 함께 하고 있습니다.
+            외부 해커톤 및 각종 세미나에도 스피커, 혹은 서포터로 함께 하고
+            있습니다.
           </p>
         </div>
       </div>
@@ -115,18 +124,22 @@ const Content: React.FC = () => (
           Welcome New Crew!
         </div>
         <div className="px-2">
-          <p className="font-bold text-2xl">
-            AUSG은 이런 사람을 기다립니다
-          </p><br />
+          <p className="font-bold text-2xl">AUSG은 이런 사람을 기다립니다</p>
+          <br />
           <ul>
-            <li> AWS를 비롯한 클라우드에 관심이 많은 대한민국 소재 대학 재학생 및 휴학생 </li>
+            <li>
+              {" "}
+              AWS를 비롯한 클라우드에 관심이 많은 대한민국 소재 대학 재학생 및
+              휴학생{" "}
+            </li>
             <li> 지식의 나눔을 추구하며, 적극적으로 활동이 가능한 사람 </li>
             <li> 다양한 개발자들과의 커뮤니케이션을 즐기는 사람 </li>
             <li> 꾸준히 스스로의 발전을 추구하는 사람 </li>
           </ul>
           <br />
           위의 조건에 해당하시는 분은 지원서를 제출하시고 저희와 함께해요!
-          <br /><br />
+          <br />
+          <br />
           <p className="font-bold text-xl">지원서 제출</p>
           <p> 2021.06.20(일) 23:59 까지 </p>
           <p>
@@ -136,7 +149,7 @@ const Content: React.FC = () => (
         </div>
       </div>
     </div>
-  </div >
+  </div>
 );
 
 const Button = styled.a`
