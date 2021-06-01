@@ -53,7 +53,7 @@ export const consoleEasterEgg = () => {
   console.log(
     `%c${_strToLeet(
       "CAN YOU IMAGIN HOW MANY EASTER EGGS ARE HERE?",
-    )}\n${_strToLeet("WE, AUSG crew, HOPE YOU FIND IT OUT... 🥚")}`,
+    )}\n${_strToLeet("WE, AUSG crew, HOPE YOU FIND IT OUT... 🥚🥚🥚🥚🥚")}`,
     consoleTemplate,
   );
 };
