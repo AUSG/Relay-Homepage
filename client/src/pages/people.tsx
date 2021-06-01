@@ -6,10 +6,7 @@ import { NextPage } from "next";
 const PeoplePage: NextPage = () => {
   return (
     <AppLayout>
-      <Intro
-        title="AUSG People"
-        description="저마다 개성 넘치는 AUSG 크루들을 만나보세요."
-      />
+      <Intro title="AUSG People" />
       <Team />
     </AppLayout>
   );

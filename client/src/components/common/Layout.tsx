@@ -3,7 +3,7 @@ import React from "react";
 
 export const siteTitle = "AUSG";
 export const siteDescription =
-  "AUSG(AWSKRUG University Student Group) 공식 홈페이지 입니다.";
+  "압도적 쓱케일, 아우쓱 - AWSKRUG University Student Group";
 export const GA_TRACKING_ID = "G-G8WPXP0PB2";
 
 interface LayoutProps {
@@ -47,8 +47,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <meta property="og:site_name" content="AUSG Homepage" />
         <meta
           property="og:image"
-          content="https://ausg.me/images/ausg-banner.png"
+          content="https://ausg.me/images/thumbnail.png"
         />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="420" />
 
         {/* Naver에서 제공 하는 검색 어드바이저 https://searchadvisor.naver.com/ */}
         <meta

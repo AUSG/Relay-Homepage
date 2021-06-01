@@ -2,7 +2,7 @@
 // @ts-ignore
 
 import CrewCard from "@ausg/components/people/CrewCard";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export interface Crew {
   id: number;
@@ -16,6 +16,23 @@ export interface Crew {
 }
 
 const Team: React.FC = () => {
+  // Easter egg ~ (발동 조건 : People 탭에서 Team 컴포넌트 영역을 좌클릭 후 ausg 타이핑)
+  const [input, setInput] = useState<string>("");
+
+  useEffect(() => {
+    if (!input.toLowerCase().includes("ausg")) return;
+    alert("AUSG, truly AWS masters... Anyway here's an egg. 🥚");
+    setInput("");
+  }, [input]);
+
+  const onKeyDownHandlerForEasterEgg = (e) => {
+    const ch = e.key as string;
+    if (!ch) return;
+    else if (ch < "A" || ch > "z") return;
+    setInput(input + ch);
+  };
+  // ~ Easter egg
+
   const [crews] = useState<Crew[]>([
     {
       id: 0,
@@ -75,7 +92,7 @@ const Team: React.FC = () => {
   ]);
 
   return (
-    <div>
+    <div onKeyDown={onKeyDownHandlerForEasterEgg} tabIndex={0}>
       <div className="container flex justify-center mx-auto">
         <div>
           <p className="text-gray-500 text-lg text-center font-normal pb-3">
