@@ -1,5 +1,18 @@
 # Relay-Homepage
 
+## 자신의 정보를 추가하는 법
+
+### [People 페이지](https://ausg.me/people)
+
+- `/client/public/images/people` 디렉토리에 사진을 추가합니다. format : `$NAME.jpg` (ex. 문성혁.jpg)
+- `client/src/components/people/memberInfo.tsx` 파일에 자신의 정보를 추가합니다. 해당 파일 주석과 이미 작성된 데이터를 참고하시면 됩니다.
+
+### [Blog 페이지](https://ausg.me/blog)
+
+- `/lib/blogSpider/README.md`를 참고해주세요.
+
+(이 아래는 릴레이 코딩 과정에서 활용한 리드미입니다)
+
 ## 목표
 
 - 우리는 릴레이 코딩으로 홈페이지를 만듭니다.
@@ -47,5 +60,6 @@
 ## 개발 참고사항
 
 - [테일윈드 CSS](https://tailwindcss.com/)
+- NextJS 개발은 `/client/README.md` 참고
 - **메인의 Node Package 삭제 금지 (for husky)**
   - 수정 시 husky 문서 및 [https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/] 참고
