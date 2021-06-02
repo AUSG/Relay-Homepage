@@ -24,15 +24,15 @@ const Header: React.FC = () => {
 
   return (
     <div className="header m-header">
-      <div className="doc_header">
+      <div className="doc_header md:px-7 px-4">
         <div className="flex items-center w-full max-w-screen-xl mx-auto">
-          <h1 className="doc_title">
+          <h1 className="doc_title flex-shrink-0">
             <Link href="/">
               <a className="link_logo" onClick={onClickHandlerForEasterEgg}>
                 <img
                   src="/images/logo-white.svg"
                   alt="AUSG"
-                  className="img_logo"
+                  className="md:w-28 sm:w-24 w-20"
                 />
               </a>
             </Link>
