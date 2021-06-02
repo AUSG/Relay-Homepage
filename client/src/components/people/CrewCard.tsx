@@ -27,7 +27,7 @@ const CrewCard: React.FC<CrewCardProps> = ({
     <div className="mb-8 xl:w-1/3 sm:w-1/2 mx-auto sm:max-w-xs xl:max-w-sm 2xl:max-w-xs lg:w-1/2 relative">
       <div className="bg-top bg-cover bg-no-repeat h-64">
         <img
-          src={url}
+          src={encodeURIComponent(url)}
           alt=""
           className="h-full w-full overflow-hidden object-cover rounded shadow"
         />
