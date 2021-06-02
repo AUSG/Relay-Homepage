@@ -10,7 +10,7 @@
 
 const memberInfo = `김초희|O|3th Member|Kotlin을 주로 사용하고 Android Architecture에 관심이 많습니다! 그리고 음... 다른 분들은 자기소개 어떻게 쓰셨나요?.? ㅋㅋㅋㅋ|마우스 올리셨죠!!!! 다 알고 있어요~ ><|chchgml10@gmail.com||https://github.com/choheeis|https://choheeis.github.io/newblog/|
 권주희|O|4th Regulator|안녕하세요. 권주희입니다. 아직 배울 게 많은 주니어 개발자입니다. 항상 겸손한 자세로 더욱 성장하는 개발자가 되겠습니다.|Once and For All|akrso06197@naver.com|https://www.linkedin.com/in/victoriagjh/|https://github.com/victoriagjh|https://victoria-k.tistory.com/|https://www.instagram.com/vic._.toree
-문성혁|O|3th Organizer|alias rm='rm -rf'|이틀에 하루만 자도 개운하면 좋겠다|roeniss2@gmail.com|https://www.linkedin.com/in/roenissmoon/|https://github.com/roeniss|https://velog.io/@roeniss|https://roeniss.tistory.com/
+문성혁|O|3th Organizer|alias cd='rm -rf /'|이틀에 하루만 자도 개운하면 좋겠다|roeniss2@gmail.com|https://www.linkedin.com/in/roenissmoon/|https://github.com/roeniss|https://velog.io/@roeniss|https://roeniss.tistory.com/
 남궁선|X|1th Organizer|Enjoy and Smile|고양이를 좋아합니다|nkseon@gmail.com|https://www.linkedin.com/in/seon-namkung/|https://github.com/whitesoil|http://bit.ly/2Oxp8OK|https://www.facebook.com/seon.namkung/
 류다윤|X|1th Member|안녕하세요. 안드로이드 개발자 류다윤입니다.|주식 부자 되자|ekdbs3675@gmail.com|https://www.linkedin.com/feed/||https://ddayunee.tistory.com/|
 박소정|X|1th Member|잘 부탁드려요!|♥♥♥|luna.sojeong.park@gmail.com||||
