@@ -6,8 +6,8 @@ interface IntroProps {
 
 const Intro: FC<IntroProps> = ({ title }) => {
   return (
-    <div className="py-20 px-24 text-black">
-      <h1 className="mb-8 text-4xl font-bold">{title}</h1>
+    <div className="py-8 mx-4 w-full max-w-screen-xl sm:py-10 md:px-7 lg:py-20 lg:mx-auto text-black">
+      <h1 className="text-3xl lg:text-4xl font-bold">{title}</h1>
     </div>
   );
 };
