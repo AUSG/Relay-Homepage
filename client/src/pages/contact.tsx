@@ -1,3 +1,4 @@
+import Intro from "@ausg/components/molecules/Intro";
 import AppLayout from "@ausg/components/templates/AppLayout";
 import { NextPage } from "next";
 
@@ -10,16 +11,9 @@ const ContactPage: NextPage = () => {
 
   return (
     <AppLayout>
+      <Intro title="Contact Us" />
       <div className="contact max-w-4xl mx-auto">
         <div className="mx-4">
-          <div className="py-20 px-3 text-black">
-            <h1
-              className="mb-8 text-4xl font-bold"
-              onClick={onClickHandlerForEasterEgg}
-            >
-              Contact Us
-            </h1>
-          </div>
           <form
             action="https://formspree.io/f/xgeprzaq"
             noValidate={true}
@@ -55,6 +49,7 @@ const ContactPage: NextPage = () => {
               <i className="fa fa-paper-plane"> SEND &nbsp;</i>
             </button>
           </form>
+          <div className="py-10 px-3 text-black" onClick={onClickHandlerForEasterEgg}></div>
         </div>
       </div>
     </AppLayout>
