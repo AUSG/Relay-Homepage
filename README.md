@@ -4,7 +4,7 @@
 
 ### [People 페이지](https://ausg.me/people)
 
-- `/client/public/images/people` 디렉토리에 사진을 추가합니다. format : `$NAME.jpg` (ex. 문성혁.jpg)
+- `/client/public/images/people` 디렉토리에 사진을 추가합니다. format : `$nickname.jpg` (ex. roeniss2.jpg)
 - `client/src/components/people/memberInfo.tsx` 파일에 자신의 정보를 추가합니다. 해당 파일 주석과 이미 작성된 데이터를 참고하시면 됩니다.
 
 ### [Blog 페이지](https://ausg.me/blog)

@@ -1,5 +1,5 @@
 /**
- * csv format: 이름 - 사진 유무(O/X) - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
+ * csv format: 닉네임(image file name) - 이름 - 사진 유무(O/X) - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
  * (각 필드에 해당하는 값이 없다면/생략하려면 delimeter를 사용해 값이 비었음을 알려주어야 함.
  *
  * csv delimeter : "|" (vertical bar)
