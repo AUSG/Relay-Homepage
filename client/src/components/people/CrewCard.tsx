@@ -33,7 +33,7 @@ const CrewCard: React.FC<CrewCardProps> = ({
         />
         <div className="opacity-0 hover:opacity-100 hover:bg-opacity-30 bg-black duration-300 absolute h-64 inset-0 z-100 flex justify-center items-center text-2xl text-white font-semibold text-center flex-col pt-0 pb-8 px-4">
           {/* 여러 줄인 경우도 커버 */}
-          {(description as string).split("\\n").map(function (item, idx) {
+          {description.split("\\n").map(function (item, idx) {
             return (
               <span key={idx}>
                 {item}
