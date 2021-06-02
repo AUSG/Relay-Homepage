@@ -42,6 +42,7 @@ const Team: React.FC = () => {
   // csv order : see `./memberInfo.tsx`
   const crews: Crew[] = CSV.parse(memberInfo, "|").map((crew, idx) => {
     const [
+      nickname,
       name,
       hasImage,
       role,
@@ -56,7 +57,7 @@ const Team: React.FC = () => {
 
     return {
       id: idx,
-      url: hasImage === "O" ? `/images/people/${name}.jpg` : `/images/17.png`,
+      url: hasImage === "O" ? `/images/people/${nickname}.jpg` : `/images/17.png`,
       name,
       role,
       introduction,
@@ -70,16 +71,6 @@ const Team: React.FC = () => {
 
   return (
     <div onKeyDown={onKeyDownHandlerForEasterEgg} tabIndex={0}>
-      <div className="container flex justify-center mx-auto">
-        <div>
-          <p className="text-gray-500 text-lg text-center font-normal pb-3">
-            AUSG 5기 크루
-          </p>
-          <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">
-            지금 활동하고 있는 크루들을 소개합니다.
-          </h1>
-        </div>
-      </div>
       <div className="w-full px-10">
         <div className="container mx-auto">
           {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
