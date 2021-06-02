@@ -2,17 +2,22 @@
 // @ts-ignore
 
 import CrewCard from "@ausg/components/people/CrewCard";
+import * as CSV from "csv-string";
 import React, { useEffect, useState } from "react";
+
+import memberInfo from "./memberInfo";
 
 export interface Crew {
   id: number;
-  url: string;
+  url: string; // imageUrl
   name: string;
   role: string;
   introduction: string;
   description: string;
   linkedinURL?: string;
   githubURL?: string;
+  blogURL?: string;
+  otherURL?: string;
 }
 
 const Team: React.FC = () => {
@@ -33,63 +38,34 @@ const Team: React.FC = () => {
   };
   // ~ Easter egg
 
-  const [crews] = useState<Crew[]>([
-    {
-      id: 0,
-      url: "images/2.png",
-      name: "김민태",
-      role: "5기 organizer",
-      introduction:
-        "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
-      description: "열정! 열정! 열정!!!",
-      githubURL: "https://github.com/14km",
-    },
-    {
-      id: 1,
-      url: "images/2.png",
-      name: "문성혁",
-      role: "4기 organizer",
-      introduction:
-        "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
-      description: "열정! 열정! 열정!!!",
-    },
-    {
-      id: 2,
-      url: "images/2.png",
-      name: "우수연",
-      role: "5기 운영진",
-      introduction:
-        "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
-      description: "열정! 열정! 열정!!!",
-    },
-    {
-      id: 3,
-      url: "images/2.png",
-      name: "권주희",
-      role: "5기 운영진",
-      introduction:
-        "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
-      description: "열정! 열정! 열정!!!",
-    },
-    {
-      id: 4,
-      url: "images/2.png",
-      name: "김은수",
-      role: "5기 운영진",
-      introduction:
-        "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
-      description: "열정! 열정! 열정!!!",
-    },
-    {
-      id: 5,
-      url: "images/2.png",
-      name: "김성익",
-      role: "5기 운영진",
-      introduction:
-        "비록 내일 지구의 종말이 온다 하더라도 나는 오늘 한 줄의 코드를 작성하겠다.",
-      description: "열정! 열정! 열정!!!",
-    },
-  ]);
+  // csv format: 이름 - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
+  // csv order : see `./memberInfo.tsx`
+  const crews: Crew[] = CSV.parse(memberInfo, "|").map((crew, idx) => {
+    const [
+      name,
+      role,
+      introduction,
+      description,
+      _email,
+      linkedinURL,
+      githubURL,
+      blogURL,
+      otherURL,
+    ] = crew;
+
+    return {
+      id: idx,
+      url: `/images/people/${name}.jpg`,
+      name,
+      role,
+      introduction,
+      description,
+      githubURL,
+      linkedinURL,
+      blogURL,
+      otherURL,
+    };
+  });
 
   return (
     <div onKeyDown={onKeyDownHandlerForEasterEgg} tabIndex={0}>
@@ -117,6 +93,8 @@ const Team: React.FC = () => {
                 description={crew.description}
                 githubURL={crew.githubURL}
                 linkedinURL={crew.linkedinURL}
+                blogURL={crew.blogURL}
+                otherURL={crew.otherURL}
               />
             ))}
           </div>
