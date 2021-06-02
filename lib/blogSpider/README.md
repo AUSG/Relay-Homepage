@@ -10,6 +10,8 @@ AUSG 멤버들의 블로그에서 가장 최신 포스트를 파싱해, json 형
 
 ## 자신의 블로그 추가 방법
 
+tl;dr: blogList.csv 파일에 정보 추가 & `PARSER` 상수에 셀렉터 추가
+
 > 테스트 환경 : macOS 10.15, python3.9
 
 1. 가상환경 구축 (not mandatory)
@@ -67,7 +69,9 @@ black -v .
 python3 main.py
 ```
 
-테스트를 하면 로컬에 `newsetPosts.json` 파일이 추가됩니다. 문제없이 추가되었는지 확인하고, push하면 됩니다. (Github Actiondㅔ 의해 깃헙 서버에서 하루에 한번씩 자동으로 코드가 실행됩니다)
+테스트를 마치면 `newsetPosts.json` 파일이 갱신됩니다. 문제없이 추가되었는지 확인해보시고 push하면 됩니다.
+
+(Github Action에 의해 깃헙 서버에서 하루에 한번씩 자동으로 코드가 실행되고 json 파일이 갱신됩니다)
 
 ## etc
 
