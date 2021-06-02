@@ -9,7 +9,7 @@
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "sourceMap": true,
     "target": "es2015",
     "lib": ["dom", "dom.iterable", "esnext"],
