@@ -68,7 +68,6 @@ module.exports = {
     "comma-dangle": 0,
     "multiline-ternary": 0,
     "no-undef": 0,
-    "no-unused-vars": 0,
     "no-use-before-define": "off",
     quotes: 0,
     "react/no-unescaped-entities": 0,
@@ -98,6 +97,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-call": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/ban-types": [
       "warn",
       {
