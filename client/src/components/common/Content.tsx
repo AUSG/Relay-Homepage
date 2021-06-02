@@ -11,8 +11,38 @@ const images = [
   { url: "images/18.jpg" },
 ];
 
+const activityImages = [
+  {
+    url: "images/activity/2020-1.png",
+    caption: "2019년 re:Invent에서 발표된 신기술을 서울에서 발표",
+  },
+  {
+    url: "images/activity/2020-2.png",
+    caption: "'코로나와 대학생'이라는 주제로 진행한 프라이빗 온라인 해커톤",
+  },
+  {
+    url: "images/activity/2019-1.png",
+    caption: "AWS에 익숙하지 않은 분들을 위한 핸즈온 세션 진행",
+  },
+  {
+    url: "images/activity/2019-2.png",
+    caption:
+      "남과의 경쟁이 아닌 '자기 자신의 성장'이라는 AUSG의 철학에 맞춘 해커톤 개최",
+  },
+  {
+    url: "images/activity/2018.png",
+    caption:
+      "LA에서 개최된 2018 re:Invent에 참석해 '한국의 AWS 대학생 그룹'이라는 주제로 스피치",
+  },
+  {
+    url: "images/activity/2017.png",
+    caption:
+      "도쿄에서 열린 2017 JAWS Day에 참석하여 '대학생 그룹 구축 방안'에 대한 스피치",
+  },
+];
+
 const Content: React.FC = () => (
-  <div className="main mx-4 max-w-screen-xl mx-auto">
+  <div className="main mx-4 max-w-screen-xl md:mx-auto">
     <div className="doc_content">
       <div>
         <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
@@ -76,23 +106,56 @@ const Content: React.FC = () => (
         </div>
       </div>
 
-      <div>
-        <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-          Our Activity
+      <div className="vision_wrapper">
+        <div>
+          <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+            Our Activity
+          </div>
+          <div className="px-2">
+            <p>
+              우리는 AWS에 대한 각자의 경험을 나누고, 스터디 · 프로젝트 · 세미나
+              · 외부동아리와의 연계 등 다양한 활동을 진행합니다.
+            </p>
+            <p> 아래는 저희가 경험했던 다양한 행사들입니다. </p>
+          </div>
         </div>
-        <div className="px-2">
-          <p>
-            우리는 AWS에 대한 각자의 경험을 나누고, 스터디 · 프로젝트 · 세미나 ·
-            외부동아리와의 연계 등 다양한 활동을 진행합니다.
-          </p>
-          <p> 아래는 저희가 경험했던 다양한 행사들입니다. </p>
-          {/* 행사 목록 */}
-          <p>
-            이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
-            진행하며 성장을 추구합니다. <br />
-            또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관 등
-            많은 활동을 해오고 있습니다.
-          </p>
+        <div className="my-4 flex justify-center">
+          <div className="md:max-w-3xl">
+            <Carousel
+              // autoPlay
+              showArrows
+              emulateTouch
+              infiniteLoop
+              swipeable
+              stopOnHover
+              showThumbs={false}
+              axis="horizontal"
+            >
+              {activityImages.map((image, idx) => (
+                <figure key={idx}>
+                  <img
+                    src={image.url}
+                    className="object-cover"
+                    style={{ height: "100%", width: "none" }}
+                  />
+                  <figcaption className="my-8">{image.caption}</figcaption>
+                </figure>
+              ))}
+            </Carousel>
+          </div>
+        </div>
+      </div>
+
+      <div className="vision_wrapper">
+        <div>
+          <div className="px-2">
+            <p>
+              이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
+              진행하며 성장을 추구합니다. <br />
+              또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관
+              등 많은 활동을 해오고 있습니다.
+            </p>
+          </div>
         </div>
       </div>
 
