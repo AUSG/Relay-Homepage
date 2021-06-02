@@ -38,11 +38,12 @@ const Team: React.FC = () => {
   };
   // ~ Easter egg
 
-  // csv format: 이름 - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
+  // csv format: 이름 - 사진 유무(O/X) - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
   // csv order : see `./memberInfo.tsx`
   const crews: Crew[] = CSV.parse(memberInfo, "|").map((crew, idx) => {
     const [
       name,
+      hasImage,
       role,
       introduction,
       description,
@@ -55,7 +56,7 @@ const Team: React.FC = () => {
 
     return {
       id: idx,
-      url: `/images/people/${name}.jpg`,
+      url: hasImage === "O" ? `/images/people/${name}.jpg` : `/images/17.png`,
       name,
       role,
       introduction,
