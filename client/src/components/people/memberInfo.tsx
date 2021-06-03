@@ -18,6 +18,7 @@ einokt|오규태|O|4th Member|현재 컴퓨터공학과 3학년으로 대학교�
 cadenzah93|김정모|O|3th Regulator|주로 웹을 다룹니다. 콘솔 게임과 해산물을 좋아합니다. 따릉이 정기권 있습니다. INFJ.|두둥실|cadenzah93@gmail.com|https://www.linkedin.com/in/cadenzah/|https://github.com/cadenzah|https://velog.io/@cadenzah|
 chchgml10|김초희|O|3th Member|Kotlin을 주로 사용하고 Android Architecture에 관심이 많습니다! 그리고 음... 다른 분들은 자기소개 어떻게 쓰셨나요?.? ㅋㅋㅋㅋ|마우스 올리셨죠!!!! 다 알고 있어요~ ><|chchgml10@gmail.com||https://github.com/choheeis|https://choheeis.github.io/newblog/|
 byunjuneseok|변준석|O|3th Member|Passion for learning and adopting new technologies with a focus on finding the right tool for the job.|“WE GON MAKE IT”|byunjuneseok@gmail.com|https://www.linkedin.com/in/byunjuneseok/|https://github.com/byunjuneseok|https://binaryflavor.com|
+p4rksh|박상훈|O|3th Member|안녕하세요! 백엔드 개발자 박상훈입니다.|김병규 사랑해|p4rksh@kakao.com||https://github.com/p4rksh|https://velog.io/@p4rksh|
 rayleighko|고명진|O|2th Member|스타트업 노동자|고양이를 좋아해|ray@scentlab.kr|https://www.linkedin.com/in/rayle|https://github.com/rayleighko|https://k-dev.medium.com|https://i.pinimg.com/originals/69/0d/28/690d288b651b78ecf09e776c05d977e3.jpg
 lylisha|고윤호|O|2th Member|AUSG 2기 멤버입니다. TS가 주 언어입니다. 보안에 관심이 많습니다. 잘 부탁해요.|진리가 너희를 자유케 하리라|lylisha@gmail.com|https://www.linkedin.com/in/%EC%9C%A4%ED%98%B8-%EA%B3%A0-006099161/|https://github.com/yoonhoGo/|https://yoonhogo.github.io/blog|
 nkseon|남궁선|X|1th Organizer|Enjoy and Smile|고양이를 좋아합니다|nkseon@gmail.com|https://www.linkedin.com/in/seon-namkung/|https://github.com/whitesoil|http://bit.ly/2Oxp8OK|https://www.facebook.com/seon.namkung/
