@@ -36,6 +36,7 @@ hms|한민수|O|1st Member|ex깃랩, 현 AWS 세일즈|깃헙말고 깃랩도 �
 yhk|유호균|O|1st Member|스스로 문제를 정의하고, 그 문제를 해결해나가는 과정을 즐기는 평범한 개발자입니다.|Fail fast, learn faster|yoohoogun114@naver.com|https://kr.linkedin.com/in/yuhogyun|||
 jsw|정소원|O|1st Member|(구) AUSG 1기 회식 프로 참석러|노는게 제일 좋아|swj960515@gmail.com||https://github.com/ss-won||
 hmh|한만혁|O|1st Member|아우쓱 1기 공식 인싸|프로 치킨러|rnanhyuk@gmail.com||https://github.com/ManHyuk|https://manhyuk.github.io/|
-khj|김현중|O|1st Member|AUSG 1기 비쥬얼 담당|SRE 개발자 입니다|henrynicholas09@gmail.com||https://github.com/Exubient||`;
+khj|김현중|O|1st Member|AUSG 1기 비쥬얼 담당|SRE 개발자 입니다|henrynicholas09@gmail.com||https://github.com/Exubient||
+lcg|이철규|O|1st Member|응애입니다|:)|lcgkiller@gmail.com||||https://www.instagram.com/lcgkiller/`;
 
 export default memberInfo;
