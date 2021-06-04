@@ -32,7 +32,7 @@ const activityImages = [
   {
     url: "images/activity/2018.png",
     caption:
-      "LA에서 개최된 2018 re:Invent에 참석 후, 'Amazon SageMaker RL'이라는 주제로 서울에서 스피치",
+      "Las vegas에서 개최된 2018 re:Invent에 참석 후, 'Amazon SageMaker RL'이라는 주제로 서울에서 스피치",
   },
   {
     url: "images/activity/2017.png",
