@@ -25,8 +25,8 @@ sds|신동선|O|3rd Member|주니어 백엔드 개발자입니다 :)|포세이�
 rayleighko|고명진|O|2nd Member|스타트업 노동자|고양이를 좋아해|ray@scentlab.kr|https://www.linkedin.com/in/rayle|https://github.com/rayleighko|https://k-dev.medium.com|https://i.pinimg.com/originals/69/0d/28/690d288b651b78ecf09e776c05d977e3.jpg
 lylisha|고윤호|O|2nd Member|AUSG 2기 멤버입니다. TS가 주 언어입니다. 보안에 관심이 많습니다. 잘 부탁해요.|진리가 너희를 자유케 하리라|lylisha@gmail.com|https://www.linkedin.com/in/%EC%9C%A4%ED%98%B8-%EA%B3%A0-006099161/|https://github.com/yoonhoGo/|https://yoonhogo.github.io/blog|
 nks|남궁선|O|1st Organizer|Enjoy and Smile|고양이를 좋아합니다|nkseon@gmail.com|https://www.linkedin.com/in/seon-namkung/|https://github.com/whitesoil|http://bit.ly/2Oxp8OK|https://www.facebook.com/seon.namkung/
-sarahseohyun|윤서현|O|1st Member|Web과 Cloud 개발에 관심이 많습니다.|Happy Coding|sarahseohyun@gmail.com|https://www.linkedin.com/in/seohyunyoon/|https://github.com/seohyun0120|https://seohyun0120.tistory.com/|
-rdy|류다윤|O|1st Member|안녕하세요. 안드로이드 개발자 류다윤입니다.|주식 부자 되자|ekdbs3675@gmail.com|https://www.linkedin.com/feed/||https://ddayunee.tistory.com/|
+sarahseohyun|윤서현|O|1st Member|백엔드 개발자입니다.|Whatever - oasis|sarahseohyun@gmail.com|https://www.linkedin.com/in/seohyunyoon/|https://github.com/seohyun0120|https://seohyun0120.tistory.com/|
+rdy|류다윤|O|1st Member|안녕하세요. 안드로이드 개발자 류다윤입니다.|주식 부자 되자|ekdbs3675@gmail.com|https://www.linkedin.com/in/dayun-ryu-4272aa171/||https://ddayunee.tistory.com/|
 psj|박소정|O|1st Member|잘 부탁드려요!|♥♥♥|luna.sojeong.park@gmail.com||||
 hms|한민수|O|1st Member|ex깃랩, 현 AWS 세일즈|깃헙말고 깃랩도 사랑해주세요|mshan1218@naver.com|https://www.linkedin.com/in/minsu-han/|||
 yhk|유호균|O|1st Member|스스로 문제를 정의하고, 그 문제를 해결해나가는 과정을 즐기는 평범한 개발자입니다.|Fail fast, learn faster|yoohoogun114@naver.com|https://kr.linkedin.com/in/yuhogyun|||
