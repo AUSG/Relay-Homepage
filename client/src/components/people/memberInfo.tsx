@@ -22,6 +22,7 @@ byunjuneseok|변준석|O|3rd Member|Passion for learning and adopting new techno
 p4rksh|박상훈|O|3rd Member|안녕하세요! 백엔드 개발자 박상훈입니다.|김병규 사랑해|p4rksh@kakao.com||https://github.com/p4rksh|https://velog.io/@p4rksh|
 beygee|김병규|O|3rd Member|React, Flutter, Nest.js, Typescript 좋아해요|이때다 싶을때 도망쳐|doug0476@naver.com||https://github.com/beygee||
 sds|신동선|O|3rd Member|주니어 백엔드 개발자입니다 :)|포세이동선입니다|sds111888@gmail.com||https://github.com/shindongsun0|https://gasungbilife.tistory.com/|
+umi0410|박진수|O|3rd Regulator|Go, Spring, Container, Cloud 등에 관심이 많은 백엔드 개발자입니다! 다양한 기술 얘기와 완성도 있는 아키텍쳐 설계를 좋아하고 개발 말고도 이것 저것 좋아하는 에너지 있는 녀석입니다~!|시대를 앞서가는(?) 고독한 Go 러버...|dev.umijs@gmail.com|https://www.linkedin.com/in/jinsu-park-63a7b2179/|https://github.com/umi0410/|https://umi0410.github.io|
 rayleighko|고명진|O|2nd Member|스타트업 노동자|고양이를 좋아해|ray@scentlab.kr|https://www.linkedin.com/in/rayle|https://github.com/rayleighko|https://k-dev.medium.com|https://i.pinimg.com/originals/69/0d/28/690d288b651b78ecf09e776c05d977e3.jpg
 lylisha|고윤호|O|2nd Member|AUSG 2기 멤버입니다. TS가 주 언어입니다. 보안에 관심이 많습니다. 잘 부탁해요.|진리가 너희를 자유케 하리라|lylisha@gmail.com|https://www.linkedin.com/in/%EC%9C%A4%ED%98%B8-%EA%B3%A0-006099161/|https://github.com/yoonhoGo/|https://yoonhogo.github.io/blog|
 nks|남궁선|O|1st Organizer|Enjoy and Smile|고양이를 좋아합니다|nkseon@gmail.com|https://www.linkedin.com/in/seon-namkung/|https://github.com/whitesoil|http://bit.ly/2Oxp8OK|https://www.facebook.com/seon.namkung/
