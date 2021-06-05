@@ -26,15 +26,17 @@ sds|신동선|O|3rd Member|주니어 백엔드 개발자입니다 :)|포세이�
 umi0410|박진수|O|3rd Regulator|Go, Spring, Container, Cloud 등에 관심이 많은 백엔드 개발자입니다! 다양한 기술 얘기와 완성도 있는 아키텍쳐 설계를 좋아하고 개발 말고도 이것 저것 좋아하는 에너지 있는 녀석입니다~!|시대를 앞서가는(?) 고독한 Go 러버...|dev.umijs@gmail.com|https://www.linkedin.com/in/jinsu-park-63a7b2179/|https://github.com/umi0410/|https://umi0410.github.io|
 rayleighko|고명진|O|2nd Member|스타트업 노동자|고양이를 좋아해|ray@scentlab.kr|https://www.linkedin.com/in/rayle|https://github.com/rayleighko|https://k-dev.medium.com|https://i.pinimg.com/originals/69/0d/28/690d288b651b78ecf09e776c05d977e3.jpg
 lylisha|고윤호|O|2nd Member|AUSG 2기 멤버입니다. TS가 주 언어입니다. 보안에 관심이 많습니다. 잘 부탁해요.|진리가 너희를 자유케 하리라|lylisha@gmail.com|https://www.linkedin.com/in/%EC%9C%A4%ED%98%B8-%EA%B3%A0-006099161/|https://github.com/yoonhoGo/|https://yoonhogo.github.io/blog|
-nks|남궁선|O|1st Organizer|Enjoy and Smile|고양이를 좋아합니다|nkseon@gmail.com|https://www.linkedin.com/in/seon-namkung/|https://github.com/whitesoil|http://bit.ly/2Oxp8OK|https://www.facebook.com/seon.namkung/
-sarahseohyun|윤서현|O|1st Member|백엔드 개발자입니다.|Whatever - oasis|sarahseohyun@gmail.com|https://www.linkedin.com/in/seohyunyoon/|https://github.com/seohyun0120|https://seohyun0120.tistory.com/|
+nks|남궁선|O|1st Organizer|Cloud기술과 DevOps에 관심이 많은 개발자 입니다!|Enjoy and Smile|nkseon@gmail.com|https://www.linkedin.com/in/seon-namkung/|https://github.com/whitesoil|http://bit.ly/2Oxp8OK|https://www.facebook.com/seon.namkung/
+wjh|원지혁|O|1st Member|JavaScript to Infinity 🚀|Move fast and ship high-quality|tony.w@hey.com||https://github.com/tonyfromundefined|https://read.cv/tonyfromundefined|
+sarahseohyun|윤서현|O|1st Member|음악을 좋아하고 다양한 분야를 두루 공부하는 백엔드 개발자입니다.|Whatever - oasis|sarahseohyun@gmail.com|https://www.linkedin.com/in/seohyunyoon/|https://github.com/seohyun0120|https://seohyun0120.tistory.com/|
 rdy|류다윤|O|1st Member|안녕하세요. 안드로이드 개발자 류다윤입니다.|주식 부자 되자|ekdbs3675@gmail.com|https://www.linkedin.com/in/dayun-ryu-4272aa171/||https://ddayunee.tistory.com/|
-psj|박소정|O|1st Member|잘 부탁드려요!|♥♥♥|luna.sojeong.park@gmail.com||||
-hms|한민수|O|1st Member|ex깃랩, 현 AWS 세일즈|깃헙말고 깃랩도 사랑해주세요|mshan1218@naver.com|https://www.linkedin.com/in/minsu-han/|||
+psj|박소정|O|1st Member|모든 분위기는 제가 살립니다! 잘 부탁드려요!|♥♥♥|luna.sojeong.park@gmail.com||||
+hms|한민수|O|1st Member|Partner Manager @Microsoft|깃헙말고 깃랩도 사랑해주세요|mshan1218@naver.com|https://www.linkedin.com/in/minsu-han/|||
 yhk|유호균|O|1st Member|스스로 문제를 정의하고, 그 문제를 해결해나가는 과정을 즐기는 평범한 개발자입니다.|Fail fast, learn faster|yoohoogun114@naver.com|https://kr.linkedin.com/in/yuhogyun|||
-jsw|정소원|O|1st Member|(구) AUSG 1기 회식 프로 참석러|노는게 제일 좋아|swj960515@gmail.com||https://github.com/ss-won||
-hmh|한만혁|O|1st Member|아우쓱 1기 공식 인싸|프로 치킨러|rnanhyuk@gmail.com||https://github.com/ManHyuk|https://manhyuk.github.io/|
-khj|김현중|O|1st Member|AUSG 1기 비쥬얼 담당|SRE 개발자 입니다|henrynicholas09@gmail.com||https://github.com/Exubient||
-lcg|이철규|O|1st Member|응애입니다|:)|lcgkiller@gmail.com||||https://www.instagram.com/lcgkiller/`;
+jsw|정소원|O|1st Member|Javascript Full Stack Developer|(구) AUSG 1기 회식 프로 참석러|swj960515@gmail.com||https://github.com/ss-won||
+hmh|한만혁|O|1st Member|Node.js 많이 사랑해 주세요|디지털 노마드|rnanhyuk@gmail.com||https://github.com/ManHyuk|https://manhyuk.github.io/|
+khj|김현중|O|1st Member|Data Engineering도 관심이 많은 SRE 개발자 입니다 :)|AUSG 1기 비쥬얼 담당|henrynicholas09@gmail.com||https://github.com/Exubient||
+lck|이철규|O|1st Member|게임회사 PM을 하고 있습니다. 게임하시면서 제 생각 해주세요!|For fun||||https://www.instagram.com/lcgkiller/|
+kjc|김종찬|O|1st Member|Android Fanatic|AUSG였지만 AWS보다 안드로이드와 친한 개발자|||||`;
 
 export default memberInfo;
