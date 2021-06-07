@@ -9,13 +9,13 @@
  */
 
 const memberInfo = `connor614|김민태|O|4th Organizer|어.. 4기 오거나이저 입니다 반갑습니다 :)|아, 편하게 자고싶다.|k.connor614@gmail.com|https://www.linkedin.com/in/mintae-kim-b1a627187/|github.com/14km||
-roeniss2|문성혁|O|3rd Organizer|alias cd='rm -rf /'|이틀에 하루만 자도 개운하면 좋겠다|roeniss2@gmail.com|https://www.linkedin.com/in/roenissmoon/|https://github.com/roeniss|https://velog.io/@roeniss|https://roeniss.tistory.com/
 suyeon96|우수연|O|4th Regulator|Cloud & DevOps Engineer. Data에 관심이 많으며 최근에는 AI/ML 공부 중입니다.|GCP 합시다|dntndus9611@gmail.com|https://www.linkedin.com/in/suyeon-woo|https://github.com/suyeon96|https://suyeon96.tistory.com/|
 akrso06197|권주희|O|4th Regulator|안녕하세요. 권주희입니다. 아직 배울 게 많은 주니어 개발자입니다. 항상 겸손한 자세로 더욱 성장하는 개발자가 되겠습니다.|Once and For All|akrso06197@naver.com|https://www.linkedin.com/in/victoriagjh/|https://github.com/victoriagjh|https://victoria-k.tistory.com/|https://www.instagram.com/vic._.toree
 kpic1638|김성익|O|4th Regulator|욕심과 기울기가 큰 사람이 되고 싶습니다. AIOps, DevOps, Backend, 무엇보다 스타트업계와 사람에 관심이 많습니다.|AI 하지마\\n그게 뭔데\\nAI 하지말라고\\n그거 어떻게 하는건데|kpic1638@gmail.com||https://github.com/SeongIkKim|https://blogik.netlify.app/|
 eunsukimme|김은수|O|4th Regulator|배우고 성장하는 것을 좋아하는 프론트엔드 개발자입니다. 클라우드에 관심이 많습니다 :)|while(true) { coding(); coffee(); sleep(); }|eunsu.dev@gmail.com|https://www.linkedin.com/in/eunsukimme/|https://github.com/eunsukimme|https://eunsukim.me/|
 einokt|오규태|O|4th Member|현재 컴퓨터공학과 3학년으로 대학교를 다니고 있는 오규태라고 합니다. 영상스트리밍이나 영상처리에 관심을 많이 갖고있습니다.|행운은 용감한 자를 돕는다|einokt@naver.com|https://www.linkedin.com/in/규태-오-b26582189/|https://github.com/RustShark|https://blog.naver.com/einokt|
 naru200|배진수|O|4th Member|사람 만나는 걸 좋아하는 프론트엔드 개발자입니다 :)|커피 많이 아주 많이 좋아합니다!|jinsu2504@gmail.com|https://www.linkedin.com/in/naru200/|https://github.com/naru200|
+roeniss2|문성혁|O|3rd Organizer|alias cd='rm -rf /'|이 사이트의 이스터에그를 모두 찾아보세요|roeniss2@gmail.com|https://www.linkedin.com/in/roenissmoon/|https://github.com/roeniss|https://velog.io/@roeniss|https://roeniss.tistory.com/
 cadenzah93|김정모|O|3rd Regulator|주로 웹을 다룹니다. 콘솔 게임과 해산물을 좋아합니다. 따릉이 정기권 있습니다. INFJ.|두둥실|cadenzah93@gmail.com|https://www.linkedin.com/in/cadenzah/|https://github.com/cadenzah|https://velog.io/@cadenzah|
 siyeons|이시연|O|3rd Regulator|클라우드 회사에서 일하는 프론트엔드 개발자입니다.|저는 사실 골든리트리버|siyeonleeme@gmail.com|https://www.linkedin.com/in/siyeon-lee-3b082b160/|https://github.com/siyeons|https://velog.io/@sian|
 chchgml10|김초희|O|3rd Member|Kotlin을 주로 사용하고 Android Architecture에 관심이 많습니다!|마우스 올리신거 딱 걸림!|chchgml10@gmail.com||https://github.com/choheeis|https://choheeis.github.io/newblog/|
