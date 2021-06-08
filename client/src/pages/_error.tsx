@@ -12,7 +12,7 @@ const Error: NextComponentType<NextPageContext, object, ErrorProps> = ({
   <section className="w-full flex flex-col">
     <span className="text-center my-4 text-2xl">
       <p className="inline-block">
-        Welcome To Error page can you see reference
+        Welcome To Error page. you can see reference from
       </p>
       <span> </span>
       <a
