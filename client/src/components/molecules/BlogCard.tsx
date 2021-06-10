@@ -1,3 +1,4 @@
+import styled from "@emotion/styled";
 import { FC, useState } from "react";
 // import Truncate from "react-truncate";
 
@@ -72,6 +73,29 @@ const BlogButtonIcon: FC<BlogButtonProps> = ({ url }) => {
   );
 };
 
+const Title = styled.li`
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+`;
+
+const Preface = styled.li`
+  font-size: 0.875rem;
+  text-align: left;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+`;
+
 const BlogCard: FC<BlogCardProps> = ({
   title,
   preface,
@@ -103,7 +127,7 @@ const BlogCard: FC<BlogCardProps> = ({
         onClick={onClickHandlerForEasterEgg}
       >
         {/* <!-- CARD --> */}
-        <div className="border-2 border-purple-300 hover:bg-yellow-400 shadow-lg hover:shadow-2xl rounded-xl flex flex-col transition-all duration-150 pt-4 pl-4 pr-4 pb-2 my-4 md:max-w-xs md:mx-4">
+        <li className="border-2 border-purple-300 hover:bg-yellow-400 shadow-lg hover:shadow-2xl rounded-xl flex flex-col transition-all duration-150 pt-4 pl-4 pr-4 pb-2 my-4 md:max-w-xs md:mx-4">
           {/* <!-- IMG PROFILE --- TODO (roeniss): profile image?  --> */}
           {/* <img
             className="rounded-full w-16 h-16 shadow-sm absolute -top-8 transform md:scale-110 duration-700"
@@ -112,23 +136,21 @@ const BlogCard: FC<BlogCardProps> = ({
           /> */}
 
           {/* <!-- TEXTS --> */}
-          <div className="transform text-2xl font-bold text-gray-900 text-left mb-4">
+          <Title>
             {/* <Truncate lines={4}>{title ?? " "}</Truncate> */}
             {cutTitle}
-          </div>
-          <div className="text-md font-normal text-gray-800 text-left">
+          </Title>
+          <Preface>
             {/* <Truncate lines={2}>{preface ?? " "}</Truncate> */}
             {cutPreface}
-          </div>
+          </Preface>
 
           {/* <!-- BUTTON and AUTHOR --> */}
           <div className="flex justify-between items-baseline">
-            <div className="p-4">
-              <span>by {author}</span>
-            </div>
+            <span className="pt-4">by {author}</span>
             <BlogButtonIcon url={url} />
           </div>
-        </div>
+        </li>
       </a>
     </>
   );
