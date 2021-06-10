@@ -15,9 +15,9 @@ const Banner: React.FC = () => {
             className="2xl:w-96 xl:w-80 lg:w-72 md:w-60 sm:w-48 w-36 mt-12"
             alt="AUSG"
           />
-          <h1 className="text-5xl text-white typography mt-10 mx-20">
+          <h2 className="text-5xl text-white typography mt-10 mx-20">
             AWSKRUG University Student Group
-          </h1>
+          </h2>
           <AwsIcons />
         </div>
         <div>

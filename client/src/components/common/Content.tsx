@@ -42,45 +42,39 @@ const activityImages = [
 ];
 
 const Content: React.FC = () => (
-  <div className="main mx-4 max-w-screen-xl md:mx-auto">
-    <div className="doc_content">
-      <div>
-        <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+  <main className="main">
+    <section className="doc_content">
+      <article>
+        <h3 className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
           AUSG
-        </div>
-        <div className="px-2">
-          <p>
-            AUSG는 AWSKRUG University Student Group의 약자로, AWS와 Cloud,
-            프로그래밍에 관심있는 대학생들의 모임입니다.
-            <br />
-            자유로운 분위기에서 다양한 사람을 만나 각자의 경험을 나누고 소통할
-            수 있습니다.
-          </p>
-          <p>
-            <a href="https://awskrug.github.io/">
-              <strong>AWS 한국사용자모임</strong>
-            </a>
-            과 함께하고 있어요! 😎
-          </p>
-        </div>
-      </div>
+        </h3>
+        <p className="px-2">
+          AUSG는 AWSKRUG University Student Group의 약자로, AWS와 Cloud,
+          프로그래밍에 관심있는 대학생들의 모임입니다.
+          <br />
+          자유로운 분위기에서 다양한 사람을 만나 각자의 경험을 나누고 소통할 수
+          있습니다.
+          <br />
+          <a href="https://awskrug.github.io/">
+            <strong>AWS 한국사용자모임</strong>
+          </a>
+          과 함께하고 있어요! 😎
+        </p>
+      </article>
 
-      <div className="vision_wrapper">
-        <div>
-          <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-            Our Vision
-          </div>
-          <div className="px-2">
-            <p>
-              우리는 각자의 경험을 나누고 함께 성장하는 것을 추구합니다. <br />
-              막히는 것이 있다면 언제든 편하게 같이 이야기합니다.
-              <br />
-              각자의 자리에서 가진 고민들을 함께 나누며 발전하고 있습니다.
-              <br />
-              개발 뿐만 아니라, 즐거운 네트워크 형성도 하고 있습니다!
-            </p>
-          </div>
-        </div>
+      <article className="vision_wrapper">
+        <h3 className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          Our Vision
+        </h3>
+        <p className="px-2">
+          우리는 각자의 경험을 나누고 함께 성장하는 것을 추구합니다. <br />
+          막히는 것이 있다면 언제든 편하게 같이 이야기합니다.
+          <br />
+          각자의 자리에서 가진 고민들을 함께 나누며 발전하고 있습니다.
+          <br />
+          개발 뿐만 아니라, 즐거운 네트워크 형성도 하고 있습니다!
+        </p>
+
         <div className="my-4 flex justify-center">
           <div className="max-w-3xl">
             <Carousel
@@ -104,21 +98,17 @@ const Content: React.FC = () => (
             </Carousel>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div className="vision_wrapper">
-        <div>
-          <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-            Our Activity
-          </div>
-          <div className="px-2">
-            <p>
-              우리는 AWS에 대한 각자의 경험을 나누고, 스터디 · 프로젝트 · 세미나
-              · 외부동아리와의 연계 등 다양한 활동을 진행합니다.
-            </p>
-            <p> 아래는 저희가 경험했던 다양한 행사들입니다. </p>
-          </div>
-        </div>
+      <article className="vision_wrapper">
+        <h3 className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          Our Activity
+        </h3>
+        <p className="px-2">
+          우리는 AWS에 대한 각자의 경험을 나누고, 스터디 · 프로젝트 · 세미나 ·
+          외부동아리와의 연계 등 다양한 활동을 진행합니다. <br />
+          아래는 저희가 경험했던 다양한 행사들입니다.
+        </p>
         <div className="my-4 flex justify-center">
           <div className="md:max-w-3xl">
             <Carousel
@@ -144,50 +134,39 @@ const Content: React.FC = () => (
             </Carousel>
           </div>
         </div>
-      </div>
-
-      <div className="vision_wrapper">
-        <div>
-          <div className="px-2">
-            <p>
-              이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
-              진행하며 성장을 추구합니다. <br />
-              또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관
-              등 많은 활동을 해오고 있습니다.
-            </p>
-          </div>
-        </div>
-      </div>
+        <p className="px-2">
+          이 외에도 아키텍처, 자격증, 기술 서적 등을 기반으로 상시 스터디를
+          진행하며 성장을 추구합니다. <br />
+          또, 숙명여대 해커톤 클라우드 어시스턴스 참여, AWS re:Invent 참관 등
+          많은 활동을 해오고 있습니다.
+        </p>
+      </article>
 
       {/* 행사 목록 컴포넌트로 뺴주세요.. plz */}
       <div></div>
 
-      <div>
-        <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+      <article>
+        <h3 className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
           What is Next?
-        </div>
-        <div className="px-2">
-          <p>
-            지식의 나눔. 경험의 공유. 느리더라도 꾸준한 성장. 앞으로 나아가는
-            열정.
-          </p>
-          <p>
-            각자 관심있는 주제가 생기면 스터디를 선행하고, 이를 기반으로
-            프로젝트를 진행합니다.
-          </p>
-          <p>
-            외부 해커톤 및 각종 세미나에도 스피커, 혹은 서포터로 함께 하고
-            있습니다.
-          </p>
-        </div>
-      </div>
+        </h3>
+        <p className="px-2">
+          지식의 나눔. 경험의 공유. 느리더라도 꾸준한 성장. 앞으로 나아가는
+          열정.
+          <br />
+          각자 관심있는 주제가 생기면 스터디를 선행하고, 이를 기반으로
+          프로젝트를 진행합니다.
+          <br />
+          외부 해커톤 및 각종 세미나에도 스피커, 혹은 서포터로 함께 하고
+          있습니다.
+        </p>
+      </article>
 
-      <div>
-        <div className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+      <article>
+        <h3 className="typography text-4xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
           Welcome New Crew!
-        </div>
+        </h3>
         <div className="px-2">
-          <p className="font-bold text-2xl">AUSG은 이런 사람을 기다립니다</p>
+          <h4 className="font-bold text-2xl">AUSG은 이런 사람을 기다립니다</h4>
           <br />
           <ul>
             <li>
@@ -210,9 +189,9 @@ const Content: React.FC = () => (
           </p>
           <br />
         </div>
-      </div>
-    </div>
-  </div>
+      </article>
+    </section>
+  </main>
 );
 
 const Button = styled.a`

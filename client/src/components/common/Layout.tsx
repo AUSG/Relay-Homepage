@@ -81,7 +81,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           }}
         />
       </Head>
-      <header></header>
       <main>{children}</main>
     </div>
   );

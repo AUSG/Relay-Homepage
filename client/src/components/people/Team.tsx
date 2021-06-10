@@ -57,7 +57,8 @@ const Team: React.FC = () => {
 
     return {
       id: idx,
-      url: hasImage === "O" ? `/images/people/${nickname}.jpg` : `/images/17.png`,
+      url:
+        hasImage === "O" ? `/images/people/${nickname}.jpg` : `/images/17.png`,
       name,
       role,
       introduction,
@@ -70,27 +71,29 @@ const Team: React.FC = () => {
   });
 
   return (
-    <div onKeyDown={onKeyDownHandlerForEasterEgg} tabIndex={0}>
-      <div className="w-full px-10">
-        <div className="container mx-auto">
-          {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
-          <div className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
-            {crews.map((crew) => (
-              <CrewCard
-                key={crew.id}
-                url={crew.url}
-                name={crew.name}
-                role={crew.role}
-                introduction={crew.introduction}
-                description={crew.description}
-                githubURL={crew.githubURL}
-                linkedinURL={crew.linkedinURL}
-                blogURL={crew.blogURL}
-                otherURL={crew.otherURL}
-              />
-            ))}
-          </div>
-        </div>
+    <div
+      onKeyDown={onKeyDownHandlerForEasterEgg}
+      tabIndex={0}
+      className="w-full px-10"
+    >
+      <div className="container mx-auto">
+        {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
+        <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
+          {crews.map((crew) => (
+            <CrewCard
+              key={crew.id}
+              url={crew.url}
+              name={crew.name}
+              role={crew.role}
+              introduction={crew.introduction}
+              description={crew.description}
+              githubURL={crew.githubURL}
+              linkedinURL={crew.linkedinURL}
+              blogURL={crew.blogURL}
+              otherURL={crew.otherURL}
+            />
+          ))}
+        </ul>
       </div>
     </div>
   );
