@@ -23,7 +23,7 @@ const Header: React.FC = () => {
   // ~ Easter egg
 
   return (
-    <div className="header m-header">
+    <header className="header m-header">
       <div className="doc_header md:px-7 px-4">
         <div className="flex items-center w-full max-w-screen-xl mx-auto">
           <h1 className="doc_title flex-shrink-0">
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
           </Nav>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -73,8 +73,10 @@ body {
 
 /* main */
 .main .doc_content {
+  @apply mx-4 max-w-screen-xl md:mx-auto;
   display: block;
   box-sizing: border-box;
+  font-size: 17px;
 }
 .main .doc_content .title {
   border-color: var(--ausg-purple) var(--ausg-purple);
