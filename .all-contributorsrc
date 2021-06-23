@@ -1,0 +1,141 @@
+{
+  "projectName": "Relay-Homepage",
+  "projectOwner": "AUSG",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "14km",
+      "name": "MinTae Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45898974?v=4",
+      "profile": "https://github.com/14km",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "suyeon96",
+      "name": "Suyeon Woo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64878866?v=4",
+      "profile": "https://github.com/suyeon96",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "eunsukimme",
+      "name": "Peter(Eunsu) Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31213226?v=4",
+      "profile": "https://github.com/eunsukimme",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yebonkim",
+      "name": "Yebon Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25071311?v=4",
+      "profile": "https://github.com/yebonkim",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "whitesoil",
+      "name": "Seon Namkung",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34286430?v=4",
+      "profile": "http://bit.ly/2Oxp8OK",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rayleighko",
+      "name": "Ray",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24822072?v=4",
+      "profile": "https://www.perpick.me/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RustShark",
+      "name": "Gyutae Oh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58954057?v=4",
+      "profile": "https://github.com/RustShark",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "byunjuneseok",
+      "name": "Juneseok Byun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29401441?v=4",
+      "profile": "https://github.com/byunjuneseok",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "siyeons",
+      "name": "Siyeon Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35549653?v=4",
+      "profile": "https://github.com/siyeons",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "seohyun0120",
+      "name": "Seohyun Yoon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35247295?v=4",
+      "profile": "https://github.com/seohyun0120",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "SeongIkKim",
+      "name": "SeongIkKim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26772420?v=4",
+      "profile": "https://blogik.netlify.app/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "choheeis",
+      "name": "kimchohee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31889335?v=4",
+      "profile": "https://choheeis.github.io/newblog",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "umi0410",
+      "name": "Jinsu Park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33250725?v=4",
+      "profile": "https://umi0410.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "roeniss",
+      "name": "Roeniss Moon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26613280?v=4",
+      "profile": "https://github.com/roeniss",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
