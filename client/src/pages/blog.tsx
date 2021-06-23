@@ -26,6 +26,15 @@ const BlogPage: NextPage = () => {
   };
   // ~ Easter egg
 
+  const shuffleArray = (array) =>{
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+  }
+
   let mainComponent;
   if (loading) {
     mainComponent = (
@@ -47,7 +56,9 @@ const BlogPage: NextPage = () => {
       </div>
     );
   } else if (data) {
-    const blogCards = data.posts.map((blog, blogIndex) => (
+    const posts = data.posts;
+    shuffleArray(posts);
+    const blogCards = posts.map((blog, blogIndex) => (
       <BlogCard
         key={blogIndex}
         title={blog.title}
