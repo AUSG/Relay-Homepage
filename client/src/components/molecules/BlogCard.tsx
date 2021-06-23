@@ -127,7 +127,7 @@ const BlogCard: FC<BlogCardProps> = ({
         onClick={onClickHandlerForEasterEgg}
       >
         {/* <!-- CARD --> */}
-        <li className="border-2 border-purple-300 hover:bg-yellow-400 shadow-lg hover:shadow-2xl rounded-xl flex flex-col transition-all duration-150 pt-4 pl-4 pr-4 pb-2 my-4 md:max-w-xs md:mx-4">
+        <span className="border-2 border-purple-300 hover:bg-yellow-400 shadow-lg hover:shadow-2xl rounded-xl flex flex-col transition-all duration-150 pt-4 pl-4 pr-4 pb-2 my-4 md:max-w-xs md:mx-4">
           {/* <!-- IMG PROFILE --- TODO (roeniss): profile image?  --> */}
           {/* <img
             className="rounded-full w-16 h-16 shadow-sm absolute -top-8 transform md:scale-110 duration-700"
@@ -150,7 +150,7 @@ const BlogCard: FC<BlogCardProps> = ({
             <span className="pt-4">by {author}</span>
             <BlogButtonIcon url={url} />
           </div>
-        </li>
+        </span>
       </a>
     </>
   );
