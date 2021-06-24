@@ -1,5 +1,11 @@
 # Relay-Homepage
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ## 자신의 정보를 추가하는 법
 
 ### [People 페이지](https://ausg.me/people)
@@ -11,7 +17,49 @@
 
 - `/lib/blogSpider/README.md`를 참고해주세요.
 
-(이 아래는 릴레이 코딩 과정에서 활용한 리드미입니다)
+### 기여자 사람들에 사람 추가하는 법
+
+[봇 사용법](https://allcontributors.org/docs/en/bot/usage)을 참고해주세요.
+
+## 그 외
+
+- 프론트 및 NextJS 작업은 `/client/README.md`를 참고하세요.
+- 최상단 `package.json`, `yarn.lock`은 [husky](https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/)와 [all-contributors](https://allcontributors.org/)를 위해 존재합니다 삭제하지 말아주세요.
+
+## 기여한 사람들
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/14km"><img src="https://avatars.githubusercontent.com/u/45898974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MinTae Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=14km" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/suyeon96"><img src="https://avatars.githubusercontent.com/u/64878866?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Suyeon Woo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=suyeon96" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/eunsukimme"><img src="https://avatars.githubusercontent.com/u/31213226?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter(Eunsu) Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=eunsukimme" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/yebonkim"><img src="https://avatars.githubusercontent.com/u/25071311?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yebon Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=yebonkim" title="Code">💻</a></td>
+    <td align="center"><a href="http://bit.ly/2Oxp8OK"><img src="https://avatars.githubusercontent.com/u/34286430?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seon Namkung</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=whitesoil" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.perpick.me/"><img src="https://avatars.githubusercontent.com/u/24822072?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ray</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=rayleighko" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/RustShark"><img src="https://avatars.githubusercontent.com/u/58954057?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gyutae Oh</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=RustShark" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/byunjuneseok"><img src="https://avatars.githubusercontent.com/u/29401441?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juneseok Byun</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=byunjuneseok" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/siyeons"><img src="https://avatars.githubusercontent.com/u/35549653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siyeon Lee</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=siyeons" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/seohyun0120"><img src="https://avatars.githubusercontent.com/u/35247295?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seohyun Yoon</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=seohyun0120" title="Code">💻</a></td>
+    <td align="center"><a href="https://blogik.netlify.app/"><img src="https://avatars.githubusercontent.com/u/26772420?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SeongIkKim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=SeongIkKim" title="Code">💻</a></td>
+    <td align="center"><a href="https://choheeis.github.io/newblog"><img src="https://avatars.githubusercontent.com/u/31889335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kimchohee</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=choheeis" title="Code">💻</a></td>
+    <td align="center"><a href="https://umi0410.github.io/"><img src="https://avatars.githubusercontent.com/u/33250725?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jinsu Park</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=umi0410" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/roeniss"><img src="https://avatars.githubusercontent.com/u/26613280?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Roeniss Moon</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=roeniss" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+---
+
+이 아래 내용은 릴레이 코딩이 진행될 때 사용되었던 리드미입니다. 더 이상 필요가 없어 대표 리드미에서 별도 파일로 분리했습니다.
 
 ## 목표
 
@@ -56,10 +104,3 @@
   - 직접 구현하시면 좋습니다.
   - 공개된 채널에 알려주셔도 좋습니다.
   - 모든 내용은 각 운영진에게 공유하여 주시면 빠르게 피드백을 제공하겠습니다.
-
-## 개발 참고사항
-
-- [테일윈드 CSS](https://tailwindcss.com/)
-- NextJS 개발은 `/client/README.md` 참고
-- **메인의 Node Package 삭제 금지 (for husky)**
-  - 수정 시 husky 문서 및 [https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/] 참고

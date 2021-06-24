@@ -2,11 +2,11 @@
 
 - 해보시다가 도저히 안되겠으면 호출해주세요.. - 명진
 
-## 대략적으로 사용된 도구
+## 적용되어 있는 주요 기술
 
-- typescript(그러나 js로 개발할 수 있음 - 하단 참고)
-- nextjs(성혁 요청<SSR>)
-- tailwindcss(성혁 요청<디자인 가이드>)
+- typescript (그러나 js로 개발할 수 있음 - 하단 참고)
+- nextjs (for ssr)
+- tailwindcss (for className-based styling)
 
 ## 대략적인 개발 흐름 팁
 
