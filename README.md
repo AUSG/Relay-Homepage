@@ -15,9 +15,9 @@
 
 - `/lib/blogSpider/README.md`를 참고해주세요.
 
-### 기여자 사람들에 사람 추가하는 법
+### 리드미의 기여자 명단에 새 멤버를 추가하는 법
 
-[봇 사용법](https://allcontributors.org/docs/en/bot/usage)을 참고해주세요.
+[이 코멘트](https://github.com/AUSG/Relay-Homepage/pull/62#issuecomment-867417573)를 참고하세요. (PR 머지한 후에 댓글 달면 됩니다)
 
 ## 그 외
 
