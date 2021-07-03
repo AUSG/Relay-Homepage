@@ -178,16 +178,16 @@ const Content: React.FC = () => (
             <li> 다양한 개발자들과의 커뮤니케이션을 즐기는 사람 </li>
             <li> 꾸준히 스스로의 발전을 추구하는 사람 </li>
           </ul>
-          <br />
-          위의 조건에 해당하시는 분은 지원서를 제출하시고 저희와 함께해요!
-          <br />
-          <br />
-          <p className="font-bold text-xl">지원서 제출</p>
-          <p> 2021.06.20(일) 23:59 까지 </p>
-          <p>
-            <Button href="http://bit.ly/ausg-5th">5th AUSG 지원하기</Button>
-          </p>
-          <br />
+          {/* <br /> */}
+          {/* 위의 조건에 해당하시는 분은 지원서를 제출하시고 저희와 함께해요! */}
+          {/* <br /> */}
+          {/* <br /> */}
+          {/* <p className="font-bold text-xl">지원서 제출</p> */}
+          {/* <p> 2021.06.20(일) 23:59 까지 </p> */}
+          {/* <p> */}
+          {/*  <Button href="http://bit.ly/ausg-5th">5th AUSG 지원하기</Button> */}
+          {/* </p> */}
+          {/* <br /> */}
         </div>
       </article>
     </section>
