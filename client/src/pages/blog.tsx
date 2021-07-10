@@ -11,6 +11,7 @@ const BlogPage: NextPage = () => {
     "https://raw.githubusercontent.com/AUSG/Relay-Homepage/dev/lib/blogSpider/newestPosts.json",
     { ssr: false },
   );
+  const [isPostShuffled, setIsPostShuffled] = useState(false);
 
   // Easter egg ~ (발동 조건 : 모든 포스트 링크를 최소 한 번씩 클릭)
   const [openBlogCnt, setOpenBlogCnt] = useState(0);
@@ -26,14 +27,24 @@ const BlogPage: NextPage = () => {
   };
   // ~ Easter egg
 
-  const shuffleArray = (array) =>{
-    for (var i = array.length - 1; i > 0; i--) {
+  useEffect(() => {
+    const shuffleArray = (array) => {
+      for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+      }
+    };
+    if (!isPostShuffled && data) {
+      shuffleArray(data.posts);
+      // 정상적인 방법(setData(newData))가 아니라서 작동 방식을 서술해둡니다.
+      // 1) data.posts의 순서 변경
+      // 2) doIsPostsShuffled 호출로 rerender
+      // 3) 배열을 jsx로 변환하는 중, key 값이 다른것을 보고 posts 영역이 updated
+      setIsPostShuffled(true);
     }
-  }
+  }, [isPostShuffled, data]);
 
   let mainComponent;
   if (loading) {
@@ -57,10 +68,9 @@ const BlogPage: NextPage = () => {
     );
   } else if (data) {
     const posts = data.posts;
-    shuffleArray(posts);
-    const blogCards = posts.map((blog, blogIndex) => (
+    const blogCards = posts.map((blog) => (
       <BlogCard
-        key={blogIndex}
+        key={blog.author}
         title={blog.title}
         preface={blog.preface}
         url={blog.url}
