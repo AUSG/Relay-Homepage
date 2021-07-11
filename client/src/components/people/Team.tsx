@@ -5,6 +5,7 @@ import CrewCard from "@ausg/components/people/CrewCard";
 import * as CSV from "csv-string";
 import React, { useEffect, useState } from "react";
 
+import member5thInfo from "./Member5thInfo";
 import memberInfo from "./MemberInfo";
 
 export interface Crew {
@@ -70,6 +71,24 @@ const Team: React.FC = () => {
     };
   });
 
+  const newCrews: Crew[] = member5thInfo.map((memberInfo, idx) => {
+    return {
+      id: idx,
+      url:
+        memberInfo.hasImage === "O"
+          ? `/images/people/${memberInfo.nickname}.jpg`
+          : `/images/17.png`,
+      name: memberInfo.name,
+      role: memberInfo.role,
+      introduction: memberInfo.introduction,
+      description: memberInfo.description,
+      githubURL: memberInfo.githubURL,
+      linkedinURL: memberInfo.linkedinURL,
+      blogURL: memberInfo.blogURL,
+      otherURL: memberInfo.otherURL,
+    };
+  });
+
   return (
     <div
       onKeyDown={onKeyDownHandlerForEasterEgg}
@@ -77,6 +96,32 @@ const Team: React.FC = () => {
       className="w-full px-10"
     >
       <div className="container mx-auto">
+        <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          AUSG New Crew
+        </h5>
+        {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
+        <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
+          {newCrews.map((crew) => (
+            <CrewCard
+              key={crew.id}
+              url={crew.url}
+              name={crew.name}
+              role={crew.role}
+              introduction={crew.introduction}
+              description={crew.description}
+              githubURL={crew.githubURL}
+              linkedinURL={crew.linkedinURL}
+              blogURL={crew.blogURL}
+              otherURL={crew.otherURL}
+            />
+          ))}
+        </ul>
+      </div>
+
+      <div className="container mx-auto">
+        <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          AUSG Old Crew
+        </h5>
         {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
         <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
           {crews.map((crew) => (
