@@ -5,7 +5,7 @@ import CrewCard from "@ausg/components/people/CrewCard";
 import * as CSV from "csv-string";
 import React, { useEffect, useState } from "react";
 
-import memberInfo from "./memberInfo";
+import memberInfo from "./MemberInfo";
 
 export interface Crew {
   id: number;
@@ -39,7 +39,7 @@ const Team: React.FC = () => {
   // ~ Easter egg
 
   // csv format: 이름 - 사진 유무(O/X) - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
-  // csv order : see `./memberInfo.tsx`
+  // csv order : see `./MemberInfo.tsx`
   const crews: Crew[] = CSV.parse(memberInfo, "|").map((crew, idx) => {
     const [
       nickname,
