@@ -8,7 +8,7 @@
  * image: /public/images/people -> $NAME.jpg
  */
 
-const memberInfo = `connor614|김민태|O|4th Organizer|어.. 4기 오거나이저 입니다 반갑습니다 :)|아, 편하게 자고싶다.|k.connor614@gmail.com|https://www.linkedin.com/in/mintae-kim-b1a627187/|github.com/14km||
+const memberInfo = `connor614|김민태|O|4th Organizer|어.. 4기 오거나이저 입니다 반갑습니다 :)|햄버거는 최대 3개|k.connor614@gmail.com|https://www.linkedin.com/in/mintae-kim-b1a627187/|github.com/14km||
 suyeon96|우수연|O|4th Regulator|Cloud & DevOps Engineer. Data에 관심이 많으며 최근에는 AI/ML 공부 중입니다.|GCP 합시다|dntndus9611@gmail.com|https://www.linkedin.com/in/suyeon-woo|https://github.com/suyeon96|https://suyeon96.tistory.com/|
 akrso06197|권주희|O|4th Regulator|안녕하세요. 권주희입니다. 아직 배울 게 많은 주니어 개발자입니다. 항상 겸손한 자세로 더욱 성장하는 개발자가 되겠습니다.|Once and For All|akrso06197@naver.com|https://www.linkedin.com/in/victoriagjh/|https://github.com/victoriagjh|https://victoria-k.tistory.com/|https://www.instagram.com/vic._.toree
 kpic1638|김성익|O|4th Regulator|욕심과 기울기가 큰 사람이 되고 싶습니다. AIOps, DevOps, Backend, 무엇보다 스타트업계와 사람에 관심이 많습니다.|AI 하지마\\n그게 뭔데\\nAI 하지말라고\\n그거 어떻게 하는건데|kpic1638@gmail.com||https://github.com/SeongIkKim|https://blogik.netlify.app/|
