@@ -44,6 +44,20 @@ const member5thInfo = [
     blogURL: "https://bluayer.com",
     otherURL: "",
   },
+  {
+    nickname: "dwp",
+    name: "박다원",
+    hasImage: "O",
+    role: "5th Member",
+    introduction:
+      "데이터 엔지니어를 꿈꾸는 다이버 입니다. 배움과 사람을 좋아합니다.",
+    description: "UNDER THE SEA🎶",
+    email: "workpanda.n@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/dawonparkk",
+    blogURL: "",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
