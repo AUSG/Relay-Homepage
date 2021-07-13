@@ -50,7 +50,7 @@ const member5thInfo = [
     hasImage: "O",
     role: "5th Member",
     introduction:
-      "데이터 엔지니어를 꿈꾸는 다이버입니다. <p>배움과 사람을 좋아합니다.",
+      "데이터 엔지니어를 꿈꾸는 다이버입니다. 배움과 사람을 좋아합니다.",
     description: "UNDER THE SEA!🎶",
     email: "workpanda.n@gmail.com",
     linkedinURL: "",
