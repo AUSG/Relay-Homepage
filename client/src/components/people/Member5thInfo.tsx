@@ -12,6 +12,10 @@
  * otherURL : other url,
  *
  * ----
+ * 1. 줄바꿈을 하고싶다면 다음과 같이 넣어주세요.
+ * line break: '\\n' (3 words)
+ * ----
+ * 
  * image: /public/images/people -> $NAME.jpg
  */
 
