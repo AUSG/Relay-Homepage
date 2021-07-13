@@ -53,7 +53,8 @@ const member5thInfo = [
     name: "황성찬",
     hasImage: "O",
     role: "5th Member",
-    introduction: "예비 백엔드 개발자입니다. 함께 일하고 싶은 사람이 되고 싶습니다.",
+    introduction:
+      "예비 백엔드 개발자입니다. 함께 일하고 싶은 사람이 되고 싶습니다.",
     description: "저 오늘 한가해요 ~ 😘",
     email: "dbfpzk142@gmail.com",
     linkedinURL: "https://www.linkedin.com/in/prayme/",
