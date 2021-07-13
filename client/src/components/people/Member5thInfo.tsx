@@ -71,6 +71,19 @@ const member5thInfo = [
     blogURL: "https://velog.io/@prayme",
     otherURL: "",
   },
+  {
+    nickname: "gineepark",
+    name: "박진희",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "Do What You Can't",
+    description: "클라우드와 보안을 공부하는 중입니다:)",
+    email: "bluejinhee@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/gineepark",
+    blogURL: "https://velog.io/@ginee_park",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
