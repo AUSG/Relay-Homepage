@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -57,6 +57,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://victoriagjh.github.io/"><img src="https://avatars.githubusercontent.com/u/35221733?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JooHee Gwon</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=victoriagjh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/naru200"><img src="https://avatars.githubusercontent.com/u/52230505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jinsu Bae</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=naru200" title="Code">💻</a></td>
   </tr>
 </table>
 
