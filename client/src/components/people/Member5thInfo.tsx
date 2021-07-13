@@ -21,19 +21,6 @@
 
 const member5thInfo = [
   {
-    nickname: "NewMember",
-    name: "예시",
-    hasImage: "X",
-    role: "5th Member",
-    introduction: "저는 새로운 멤버입니다!! 잘부탁드려요!!",
-    description: "앗, 마우스에 올리셨군요",
-    email: "ausg.awskrug@gmail.com",
-    linkedinURL: "",
-    githubURL: "github.com/ausg",
-    blogURL: "",
-    otherURL: "",
-  },
-  {
     nickname: "bluayer",
     name: "송정우",
     hasImage: "O",
@@ -73,6 +60,19 @@ const member5thInfo = [
     linkedinURL: "https://www.linkedin.com/in/prayme/",
     githubURL: "https://github.com/plzprayme",
     blogURL: "https://velog.io/@prayme",
+    otherURL: "",
+  },
+  {
+    nickname: "gineepark",
+    name: "박진희",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "Do What You Can't",
+    description: "클라우드와 보안을 공부하는 중입니다:)",
+    email: "bluejinhee@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/gineepark",
+    blogURL: "https://velog.io/@ginee_park",
     otherURL: "",
   },
   {
