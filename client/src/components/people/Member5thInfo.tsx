@@ -15,7 +15,6 @@
  * 1. 줄바꿈을 하고싶다면 다음과 같이 넣어주세요.
  * line break: '\\n' (3 words)
  * ----
- * 
  * image: /public/images/people -> $NAME.jpg
  */
 
@@ -99,6 +98,19 @@ const member5thInfo = [
     linkedinURL: "",
     githubURL: "https://github.com/Ashley031",
     blogURL: "",
+    otherURL: "",
+  },
+  {
+    nickname: "say-young",
+    name: "장세영",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "지금처럼 계속해서 즐겁게 개발하고 싶습니다.",
+    description: "🔥프로 재미사냥꾼🔥",
+    email: "sayer.dev@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/seyoung-jang-9400bb206/",
+    githubURL: "https://github.com/say-young",
+    blogURL: "https://say-young.tistory.com/",
     otherURL: "",
   },
 ];
