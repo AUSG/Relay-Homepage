@@ -153,6 +153,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "bluayer",
+      "name": "Jungwoo Song",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37579681?v=4",
+      "profile": "https://bluayer.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
