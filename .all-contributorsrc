@@ -198,6 +198,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Say-young",
+      "name": "Sayer(JangSeYoung)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55133871?v=4",
+      "profile": "https://say-young.tistory.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
