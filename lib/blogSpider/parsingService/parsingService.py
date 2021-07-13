@@ -51,7 +51,7 @@ async def crawlXml(blogType, url):
         node = ET.fromstring(text)
         firstItem = list(node.iter(tag=tag))[firstItemIdx]
         title = firstItem.find("title").text
-        preface = firstItem.find("description").text
+        preface = BeautifulSoup(firstItem.find("description").text, "html.parser").text
 
         if preface is None:
             preface = ""
