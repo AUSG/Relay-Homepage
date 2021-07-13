@@ -64,6 +64,7 @@
     <td align="center"><a href="https://github.com/gineepark"><img src="https://avatars.githubusercontent.com/u/60264957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gineepark</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gineepark" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/JeoungSulMo"><img src="https://avatars.githubusercontent.com/u/50662170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sulmo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=JeoungSulMo" title="Code">💻</a></td>
     <td align="center"><a href="https://say-young.tistory.com/"><img src="https://avatars.githubusercontent.com/u/55133871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sayer(JangSeYoung)</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Say-young" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ashley031"><img src="https://avatars.githubusercontent.com/u/55730357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashley031</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ashley031" title="Code">💻</a></td>
   </tr>
 </table>
 
