@@ -11,7 +11,7 @@
 
 - `/client/public/images/people` 디렉토리에 사진을 추가합니다. format : `$nickname.jpg` (ex. roeniss2.jpg)
 - `/client/src/components/people/Member5thInfo.tsx` 파일에 자신의 정보를 추가합니다.
-- 당 예시내에 해당되는 정보가 없다면 등록하지 않으시면 됩니다. (예시파일 참조)
+- 입력할 수 있는 필드 중 해당되는 정보가 없는 부분은 입력하지 않으셔도 됩니다. (다른 사람들 정보를 참고하세요)
 
 ### [People 페이지](https://ausg.me/people)
 
