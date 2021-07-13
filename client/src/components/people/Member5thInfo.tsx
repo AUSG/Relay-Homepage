@@ -29,6 +29,21 @@ const member5thInfo = [
     blogURL: "",
     otherURL: "",
   },
+  {
+    nickname: "bluayer",
+    name: "송정우",
+    hasImage: "O",
+    role: "5th Member",
+    introduction:
+      "다양한 사람들과 대화하는 것을 좋아하는 주니어 백엔드 개발자입니다 XD ",
+    description: "앗, 저랑 재밌게 놀아봐요 :)",
+    email: "ijacsong98@gmail.com",
+    linkedinURL:
+      "https://www.linkedin.com/in/%EC%A0%95%EC%9A%B0-%EC%86%A1-65a0b387/",
+    githubURL: "https://github.com/bluayer",
+    blogURL: "https://bluayer.com",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
