@@ -12,23 +12,14 @@
  * otherURL : other url,
  *
  * ----
+ * 1. 줄바꿈을 하고싶다면 다음과 같이 넣어주세요.
+ * line break: '\\n' (3 words)
+ * ----
+ * 
  * image: /public/images/people -> $NAME.jpg
  */
 
 const member5thInfo = [
-  {
-    nickname: "NewMember",
-    name: "예시",
-    hasImage: "X",
-    role: "5th Member",
-    introduction: "저는 새로운 멤버입니다!! 잘부탁드려요!!",
-    description: "앗, 마우스에 올리셨군요",
-    email: "ausg.awskrug@gmail.com",
-    linkedinURL: "",
-    githubURL: "github.com/ausg",
-    blogURL: "",
-    otherURL: "",
-  },
   {
     nickname: "bluayer",
     name: "송정우",
@@ -82,6 +73,19 @@ const member5thInfo = [
     linkedinURL: "",
     githubURL: "https://github.com/gineepark",
     blogURL: "https://velog.io/@ginee_park",
+    otherURL: "",
+  },
+  {
+    nickname: "sulmo",
+    name: "정성모",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "웹에 관심이 있습니다. 앞으로 프론트엔드를 많이 파보려 합니다!",
+    description: "넘모 행보카고!!",
+    email: "tjdah0853@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/JeoungSulMo",
+    blogURL: "https://jeoungsulmo.github.io/",
     otherURL: "",
   },
 ];
