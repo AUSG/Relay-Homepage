@@ -88,6 +88,19 @@ const member5thInfo = [
     blogURL: "https://jeoungsulmo.github.io/",
     otherURL: "",
   },
+  {
+    nickname: "lyuashley",
+    name: "이유진",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "백엔드 개발자를 희망하고 있어요! 다같이 즐겁게 활동해보아요😊",
+    description: "🐣🐣🐣",
+    email: "lyubliss@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/Ashley031",
+    blogURL: "",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
