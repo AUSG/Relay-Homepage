@@ -114,6 +114,19 @@ const member5thInfo = [
     blogURL: "https://say-young.tistory.com/",
     otherURL: "",
   },
+  {
+    nickname: "devwithpug",
+    name: "최준규",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "백엔드 개발자를 꿈꾸고 있어요. Spring, MSA, DevOps에 관심이 많습니다.",
+    description: "강아지 퍼그 귀엽지 않나요? 🐶",
+    email: "zmfjscl789@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/devwithpug",
+    blogURL: "https://devwithpug.github.io",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
