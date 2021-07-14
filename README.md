@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -61,12 +61,13 @@
     <td align="center"><a href="https://bluayer.com"><img src="https://avatars.githubusercontent.com/u/37579681?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jungwoo Song</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=bluayer" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dawonparkk"><img src="https://avatars.githubusercontent.com/u/60343930?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dawon Park</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=dawonparkk" title="Code">💻</a></td>
     <td align="center"><a href="https://velog.io/@prayme"><img src="https://avatars.githubusercontent.com/u/34934883?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seong Chan Hwang</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=plzprayme" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/gineepark"><img src="https://avatars.githubusercontent.com/u/60264957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gineepark</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gineepark" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/JeoungSulMo"><img src="https://avatars.githubusercontent.com/u/50662170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sulmo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=JeoungSulMo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gineepark"><img src="https://avatars.githubusercontent.com/u/60264957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gineepark</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gineepark" title="Code">💻</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://say-young.tistory.com/"><img src="https://avatars.githubusercontent.com/u/55133871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sayer(JangSeYoung)</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Say-young" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Ashley031"><img src="https://avatars.githubusercontent.com/u/55730357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashley031</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ashley031" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/devwithpug"><img src="https://avatars.githubusercontent.com/u/69145799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jungyu Choi</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=devwithpug" title="Code">💻</a></td>
   </tr>
 </table>
 
