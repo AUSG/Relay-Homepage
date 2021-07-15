@@ -127,6 +127,19 @@ const member5thInfo = [
     blogURL: "https://devwithpug.github.io",
     otherURL: "",
   },
+  {
+    nickname: "ohyes",
+    name: "오예림",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "아직은 배울게 많은 저의 목표는 '재밌고 즐겁게 개발하자'입니다. 모두 함께하시죠~",
+    description: "오예스~✨",
+    email: "npr05080@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/Ohyaelim",
+    blogURL: "",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
