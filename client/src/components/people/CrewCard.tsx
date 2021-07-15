@@ -40,6 +40,7 @@ const Introduction = styled.p`
   font-style: italic;
   display: -webkit-box;
   overflow: hidden;
+  white-space: pre-wrap;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;

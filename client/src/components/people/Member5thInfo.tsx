@@ -24,8 +24,7 @@ const member5thInfo = [
     name: "송정우",
     hasImage: "O",
     role: "5th Member",
-    introduction:
-      "다양한 사람들과 대화하는 것을 좋아하는 주니어 백엔드 개발자입니다 XD ",
+    introduction: `다양한 사람들과 대화하는 것을 좋아하는 주니어 백엔드 개발자입니다 XD`,
     description: "앗, 저랑 재밌게 놀아봐요 :)",
     email: "ijacsong98@gmail.com",
     linkedinURL:
@@ -39,8 +38,8 @@ const member5thInfo = [
     name: "박다원",
     hasImage: "O",
     role: "5th Member",
-    introduction:
-      "데이터 엔지니어를 꿈꾸는 다이버입니다. 배움과 사람을 좋아합니다.",
+    introduction: `데이터 엔지니어를 꿈꾸는 다이버입니다. 
+    배움과 사람을 좋아합니다.`,
     description: "UNDER THE SEA!🎶",
     email: "workpanda.n@gmail.com",
     linkedinURL: "",
@@ -53,8 +52,8 @@ const member5thInfo = [
     name: "황성찬",
     hasImage: "O",
     role: "5th Member",
-    introduction:
-      "예비 백엔드 개발자입니다. 함께 일하고 싶은 사람이 되고 싶습니다.",
+    introduction: `예비 백엔드 개발자입니다. 
+      함께 일하고 싶은 사람이 되고 싶습니다.`,
     description: "저 오늘 한가해요 ~ 😘",
     email: "dbfpzk142@gmail.com",
     linkedinURL: "https://www.linkedin.com/in/prayme/",
@@ -80,8 +79,7 @@ const member5thInfo = [
     name: "정성모",
     hasImage: "O",
     role: "5th Member",
-    introduction:
-      "웹에 관심이 있습니다. 앞으로 프론트엔드를 많이 파보려 합니다!",
+    introduction: `웹에 관심이 있습니다.앞으로 프론트엔드를 많이 파보려 합니다!`,
     description: "넘모 행보카고!!",
     email: "tjdah0853@gmail.com",
     linkedinURL: "",
@@ -94,7 +92,8 @@ const member5thInfo = [
     name: "이유진",
     hasImage: "O",
     role: "5th Member",
-    introduction: "백엔드 개발자를 희망하고 있어요! 다같이 즐겁게 활동해보아요😊",
+    introduction: `백엔드 개발자를 희망하고 있어요!
+    다같이 즐겁게 활동해보아요😊`,
     description: "🐣🐣🐣",
     email: "lyubliss@gmail.com",
     linkedinURL: "",
@@ -107,7 +106,7 @@ const member5thInfo = [
     name: "장세영",
     hasImage: "O",
     role: "5th Member",
-    introduction: "지금처럼 계속해서 즐겁게 개발하고 싶습니다.",
+    introduction: `지금처럼 계속해서 즐겁게 개발하고 싶습니다.`,
     description: "🔥프로 재미사냥꾼🔥",
     email: "sayer.dev@gmail.com",
     linkedinURL: "https://www.linkedin.com/in/seyoung-jang-9400bb206/",
@@ -120,8 +119,8 @@ const member5thInfo = [
     name: "최준규",
     hasImage: "O",
     role: "5th Member",
-    introduction:
-      "백엔드 개발자를 꿈꾸고 있어요. Spring, MSA, DevOps에 관심이 많습니다.",
+    introduction: `백엔드 개발자를 꿈꾸고 있어요.
+    Spring, MSA, DevOps에 관심이 많습니다.`,
     description: "강아지 퍼그 귀엽지 않나요? 🐶",
     email: "zmfjscl789@gmail.com",
     linkedinURL: "",
@@ -134,8 +133,8 @@ const member5thInfo = [
     name: "배지안",
     hasImage: "O",
     role: "5th Member",
-    introduction: "서비스 기획으로 문제를 해결하는 사람이 되고 싶습니다.",
-    description: "파도가 와요. 서핑을 해야겠네요.",
+    introduction: `서비스 기획으로 문제를 해결하는 사람이 되고 싶습니다.`,
+    description: "파도가 와요.\\n서핑을 해야겠네요.",
     email: "baejiann120@naver.com",
     linkedinURL: "https://www.linkedin.com/in/jian-bae-117756201/",
     githubURL: "https://https://github.com/BAEJIANN",
