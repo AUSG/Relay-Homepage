@@ -139,7 +139,7 @@ const member5thInfo = [
     email: "baejiann120@naver.com",
     linkedinURL: "https://www.linkedin.com/in/jian-bae-117756201/",
     githubURL: "https://https://github.com/BAEJIANN",
-    blogURL: "https://",
+    blogURL: "",
     otherURL: "",
   },
   {
