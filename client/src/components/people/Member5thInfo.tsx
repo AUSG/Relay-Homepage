@@ -165,6 +165,19 @@ const member5thInfo = [
     blogURL: "",
     otherURL: "",
   },
+  {
+    nickname: "sangwoo",
+    name: "나상우",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: "백엔드, 프론트, 인프라 모두 다 좋아해요~!",
+    description: "칼퇴하는 개발자가 되자.",
+    email: "robbyra@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/sangwoo-ra-845529202/",
+    githubURL: "https://github.com/sang-w0o",
+    blogURL: "https://github.com/sang-w0o/Study",
+    otherURL: ""
+  }
 ];
 
 export default member5thInfo;
