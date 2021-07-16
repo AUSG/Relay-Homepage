@@ -193,6 +193,19 @@ const member5thInfo = [
     blogURL: "",
     otherURL: "",
   },
+  {
+    nickname: "jinseok",
+    name: "오진석",
+    hasImage: "O",
+    role: "5th Member",
+    introduction: ``,
+    description: "",
+    email: "jinseock95@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/진석-오-6894841a7/",
+    githubURL: "https://github.com/jiseock95",
+    blogURL: "https://velog.io/@jinseock95",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
