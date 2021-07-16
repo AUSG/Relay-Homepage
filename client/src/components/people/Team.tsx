@@ -76,7 +76,7 @@ const Team: React.FC = () => {
       id: idx,
       url:
         memberInfo.hasImage === "O"
-          ? `/images/people/${memberInfo.nickname}.jpg`
+          ? `/images/people/${memberInfo.nickname}.${memberInfo.imageType}`
           : `/images/17.png`,
       name: memberInfo.name,
       role: memberInfo.role,
