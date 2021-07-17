@@ -58,10 +58,9 @@ module.exports = {
     "@typescript-eslint/ban-ts-ignore": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/explicit-member-accessibility": 0,
-    "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/indent": 0,
     "@typescript-eslint/member-delimiter-style": 0,
-    "@typescript-eslint/no-empty-interface": 0,
+    "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/no-object-literal-type-assertion": 0,
     "@typescript-eslint/no-var-requires": 0,
@@ -69,7 +68,6 @@ module.exports = {
     "comma-dangle": 0,
     "multiline-ternary": 0,
     "no-undef": 0,
-    "no-unused-vars": 0,
     "no-use-before-define": "off",
     quotes: 0,
     "react/no-unescaped-entities": 0,
@@ -99,12 +97,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-call": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-empty-interface": [
-      "warn",
-      {
-        allowSingleExtends: true,
-      },
-    ],
+    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/ban-types": [
       "warn",
       {
@@ -122,7 +115,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-empty-function": "warn",
     "@typescript-eslint/no-unsafe-return": "warn",
-    "@typescript-eslint/explicit-module-boundary-types": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "prettier/prettier": [
       "error",
       {

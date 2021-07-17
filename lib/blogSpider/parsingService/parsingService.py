@@ -51,7 +51,7 @@ async def crawlXml(blogType, url):
         node = ET.fromstring(text)
         firstItem = list(node.iter(tag=tag))[firstItemIdx]
         title = firstItem.find("title").text
-        preface = firstItem.find("description").text
+        preface = BeautifulSoup(firstItem.find("description").text, "html.parser").text
 
         if preface is None:
             preface = ""
@@ -95,20 +95,20 @@ async def crawlHtml(blogType, url):
         return title, preface
 
     except Exception as e:
-        print(f"[crawlHtml] error occured: {e} (at {url})")
+        print(f"[crawlHtml] error occured (maybe no post at all?): {e} (at {url})")
         return None, None
 
 
 async def createPost(blog):
     if "XML" in blog.blogType.name:
-        title, preface = await crawlXml(blog.blogType, blog.url)
+        title, preface = await crawlXml(blog.blogType, blog.parsingUrl)
     else:
-        title, preface = await crawlHtml(blog.blogType, blog.url)
+        title, preface = await crawlHtml(blog.blogType, blog.parsingUrl)
 
     if title is None or preface is None:
         return None
 
-    return Post(title, preface, blog.url, blog.author)
+    return Post(title, preface, blog.homepageUrl, blog.author)
 
 
 async def parse(blogs):

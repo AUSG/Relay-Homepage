@@ -2,15 +2,15 @@
 
 - 해보시다가 도저히 안되겠으면 호출해주세요.. - 명진
 
-## 대략적으로 사용된 도구
+## 적용되어 있는 주요 기술
 
-- typescript(그러나 js로 개발할 수 있음 - 하단 참고)
-- nextjs(성혁 요청<SSR>)
-- tailwindcss(성혁 요청<디자인 가이드>)
+- typescript (그러나 js로 개발할 수 있음 - 하단 참고)
+- nextjs (for ssr)
+- tailwindcss (for className-based styling)
 
 ## 대략적인 개발 흐름 팁
 
-- src/components에서 기능에 해당하는  컴포넌트를 제작
+- src/components에서 기능에 해당하는 컴포넌트를 제작
 - 제작된 컴포넌트를 src/pages에서 import 후 붙이기
 
 위 두 내용은 src/components/Example.tsx 파일과 src/pages/example.tsx 파일을 참고하시면 됩니다!
@@ -53,8 +53,8 @@ yarn dev
 // @ts-ignore
 
 const App = () => {
-    return <div>App</div>
-}
+  return <div>App</div>;
+};
 ```
 
 #### Styling
@@ -77,7 +77,7 @@ yarn build
 yarn start
 ```
 
-####  build 팁
+#### build 팁
 
 lint 명령(yarn lint) 후 빌드하면 좋음
 

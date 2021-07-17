@@ -22,7 +22,7 @@ if [ -z "$husky_skip_init" ]; then
   exitCode="$?"
 
   if [ $exitCode != 0 ]; then
-    echo "커밋에 실패했습니다. 스테이지: $hook_name, 에러코드: $exitCode"
+    echo "husky - $hook_name hook exited with code $exitCode (error)"
     exit $exitCode
   fi
 

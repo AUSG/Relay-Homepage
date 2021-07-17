@@ -16,13 +16,14 @@ class BlogType(Enum):
 
 
 class Blog:
-    def __init__(self, url, author, blogType):
-        self.url = url
+    def __init__(self, parsingUrl, author, blogType, homepageUrl):
+        self.parsingUrl = parsingUrl
         self.author = author
         self.blogType = BlogType[blogType]
+        self.homepageUrl = homepageUrl
 
     def __str__(self):
-        return f"[Blog]\n  url: {self.url},\n  author: {self.author},\n  blogType: {self.blogType}"
+        return f"[Blog]\n  url: {self.url},\n  author: {self.author},\n  blogType: {self.blogType},\n homepageUrl: {self.homepageUrl}"
 
 
 class Post:
