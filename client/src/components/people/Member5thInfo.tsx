@@ -169,6 +169,7 @@ const member5thInfo = [
     nickname: "sangwoo",
     name: "나상우",
     hasImage: "O",
+    imageType: "jpg",
     role: "5th Member",
     introduction: "백엔드, 프론트, 인프라 모두 다 좋아해요~!",
     description: "칼퇴하는 개발자가 되자.",
