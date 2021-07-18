@@ -165,6 +165,20 @@ const member5thInfo = [
     blogURL: "",
     otherURL: "",
   },
+  {
+    nickname: "Gyunny",
+    name: "최정균",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: `늦더라도 꾸준히 원칙을 지키며 올바른 방향으로 가고자 합니다~`,
+    description: "겉차속따,,",
+    email: "wjdrbs966@naver.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/wjdrbs96",
+    blogURL: "https://devlog-wjdrbs96.tistory.com/",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
