@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -72,6 +72,9 @@
     <td align="center"><a href="https://github.com/BAEJIANN"><img src="https://avatars.githubusercontent.com/u/87267738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BAEJIANN</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=BAEJIANN" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sang-w0o"><img src="https://avatars.githubusercontent.com/u/48438083?v=4?s=100" width="100px;" alt=""/><br /><sub><b>나상우</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sang-w0o" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Ywoosang"><img src="https://avatars.githubusercontent.com/u/68385605?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ywoosang</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ywoosang" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://velog.io/@jinseock95"><img src="https://avatars.githubusercontent.com/u/48677363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JinSeok Oh</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=jinseock95" title="Code">💻</a></td>
   </tr>
 </table>
 
