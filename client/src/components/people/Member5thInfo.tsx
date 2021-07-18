@@ -197,6 +197,7 @@ const member5thInfo = [
     nickname: "jinseok",
     name: "오진석",
     hasImage: "O",
+    imageType: "jpg",
     role: "5th Member",
     introduction: `데이터가 움직이는 것을 다루고 바라보는 일을 굉장히 좋아합니다👻`,
     description: "안녕하세요🙂",
