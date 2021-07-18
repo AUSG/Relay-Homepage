@@ -177,17 +177,18 @@ const member5thInfo = [
     linkedinURL: "https://www.linkedin.com/in/sangwoo-ra-845529202/",
     githubURL: "https://github.com/sang-w0o",
     blogURL: "https://github.com/sang-w0o/Study",
-    otherURL: ""
-  }
+    otherURL: "",
+  },
   {
     nickname: "ywoosang",
     name: "윤우상",
     hasImage: "O",
+    imageType: "jpg",
     role: "5th Member",
     introduction: `'시너지'와 '인사이트'를 제공할 수 있는 개발자가 되고 싶습니다.`,
     description: "당신처럼 아름다운 하루에요 🌈",
     email: "opellong13@gmail.com",
-    linkedinURL:"",
+    linkedinURL: "",
     githubURL: "https://github.com/Ywoosang",
     blogURL: "",
     otherURL: "",
