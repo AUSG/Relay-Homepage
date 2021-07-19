@@ -26,8 +26,7 @@ const member5thInfo = [
     hasImage:"O",
     imageType:"jpg",
     role:"5th Member",
-    introduction:`문제를 고민하고, 해결할 줄 아는
-    백엔드 개발자를 희망하고 있습니다.`,
+    introduction:`문제를 고민하고, 해결할 줄 아는 백엔드 개발자를 희망하고 있습니다.`,
     description:"🚀 도전과 재미를 찾아서!",
     email:"gjwjdlas@gmail.com",
     linkedinURL:"",
