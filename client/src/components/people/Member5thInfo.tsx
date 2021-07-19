@@ -213,7 +213,7 @@ const member5thInfo = [
     hasImage: "O",
     imageType: "jpg",
     role: "5th Member",
-    introduction: `End to End 데싸가 되는 날까지 🌻🌻🌻`,
+    introduction: `End to End 프로젝트 리더가 되는 날까지 🌻🌻🌻`,
     description: "백패킹 캠퍼 갬성",
     email: "njj97@naver.com",
     linkedinURL:
