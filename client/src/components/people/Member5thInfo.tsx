@@ -250,6 +250,20 @@ const member5thInfo = [
     blogURL: "https://devlog-wjdrbs96.tistory.com/",
     otherURL: "",
   },
+  {
+    nickname: "injeong",
+    name: "최인정",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: `🍎를 좋아하는 iOS 개발자 최인정입니다`,
+    description: "ㅇㅈ? 최인정 😉",
+    email: "idinjeong@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/inddoni",
+    blogURL: "",
+    otherURL: "",
+  },
 ];
 
 export default member5thInfo;
