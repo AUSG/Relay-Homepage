@@ -207,6 +207,21 @@ const member5thInfo = [
     blogURL: "https://velog.io/@jinseock95",
     otherURL: "",
   },
+  {
+    nickname: "namrmino",
+    name: "남정재",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: `End to End 데싸가 되는 날까지 🌻🌻🌻`,
+    description: "백패킹 캠퍼 갬성",
+    email: "njj97@naver.com",
+    linkedinURL:
+      "https://www.linkedin.com/in/jeongjaenam/",
+    githubURL: "https://github.com/namrmino",
+    blogURL: "https://namrmino.tistory.com/",
+    otherURL: "",
+  }
 ];
 
 export default member5thInfo;
