@@ -243,6 +243,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sang-w0o",
+      "name": "나상우",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48438083?v=4",
+      "profile": "https://github.com/sang-w0o",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Ywoosang",
+      "name": "Ywoosang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68385605?v=4",
+      "profile": "https://github.com/Ywoosang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jinseock95",
+      "name": "JinSeok Oh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48677363?v=4",
+      "profile": "https://velog.io/@jinseock95",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
