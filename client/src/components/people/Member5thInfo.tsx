@@ -21,6 +21,22 @@
 
 const member5thInfo = [
   {
+    nickname:"tape22",
+    name:"허정민",
+    hasImage:"O",
+    imageType:"jpg",
+    role:"5th Member",
+    introduction:`문제를 고민하고, 해결할 줄 아는
+    백엔드 개발자를 희망하고 있습니다.`,
+    description:"🚀 도전과 재미를 찾아서!",
+    email:"gjwjdlas@gmail.com",
+    linkedinURL:"",
+    githubURL:"https://github.com/tape22",
+    blogURL:"https://tape22.tistory.com/",
+    otherURL:"",
+
+  },
+  {
     nickname: "bluayer",
     name: "송정우",
     hasImage: "O",
