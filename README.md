@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -85,6 +85,7 @@
   <tr>
     <td align="center"><a href="http://sarahohye.me/"><img src="https://avatars.githubusercontent.com/u/153984?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarah O.</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=ohyes" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gimquokka"><img src="https://avatars.githubusercontent.com/u/60743304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jin Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gimquokka" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sangwoo"><img src="https://avatars.githubusercontent.com/u/558163?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sang-Woo Pai</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sangwoo" title="Code">💻</a></td>
   </tr>
 </table>
 
