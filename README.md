@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -89,6 +89,7 @@
     <td align="center"><a href="https://github.com/JinSeok"><img src="https://avatars.githubusercontent.com/u/990201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jinseok</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=JinSeok" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/namrmino"><img src="https://avatars.githubusercontent.com/u/69797157?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nam Jeong Jae</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=namrmino" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/injeong"><img src="https://avatars.githubusercontent.com/u/10123834?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LeeInJeong</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=injeong" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nanaeu"><img src="https://avatars.githubusercontent.com/u/55730357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu Jin Lee</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=nanaeu" title="Code">💻</a></td>
   </tr>
 </table>
 
