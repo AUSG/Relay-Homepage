@@ -306,6 +306,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sulmo",
+      "name": "sulmo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47352619?v=4",
+      "profile": "https://github.com/sulmo",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
