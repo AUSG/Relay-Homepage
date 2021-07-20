@@ -1,11 +1,12 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
-
 
 ### [People 페이지](https://ausg.me/people) - NEW Crew 전용
 
@@ -24,7 +25,23 @@
 
 ### 리드미의 기여자 명단에 새 멤버를 추가하는 법
 
+#### 방법 1
+
 [이 코멘트](https://github.com/AUSG/Relay-Homepage/pull/62#issuecomment-867417573)를 참고하세요. (PR 머지한 후에 댓글 달면 됩니다)
+
+#### 방법 2
+
+위 방법은 조금 번거롭습니다. (새 컨트리뷰터가 PR 등록 -> Merge -> 그 PR에 all-contributors 봇 호출하기 위해 댓글 달기 -> 새로운 PR 생성뙴 -> 새 PR을 Merge)
+
+이 때문에 로컬에서 직접 컨트리뷰터를 추가할 수 있는 가이드를 준비했습니다.
+
+```sh
+# 소스파일 루트 디렉토리에서:
+yarn dev
+yarn all-contributors add $GITHUB_NAME code
+```
+
+이렇게 치면 .all-contributorsrc 파일에 새 이름을 넣고, 리드미를 업데이트하고, 커밋까지 마칩니다. 이 내용을 별도 브랜치에 올려서 PR 등록하면 됩니다.
 
 ## 그 외
 
