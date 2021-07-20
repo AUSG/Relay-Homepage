@@ -265,7 +265,8 @@ const member5thInfo = [
     githubURL: "https://github.com/sju0924",
     blogURL: "",
     otherURL: "https://www.instagram.com/zzioni._.bears/",
-  }
+  },
+  {
     nickname: "Gyunny",
     name: "최정균",
     hasImage: "O",
