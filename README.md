@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -108,6 +108,7 @@ yarn all-contributors add $GITHUB_NAME code
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/sju0924"><img src="https://avatars.githubusercontent.com/u/39671049?v=4?s=100" width="100px;" alt=""/><br /><sub><b>serendipity</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sju0924" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/freedom07"><img src="https://avatars.githubusercontent.com/u/29652381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yun Jegal</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=freedom07" title="Code">💻</a></td>
   </tr>
 </table>
 
