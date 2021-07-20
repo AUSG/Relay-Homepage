@@ -252,6 +252,21 @@ const member5thInfo = [
     otherURL: "",
   },
   {
+    nickname: "zion",
+    name: "손지언",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: `재밌는 것들을 쫓아 가는 사람`,
+    description: "노력하겠습니다..",
+    email: "sju0924@khu.ac.kr",
+    linkedinURL:
+      "",
+    githubURL: "https://github.com/sju0924",
+    blogURL: "",
+    otherURL: "https://www.instagram.com/zzioni._.bears/",
+  },
+  {
     nickname: "Gyunny",
     name: "최정균",
     hasImage: "O",
