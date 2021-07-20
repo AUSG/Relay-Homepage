@@ -270,6 +270,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "dwp",
+      "name": "Department for Work and Pensions",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1823232?v=4",
+      "profile": "https://gov.uk/dwp",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
