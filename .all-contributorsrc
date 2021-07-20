@@ -315,6 +315,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "young",
+      "name": "Jem Young",
+      "avatar_url": "https://avatars.githubusercontent.com/u/984983?v=4",
+      "profile": "https://www.jemyoung.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
