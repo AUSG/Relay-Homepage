@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -78,6 +78,7 @@
     <td align="center"><a href="https://gov.uk/dwp"><img src="https://avatars.githubusercontent.com/u/1823232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Department for Work and Pensions</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=dwp" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gyunny"><img src="https://avatars.githubusercontent.com/u/15168099?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gyunny</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gyunny" title="Code">💻</a></td>
     <td align="center"><a href="https://tape22.tistory.com/"><img src="https://avatars.githubusercontent.com/u/35520314?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HurJungMin</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=tape22" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Prayme"><img src="https://avatars.githubusercontent.com/u/20826116?v=4?s=100" width="100px;" alt=""/><br /><sub><b>prayme</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Prayme" title="Code">💻</a></td>
   </tr>
 </table>
 
