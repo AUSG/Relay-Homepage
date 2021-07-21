@@ -267,7 +267,7 @@ const member5thInfo = [
     otherURL: "https://www.instagram.com/zzioni._.bears/",
   },
   {
-    nickname: "Gyunny",
+    nickname: "gyunny",
     name: "최정균",
     hasImage: "O",
     imageType: "jpg",
@@ -306,6 +306,18 @@ const member5thInfo = [
     linkedinURL: "https://www.linkedin.com/in/yunjegal/",
     githubURL: "https://github.com/freedom07",
     blogURL: "https://loggg.tistory.com/",
+  },
+  {
+    nickname: "seongbin9786",
+    name: "김성빈",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: "팀에게, 소비자에게 좋은 사람이 되고 싶습니다.",
+    description: "공부합시다",
+    email: "seongbin9786@gmail.com",
+    githubURL: "https://github.com/seongbin9786",
+    blogURL: "https://jsqna.com/",
   }
 ];
 
