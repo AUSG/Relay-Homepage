@@ -1,11 +1,10 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
-
 
 ### [People 페이지](https://ausg.me/people) - NEW Crew 전용
 
@@ -24,7 +23,23 @@
 
 ### 리드미의 기여자 명단에 새 멤버를 추가하는 법
 
+#### 방법 1
+
 [이 코멘트](https://github.com/AUSG/Relay-Homepage/pull/62#issuecomment-867417573)를 참고하세요. (PR 머지한 후에 댓글 달면 됩니다)
+
+#### 방법 2
+
+위 방법은 조금 번거롭습니다. (새 컨트리뷰터가 PR 등록 -> Merge -> 그 PR에 all-contributors 봇 호출하기 위해 댓글 달기 -> 새로운 PR 생성뙴 -> 새 PR을 Merge)
+
+이 때문에 로컬에서 직접 컨트리뷰터를 추가할 수 있는 가이드를 준비했습니다.
+
+```sh
+# 소스파일 루트 디렉토리에서:
+yarn dev
+yarn all-contributors add $GITHUB_NAME code
+```
+
+이렇게 치면 .all-contributorsrc 파일에 새 이름을 넣고, 리드미를 업데이트하고, 커밋까지 마칩니다. 이 내용을 별도 브랜치에 올려서 PR 등록하면 됩니다.
 
 ## 그 외
 
@@ -75,6 +90,25 @@
   </tr>
   <tr>
     <td align="center"><a href="https://velog.io/@jinseock95"><img src="https://avatars.githubusercontent.com/u/48677363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JinSeok Oh</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=jinseock95" title="Code">💻</a></td>
+    <td align="center"><a href="https://gov.uk/dwp"><img src="https://avatars.githubusercontent.com/u/1823232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Department for Work and Pensions</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=dwp" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gyunny"><img src="https://avatars.githubusercontent.com/u/15168099?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gyunny</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gyunny" title="Code">💻</a></td>
+    <td align="center"><a href="https://tape22.tistory.com/"><img src="https://avatars.githubusercontent.com/u/35520314?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HurJungMin</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=tape22" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Prayme"><img src="https://avatars.githubusercontent.com/u/20826116?v=4?s=100" width="100px;" alt=""/><br /><sub><b>prayme</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Prayme" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sulmo"><img src="https://avatars.githubusercontent.com/u/47352619?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sulmo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sulmo" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.jemyoung.com/"><img src="https://avatars.githubusercontent.com/u/984983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jem Young</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=young" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://sarahohye.me/"><img src="https://avatars.githubusercontent.com/u/153984?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarah O.</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=ohyes" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gimquokka"><img src="https://avatars.githubusercontent.com/u/60743304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jin Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gimquokka" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sangwoo"><img src="https://avatars.githubusercontent.com/u/558163?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sang-Woo Pai</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sangwoo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/JinSeok"><img src="https://avatars.githubusercontent.com/u/990201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jinseok</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=JinSeok" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/namrmino"><img src="https://avatars.githubusercontent.com/u/69797157?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nam Jeong Jae</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=namrmino" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/injeong"><img src="https://avatars.githubusercontent.com/u/10123834?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LeeInJeong</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=injeong" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nanaeu"><img src="https://avatars.githubusercontent.com/u/55730357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu Jin Lee</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=nanaeu" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/sju0924"><img src="https://avatars.githubusercontent.com/u/39671049?v=4?s=100" width="100px;" alt=""/><br /><sub><b>serendipity</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sju0924" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/freedom07"><img src="https://avatars.githubusercontent.com/u/29652381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yun Jegal</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=freedom07" title="Code">💻</a></td>
   </tr>
 </table>
 
