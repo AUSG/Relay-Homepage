@@ -294,6 +294,19 @@ const member5thInfo = [
     blogURL: "",
     otherURL: "",
   },
+  {
+    nickname: "tony",
+    name: "제갈윤",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: "배우고 적용하는 것을 좋아합니다",
+    description: "블로그 시작했습니다 😀😀",
+    email: "ddr04014@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/yunjegal/",
+    githubURL: "https://github.com/freedom07",
+    blogURL: "https://loggg.tistory.com/",
+  }
 ];
 
 export default member5thInfo;
