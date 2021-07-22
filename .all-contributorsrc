@@ -218,15 +218,6 @@
       ]
     },
     {
-      "login": "young",
-      "name": "Jem Young",
-      "avatar_url": "https://avatars.githubusercontent.com/u/984983?v=4",
-      "profile": "https://www.jemyoung.com/",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "devwithpug",
       "name": "Jungyu Choi",
       "avatar_url": "https://avatars.githubusercontent.com/u/69145799?v=4",
@@ -258,15 +249,6 @@
       "name": "Jin Kim",
       "avatar_url": "https://avatars.githubusercontent.com/u/60743304?v=4",
       "profile": "https://github.com/gimquokka",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "w0o",
-      "name": "w0o",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42366465?v=4",
-      "profile": "https://github.com/w0o",
       "contributions": [
         "code"
       ]
@@ -330,6 +312,15 @@
       "name": "Yun Jegal",
       "avatar_url": "https://avatars.githubusercontent.com/u/29652381?v=4",
       "profile": "https://github.com/freedom07",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Say-young",
+      "name": "Sayer(JangSeYoung)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55133871?v=4",
+      "profile": "https://say-young.tistory.com/",
       "contributions": [
         "code"
       ]

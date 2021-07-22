@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-35-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -82,23 +82,20 @@ yarn all-contributors add $GITHUB_NAME code
   <tr>
     <td align="center"><a href="https://github.com/JeoungSulMo"><img src="https://avatars.githubusercontent.com/u/50662170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sulmo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=JeoungSulMo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/nanaeu"><img src="https://avatars.githubusercontent.com/u/55730357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu Jin Lee</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=nanaeu" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.jemyoung.com/"><img src="https://avatars.githubusercontent.com/u/984983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jem Young</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=young" title="Code">💻</a></td>
     <td align="center"><a href="https://devwithpug.github.io/"><img src="https://avatars.githubusercontent.com/u/69145799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jungyu Choi</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=devwithpug" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/BAEJIANN"><img src="https://avatars.githubusercontent.com/u/87267738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BAEJIANN</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=BAEJIANN" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Ohyaelim"><img src="https://avatars.githubusercontent.com/u/53201847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yaelim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ohyaelim" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gimquokka"><img src="https://avatars.githubusercontent.com/u/60743304?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jin Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=gimquokka" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ywoosang"><img src="https://avatars.githubusercontent.com/u/68385605?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ywoosang</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ywoosang" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/w0o"><img src="https://avatars.githubusercontent.com/u/42366465?v=4?s=100" width="100px;" alt=""/><br /><sub><b>w0o</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=w0o" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Ywoosang"><img src="https://avatars.githubusercontent.com/u/68385605?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ywoosang</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ywoosang" title="Code">💻</a></td>
     <td align="center"><a href="https://velog.io/@jinseock95"><img src="https://avatars.githubusercontent.com/u/48677363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JinSeok Oh</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=jinseock95" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/namrmino"><img src="https://avatars.githubusercontent.com/u/69797157?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nam Jeong Jae</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=namrmino" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sju0924"><img src="https://avatars.githubusercontent.com/u/39671049?v=4?s=100" width="100px;" alt=""/><br /><sub><b>serendipity</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=sju0924" title="Code">💻</a></td>
     <td align="center"><a href="https://devlog-wjdrbs96.tistory.com/"><img src="https://avatars.githubusercontent.com/u/45676906?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gyunny</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=wjdrbs96" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/inddoni"><img src="https://avatars.githubusercontent.com/u/46644241?v=4?s=100" width="100px;" alt=""/><br /><sub><b>InJeong Choi</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=inddoni" title="Code">💻</a></td>
-  </tr>
-  <tr>
     <td align="center"><a href="https://github.com/freedom07"><img src="https://avatars.githubusercontent.com/u/29652381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yun Jegal</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=freedom07" title="Code">💻</a></td>
+    <td align="center"><a href="https://say-young.tistory.com/"><img src="https://avatars.githubusercontent.com/u/55133871?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sayer(JangSeYoung)</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Say-young" title="Code">💻</a></td>
   </tr>
 </table>
 
