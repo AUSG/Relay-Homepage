@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -85,6 +85,7 @@ yarn all-contributors add $GITHUB_NAME code
     <td align="center"><a href="https://www.jemyoung.com/"><img src="https://avatars.githubusercontent.com/u/984983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jem Young</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=young" title="Code">💻</a></td>
     <td align="center"><a href="https://devwithpug.github.io/"><img src="https://avatars.githubusercontent.com/u/69145799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jungyu Choi</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=devwithpug" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/BAEJIANN"><img src="https://avatars.githubusercontent.com/u/87267738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BAEJIANN</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=BAEJIANN" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ohyaelim"><img src="https://avatars.githubusercontent.com/u/53201847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yaelim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=Ohyaelim" title="Code">💻</a></td>
   </tr>
 </table>
 
