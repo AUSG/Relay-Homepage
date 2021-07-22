@@ -155,10 +155,19 @@
       ]
     },
     {
+      "login": "tape22",
+      "name": "HurJungMin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35520314?v=4",
+      "profile": "https://tape22.tistory.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "bluayer",
       "name": "Jungwoo Song",
       "avatar_url": "https://avatars.githubusercontent.com/u/37579681?v=4",
-      "profile": "https://bluayer.com",
+      "profile": "https://bluayer.com/",
       "contributions": [
         "code"
       ]
@@ -182,15 +191,6 @@
       ]
     },
     {
-      "login": "JeoungSulMo",
-      "name": "sulmo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50662170?v=4",
-      "profile": "https://github.com/JeoungSulMo",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "gineepark",
       "name": "gineepark",
       "avatar_url": "https://avatars.githubusercontent.com/u/60264957?v=4",
@@ -200,19 +200,19 @@
       ]
     },
     {
-      "login": "Say-young",
-      "name": "Sayer(JangSeYoung)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55133871?v=4",
-      "profile": "https://say-young.tistory.com/",
+      "login": "JeoungSulMo",
+      "name": "sulmo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50662170?v=4",
+      "profile": "https://github.com/JeoungSulMo",
       "contributions": [
         "code"
       ]
     },
     {
-      "login": "Ashley031",
-      "name": "Ashley031",
+      "login": "nanaeu",
+      "name": "Yu Jin Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/55730357?v=4",
-      "profile": "https://github.com/Ashley031",
+      "profile": "https://github.com/nanaeu",
       "contributions": [
         "code"
       ]
@@ -221,16 +221,7 @@
       "login": "devwithpug",
       "name": "Jungyu Choi",
       "avatar_url": "https://avatars.githubusercontent.com/u/69145799?v=4",
-      "profile": "https://github.com/devwithpug",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "Ohyaelim",
-      "name": "Yaelim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53201847?v=4",
-      "profile": "https://github.com/Ohyaelim",
+      "profile": "https://devwithpug.github.io/",
       "contributions": [
         "code"
       ]
@@ -245,10 +236,19 @@
       ]
     },
     {
-      "login": "sang-w0o",
-      "name": "나상우",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48438083?v=4",
-      "profile": "https://github.com/sang-w0o",
+      "login": "Ohyaelim",
+      "name": "Yaelim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53201847?v=4",
+      "profile": "https://github.com/Ohyaelim",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gimquokka",
+      "name": "Jin Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60743304?v=4",
+      "profile": "https://github.com/gimquokka",
       "contributions": [
         "code"
       ]
@@ -272,118 +272,10 @@
       ]
     },
     {
-      "login": "dwp",
-      "name": "Department for Work and Pensions",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1823232?v=4",
-      "profile": "https://gov.uk/dwp",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "gyunny",
-      "name": "Gyunny",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15168099?v=4",
-      "profile": "https://github.com/gyunny",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "tape22",
-      "name": "HurJungMin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35520314?v=4",
-      "profile": "https://tape22.tistory.com/",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "Prayme",
-      "name": "prayme",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20826116?v=4",
-      "profile": "https://github.com/Prayme",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "sulmo",
-      "name": "sulmo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47352619?v=4",
-      "profile": "https://github.com/sulmo",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "young",
-      "name": "Jem Young",
-      "avatar_url": "https://avatars.githubusercontent.com/u/984983?v=4",
-      "profile": "https://www.jemyoung.com/",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "ohyes",
-      "name": "Sarah O.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153984?v=4",
-      "profile": "http://sarahohye.me/",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "gimquokka",
-      "name": "Jin Kim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60743304?v=4",
-      "profile": "https://github.com/gimquokka",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "sangwoo",
-      "name": "Sang-Woo Pai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/558163?v=4",
-      "profile": "https://github.com/sangwoo",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "JinSeok",
-      "name": "jinseok",
-      "avatar_url": "https://avatars.githubusercontent.com/u/990201?v=4",
-      "profile": "https://github.com/JinSeok",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "namrmino",
       "name": "Nam Jeong Jae",
       "avatar_url": "https://avatars.githubusercontent.com/u/69797157?v=4",
       "profile": "https://github.com/namrmino",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "injeong",
-      "name": "LeeInJeong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10123834?v=4",
-      "profile": "https://github.com/injeong",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "nanaeu",
-      "name": "Yu Jin Lee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55730357?v=4",
-      "profile": "https://github.com/nanaeu",
       "contributions": [
         "code"
       ]
@@ -398,10 +290,55 @@
       ]
     },
     {
+      "login": "wjdrbs96",
+      "name": "Gyunny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45676906?v=4",
+      "profile": "https://devlog-wjdrbs96.tistory.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "inddoni",
+      "name": "InJeong Choi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46644241?v=4",
+      "profile": "https://github.com/inddoni",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "freedom07",
       "name": "Yun Jegal",
       "avatar_url": "https://avatars.githubusercontent.com/u/29652381?v=4",
       "profile": "https://github.com/freedom07",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Say-young",
+      "name": "Sayer(JangSeYoung)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55133871?v=4",
+      "profile": "https://say-young.tistory.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sang-w0o",
+      "name": "나상우",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48438083?v=4",
+      "profile": "https://github.com/sang-w0o",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "cheongha",
+      "name": "cheongha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51499782?v=4",
+      "profile": "https://github.com/cheongha",
       "contributions": [
         "code"
       ]

@@ -1,6 +1,7 @@
 {
   "license": "MIT",
   "devDependencies": {
+    "all-contributors-cli": "^6.20.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0"
   },
