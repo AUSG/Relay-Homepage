@@ -21,6 +21,21 @@
 
 const member5thInfo = [
   {
+    nickname:"cheongha",
+    name:"성청하",
+    hasImage:"O",
+    imageType:"jpg",
+    role:"5th Member",
+    introduction:`멋쟁이 백엔드 개발자가 될래요`,
+    description:"맑고 깨끗하게 💧",
+    email:"sch7188@gmail.com",
+    linkedinURL:"",
+    githubURL:"https://github.com/cheongha",
+    blogURL:"",
+    otherURL:"",
+
+  },
+  {
     nickname:"tape22",
     name:"허정민",
     hasImage:"O",
