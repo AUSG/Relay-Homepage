@@ -261,6 +261,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "w0o",
+      "name": "w0o",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42366465?v=4",
+      "profile": "https://github.com/w0o",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
