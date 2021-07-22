@@ -1,7 +1,7 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
@@ -82,6 +82,7 @@ yarn all-contributors add $GITHUB_NAME code
   <tr>
     <td align="center"><a href="https://github.com/JeoungSulMo"><img src="https://avatars.githubusercontent.com/u/50662170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sulmo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=JeoungSulMo" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/nanaeu"><img src="https://avatars.githubusercontent.com/u/55730357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu Jin Lee</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=nanaeu" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.jemyoung.com/"><img src="https://avatars.githubusercontent.com/u/984983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jem Young</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=young" title="Code">💻</a></td>
   </tr>
 </table>
 
