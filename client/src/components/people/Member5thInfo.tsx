@@ -333,7 +333,19 @@ const member5thInfo = [
     email: "seongbin9786@gmail.com",
     githubURL: "https://github.com/seongbin9786",
     blogURL: "https://jsqna.com/",
-  }
+  },
+  {
+    nickname: "enif.lee",
+    name: "이진성",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: "같이 코딩해요!",
+    description: "Use `import` for Boosting your company! 😁",
+    email: "enif.lee@gmail.com",
+    githubURL: "https://github.com/enif-lee",
+    blogURL: "https://sticky32.tistory.com/",
+  },
 ];
 
 export default member5thInfo;
