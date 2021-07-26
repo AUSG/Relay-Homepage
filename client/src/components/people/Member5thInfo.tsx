@@ -21,6 +21,21 @@
 
 const member5thInfo = [
   {
+    nickname:"yeongwoooo",
+    name:"강영우",
+    hasImage:"O",
+    imageType:"jpg",
+    role:"5th Member",
+    introduction:`프론트, 백, 인프라 팔방미인이 될래요`,
+    description:"I love sexy code.👨‍💻",
+    email:"rdd9223@gmail.com",
+    linkedinURL:"https://www.linkedin.com/in/%EC%98%81%EC%9A%B0-%EA%B0%95-659a861ba/",
+    githubURL:"https://github.com/rdd9223",
+    blogURL:"https://velog.io/@rdd9223",
+    otherURL:"https://www.instagram.com/kang_0woo/",
+
+  },
+  {
     nickname:"cheongha",
     name:"성청하",
     hasImage:"O",
