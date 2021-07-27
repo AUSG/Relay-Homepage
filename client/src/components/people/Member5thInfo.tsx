@@ -81,6 +81,22 @@ const member5thInfo = [
     otherURL: "",
   },
   {
+    nickname: "juno",
+    name: "이준호",
+    hasImage: "O",
+    imageType: "jpg",
+    role: "5th Member",
+    introduction: `인생 프론트엔드 개발자입니다! 
+    여러분과 함께 성장하고 싶어요🙌`,
+    description: `걱정말고 다가와 주세요!
+    리액션은 제가 담당할게요😆`,
+    email: "junolee7803@gmail.com",
+    linkedinURL: "",
+    githubURL: "https://github.com/juno7803",
+    blogURL: "https://velog.io/@juno7803",
+    otherURL: "",
+  },
+  {
     nickname: "dwp",
     name: "박다원",
     hasImage: "O",
