@@ -103,6 +103,7 @@ yarn all-contributors add $GITHUB_NAME code
     <td align="center"><a href="https://jsqna.com"><img src="https://avatars.githubusercontent.com/u/28754907?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seongbin Kim</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=seongbin9786" title="Code">💻</a></td>
     <td align="center"><a href="http://rdd9223.github.io, velog.io/@rdd9223"><img src="https://avatars.githubusercontent.com/u/46023074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YeongWoooo</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=rdd9223" title="Code">💻</a></td>
     <td align="center"><a href="https://velog.io/@juno7803"><img src="https://avatars.githubusercontent.com/u/26808056?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juno</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=juno7803" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/yezgoget"><img src="https://avatars.githubusercontent.com/u/55784772?v=4" width="100px;" alt=""/><br /><sub><b>Juno</b></sub></a><br /><a href="https://github.com/AUSG/Relay-Homepage/commits?author=yezgogey" title="Code">💻</a></td>
   </tr>
 </table>
 
