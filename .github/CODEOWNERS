@@ -1,1 +1,4 @@
 *       @14km @SeongIkKim @suyeon96 @eunsukimme @victoriagjh @naru200 @roeniss
+
+# no owner for auto update (see ./github/updateBlogPostList.yml)
+/lib/blogSpider/newestPosts.json
