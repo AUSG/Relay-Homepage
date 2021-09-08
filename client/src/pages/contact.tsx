@@ -49,7 +49,10 @@ const ContactPage: NextPage = () => {
               <i className="fa fa-paper-plane"> SEND &nbsp;</i>
             </button>
           </form>
-          <div className="py-10 px-3 text-black" onClick={onClickHandlerForEasterEgg}></div>
+          <div
+            className="py-10 px-3 text-black"
+            onClick={onClickHandlerForEasterEgg}
+          ></div>
         </div>
       </div>
     </AppLayout>
