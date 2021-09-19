@@ -1,27 +1,35 @@
 # Relay-Homepage
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 자신의 정보를 추가하는 법
 
-### [People 페이지](https://ausg.me/people) - NEW Crew 전용
-
-- `/client/public/images/people` 디렉토리에 사진을 추가합니다. format : `$nickname.jpg` (ex. roeniss2.jpg)
-- `/client/src/components/people/Member5thInfo.tsx` 파일에 자신의 정보를 추가합니다.
-- 입력할 수 있는 필드 중 해당되는 정보가 없는 부분은 입력하지 않으셔도 됩니다. (다른 사람들 정보를 참고하세요)
-
 ### [People 페이지](https://ausg.me/people)
 
+#### 프로필
+
 - `/client/public/images/people` 디렉토리에 사진을 추가합니다. format : `$nickname.jpg` (ex. roeniss2.jpg)
-- `/client/src/components/people/MemberInfo.tsx` 파일에 자신의 정보를 추가합니다. 해당 파일 주석과 이미 작성된 데이터를 참고하시면 됩니다.
+- `/client/src/components/people/CrewInfo.tsx` 파일에 자신의 정보를 추가합니다. 해당 파일 주석과 이미 작성된 데이터를 참고하시면 됩니다.
+
+#### 어워드
+
+AUSG 크루들과 함께하는 이벤트들을 통해 어워드를 획득하실 수 있습니다. 이 어워드는 프로필 아래에 조그마한 아이콘들로 표시돼요.
+
+- `/client/src/components/people/CrewInfo.tsx`에서 awardList 항목을 추가합니다. 등록 가능한 어워드 이름들은 ``/client/src/components/people/AwardInfo.tsx`에서 확인할 수 있어요.
+
+- 새 어워드를 추가하려면 `/client/src/components/people/AwardInfo.tsx`의 예제를 참고해서 상을 추가하고, `/public/images/icons`에 아이콘 svg 파일을 추가하면 됩니다.
+
+- TODO : 작성 예정 (roeniss)
 
 ### [Blog 페이지](https://ausg.me/blog)
 
 - `/lib/blogSpider/README.md`를 참고해주세요.
 
-### 리드미의 기여자 명단에 새 멤버를 추가하는 법
+### 리드미의 기여자 명단에 새 크루를 추가하는 법
 
 #### 방법 1
 
