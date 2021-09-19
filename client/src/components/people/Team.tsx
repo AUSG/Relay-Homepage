@@ -2,15 +2,12 @@
 // @ts-ignore
 
 import CrewCard from "@ausg/components/people/CrewCard";
-import * as CSV from "csv-string";
 import React, { useEffect, useState } from "react";
-
-import member5thInfo from "./Member5thInfo";
-import memberInfo from "./MemberInfo";
+import crewInfo from "./CrewInfo";
 
 export interface Crew {
-  id: number;
-  url: string; // imageUrl
+  nickname: string;
+  imageUrl: string;
   name: string;
   role: string;
   introduction: string;
@@ -19,6 +16,7 @@ export interface Crew {
   githubURL?: string;
   blogURL?: string;
   otherURL?: string;
+  awardList?: string[];
 }
 
 const Team: React.FC = () => {
@@ -39,55 +37,9 @@ const Team: React.FC = () => {
   };
   // ~ Easter egg
 
-  // csv format: 이름 - 사진 유무(O/X) - 기수 역할 - 자기소개(<= 50자) - 마우스 올리면 보이는 캐치프레이즈 (<= 20자) - 이메일 - 링크드인 url - 깃헙 url - 블로그 url - 기타 url
-  // csv order : see `./MemberInfo.tsx`
-  const crews: Crew[] = CSV.parse(memberInfo, "|").map((crew, idx) => {
-    const [
-      nickname,
-      name,
-      hasImage,
-      role,
-      introduction,
-      description,
-      _email,
-      linkedinURL,
-      githubURL,
-      blogURL,
-      otherURL,
-    ] = crew;
-
-    return {
-      id: idx,
-      url:
-        hasImage === "O" ? `/images/people/${nickname}.jpg` : `/images/17.png`,
-      name,
-      role,
-      introduction,
-      description,
-      githubURL,
-      linkedinURL,
-      blogURL,
-      otherURL,
-    };
-  });
-
-  const newCrews: Crew[] = member5thInfo.map((memberInfo, idx) => {
-    return {
-      id: idx,
-      url:
-        memberInfo.hasImage === "O"
-          ? `/images/people/${memberInfo.nickname}.${memberInfo.imageType}`
-          : `/images/17.png`,
-      name: memberInfo.name,
-      role: memberInfo.role,
-      introduction: memberInfo.introduction,
-      description: memberInfo.description,
-      githubURL: memberInfo.githubURL,
-      linkedinURL: memberInfo.linkedinURL,
-      blogURL: memberInfo.blogURL,
-      otherURL: memberInfo.otherURL,
-    };
-  });
+  const isNewMember = (member: Crew) => member.role.startsWith("5");
+  const crews: Crew[] = crewInfo.filter((crew) => !isNewMember(crew));
+  const newCrews: Crew[] = crewInfo.filter(isNewMember);
 
   return (
     <div
@@ -99,12 +51,11 @@ const Team: React.FC = () => {
         <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
           AUSG New Crew
         </h5>
-        {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
         <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
           {newCrews.map((crew) => (
             <CrewCard
-              key={crew.id}
-              url={crew.url}
+              key={crew.nickname}
+              imageUrl={crew.imageUrl}
               name={crew.name}
               role={crew.role}
               introduction={crew.introduction}
@@ -113,6 +64,7 @@ const Team: React.FC = () => {
               linkedinURL={crew.linkedinURL}
               blogURL={crew.blogURL}
               otherURL={crew.otherURL}
+              awardList={crew.awardList}
             />
           ))}
         </ul>
@@ -122,12 +74,11 @@ const Team: React.FC = () => {
         <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
           AUSG Old Crew
         </h5>
-        {/* 변수전달(n명의 크루 멤버) 리스트 렌더링. - flex로 wrapping된 컨테이너 박스 */}
         <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
           {crews.map((crew) => (
             <CrewCard
-              key={crew.id}
-              url={crew.url}
+              key={crew.nickname}
+              imageUrl={crew.imageUrl}
               name={crew.name}
               role={crew.role}
               introduction={crew.introduction}
@@ -136,6 +87,7 @@ const Team: React.FC = () => {
               linkedinURL={crew.linkedinURL}
               blogURL={crew.blogURL}
               otherURL={crew.otherURL}
+              awardList={crew.awardList}
             />
           ))}
         </ul>

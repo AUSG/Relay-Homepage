@@ -372,3 +372,13 @@ a:hover span {
 
   text-decoration: none !important;
 }
+
+/* CrewCard - AwardIcons */
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+}
+.has-tooltip:hover .tooltip {
+  visibility: visible;
+  z-index: 100;
+}

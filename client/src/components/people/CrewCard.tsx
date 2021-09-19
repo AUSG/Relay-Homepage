@@ -1,8 +1,9 @@
 import styled from "@emotion/styled";
 import React from "react";
+import awardCatalog from "./AwardInfo";
 
 interface CrewCardProps {
-  url: string;
+  imageUrl: string;
   name: string;
   role: string;
   introduction: string;
@@ -11,6 +12,7 @@ interface CrewCardProps {
   githubURL?: string;
   blogURL?: string;
   otherURL?: string;
+  awardList?: string[];
 }
 
 const IntroWrapper = styled.div`
@@ -46,8 +48,17 @@ const Introduction = styled.p`
   -webkit-line-clamp: 3;
 `;
 
+const AwardIconWrapper = styled.div``;
+
+const AwardIcon = styled.img`
+  display: inline;
+  margin: 0px;
+  padding: 0px 4px;
+  width: 24px;
+`;
+
 const CrewCard: React.FC<CrewCardProps> = ({
-  url,
+  imageUrl,
   name,
   role,
   introduction,
@@ -56,18 +67,35 @@ const CrewCard: React.FC<CrewCardProps> = ({
   githubURL,
   blogURL,
   otherURL,
+  awardList,
 }) => {
+  const awardIcons = awardList
+    ? awardList
+        .map((awardName) => awardCatalog[awardName])
+        .filter((award) => !!award)
+        .map((award) => {
+          return (
+            <div key={award.description} className="has-tooltip inline-block">
+              <span className="tooltip rounded shadow-lg p-1 bg-gray-100 text-ausgPurple -mt-8 font-bold">
+                {award.description}
+              </span>
+              <AwardIcon src={award.iconFile} />
+            </div>
+          );
+        })
+    : [];
+
   return (
     <li className="mb-8 xl:w-1/3 sm:w-1/2 mx-auto sm:max-w-xs xl:max-w-sm 2xl:max-w-xs lg:w-1/2 relative">
       <figure className="bg-top bg-cover bg-no-repeat h-64">
         <img
-          src={url}
+          src={imageUrl}
           alt="AUSG 멤버의 사진"
           className="h-full w-full overflow-hidden object-cover rounded shadow"
         />
         <div className="opacity-0 hover:opacity-100 hover:bg-opacity-30 bg-black duration-300 absolute h-64 inset-0 z-100 flex justify-center items-center text-2xl text-white font-semibold text-center flex-col pt-0 pb-8 px-4">
           {/* 여러 줄인 경우도 커버 */}
-          {description.split("\\n").map(function (item, idx) {
+          {description.split("\n").map(function (item, idx) {
             return (
               <span key={idx}>
                 {item}
@@ -80,7 +108,9 @@ const CrewCard: React.FC<CrewCardProps> = ({
       <IntroWrapper>
         <p className="text-xl text-center text-gray-800 font-bold">{name}</p>
         <p className="text-center text-sm text-gray-600">{role}</p>
+
         <Introduction>{introduction}</Introduction>
+
         <div className="flex justify-center mt-2">
           {!!githubURL && (
             <a href={githubURL} target="_blank" rel="noreferrer">
@@ -103,6 +133,8 @@ const CrewCard: React.FC<CrewCardProps> = ({
             </a>
           )}
         </div>
+
+        <AwardIconWrapper>{awardIcons}</AwardIconWrapper>
       </IntroWrapper>
     </li>
   );
