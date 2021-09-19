@@ -23,7 +23,6 @@
     "axios": "^0.21.1",
     "axios-hooks": "^2.6.3",
     "cross-env": "^7.0.3",
-    "csv-string": "^4.0.1",
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
