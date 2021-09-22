@@ -21,9 +21,7 @@ AUSG 크루들과 함께하는 이벤트들을 통해 어워드를 획득하실 
 
 - `/client/src/components/people/CrewInfo.tsx`에서 awardList 항목을 추가합니다. 등록 가능한 어워드 이름들은 ``/client/src/components/people/AwardInfo.tsx`에서 확인할 수 있어요.
 
-- 새 어워드를 추가하려면 `/client/src/components/people/AwardInfo.tsx`의 예제를 참고해서 상을 추가하고, `/public/images/icons`에 아이콘 svg 파일을 추가하면 됩니다.
-
-- TODO : 작성 예정 (roeniss)
+- 새 어워드를 추가하려면 `/client/src/components/people/AwardInfo.tsx`의 예제를 참고해서 새  추가하고, `/public/images/icons`에 아이콘 svg 파일을 추가하면 됩니다.
 
 ### [Blog 페이지](https://ausg.me/blog)
 
