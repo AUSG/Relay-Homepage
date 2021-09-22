@@ -44,7 +44,7 @@ const crewInfo = [
     githubURL: "https://github.com/cheongha",
     blogURL: "",
     otherURL: "",
-    awardList: ["baekak_mountain_0911"],
+    awardList: ["2021_baekak_mountain"],
   },
   {
     nickname: "tape22",
@@ -58,7 +58,7 @@ const crewInfo = [
     githubURL: "https://github.com/tape22",
     blogURL: "https://tape22.tistory.com/",
     otherURL: "",
-    awardList: ["baekak_mountain_0911"],
+    awardList: ["2021_baekak_mountain"],
   },
   {
     nickname: "bluayer",
@@ -80,9 +80,9 @@ const crewInfo = [
     imageUrl: "/images/people/juno.jpg",
     role: "5th Member",
     introduction: `인생 프론트엔드 개발자입니다!
-    여러분과 함께 성장하고 싶어요🙌`,
+여러분과 함께 성장하고 싶어요🙌`,
     description: `걱정말고 다가와 주세요!
-    리액션은 제가 담당할게요😆`,
+리액션은 제가 담당할게요😆`,
     email: "junolee7803@gmail.com",
     linkedinURL: "",
     githubURL: "https://github.com/juno7803",
@@ -122,13 +122,14 @@ const crewInfo = [
     imageUrl: "/images/people/prayme.jpg",
     role: "5th Member",
     introduction: `예비 백엔드 개발자입니다.
-      함께 일하고 싶은 사람이 되고 싶습니다.`,
+함께 일하고 싶은 사람이 되고 싶습니다.`,
     description: "저 오늘 한가해요 ~ 😘",
     email: "dbfpzk142@gmail.com",
     linkedinURL: "https://www.linkedin.com/in/prayme/",
     githubURL: "https://github.com/plzprayme",
     blogURL: "https://velog.io/@prayme",
     otherURL: "",
+    awardList: ["2021_chuseok_tetris_bronze"],
   },
   {
     nickname: "gineepark",
@@ -155,6 +156,7 @@ const crewInfo = [
     githubURL: "https://github.com/JeoungSulMo",
     blogURL: "https://jeoungsulmo.github.io/",
     otherURL: "",
+    awardList: ["2021_chuseok_tetris_gold"],
   },
   {
     nickname: "nanaeu",
@@ -162,7 +164,7 @@ const crewInfo = [
     imageUrl: "/images/people/nanaeu.jpg",
     role: "5th Member",
     introduction: `백엔드 개발자를 희망하고 있어요!
-    다같이 즐겁게 활동해보아요😊`,
+다같이 즐겁게 활동해보아요😊`,
     description: "🐣🐣🐣",
     email: "lyubliss@gmail.com",
     linkedinURL: "",
@@ -189,7 +191,7 @@ const crewInfo = [
     imageUrl: "/images/people/devwithpug.jpg",
     role: "5th Member",
     introduction: `백엔드 개발자를 꿈꾸고 있어요.
-    Spring, MSA, DevOps에 관심이 많습니다.`,
+Spring, MSA, DevOps에 관심이 많습니다.`,
     description: "강아지 퍼그 귀엽지 않나요? 🐶",
     email: "zmfjscl789@gmail.com",
     linkedinURL: "",
@@ -210,7 +212,7 @@ const crewInfo = [
     githubURL: "https://github.com/BAEJIANN",
     blogURL: "",
     otherURL: "",
-    awardList: ["baekak_mountain_0911"],
+    awardList: ["2021_baekak_mountain"],
   },
   {
     nickname: "ohyes",
@@ -316,6 +318,7 @@ const crewInfo = [
     githubURL: "https://github.com/wjdrbs96",
     blogURL: "https://devlog-wjdrbs96.tistory.com/",
     otherURL: "",
+    awardList: ["2021_chuseok_tetris_oops"],
   },
   {
     nickname: "injeong",
@@ -329,6 +332,7 @@ const crewInfo = [
     githubURL: "https://github.com/inddoni",
     blogURL: "",
     otherURL: "",
+    awardList: ["2021_chuseok_tetris_silver"],
   },
   {
     nickname: "tony",
@@ -464,7 +468,7 @@ const crewInfo = [
     linkedinURL: "https://www.linkedin.com/in/roenissmoon/",
     blogURL: "https://velog.io/@roeniss",
     otherURL: "https://roeniss.tistory.com/",
-    awardList: ["baekak_mountain_0911"],
+    awardList: ["2021_baekak_mountain"],
   },
   {
     nickname: "cadenzah93",
