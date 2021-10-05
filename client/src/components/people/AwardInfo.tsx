@@ -23,6 +23,10 @@ const awardCatalog = {
     iconFile: "/images/icons/tetris_oops.svg",
     description: "2021 한가위 테트리스 올림픽 아차상",
   },
+  "2021_book_reading": {
+    iconFile: "/images/icons/book.png",
+    description: "한 글자만 읽어도 읽은거니까",
+  },
 };
 
 export default awardCatalog;
