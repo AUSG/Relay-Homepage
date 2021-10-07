@@ -18,7 +18,7 @@ PARSERS = {
         "section > *:first-child",
         "section > *:not(:nth-child(1)):not(figure):not(img)",
     ],
-    "TISTORY1": [".article-content strong", ".article-content p"],
+    "TISTORY1": [".list .title a", ".list .summary"],
     "TISTORY2": [".content_list strong", ".content_list .txt_thumb"],
     "TISTORY3": [".list_content strong", ".list_content .txt_post"],
     "ETC1": ["#page li a", ""],
