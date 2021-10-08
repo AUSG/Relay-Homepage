@@ -460,6 +460,18 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
     blogURL: "https://blog.naver.com/einokt",
   },
   {
+    nickname: "jsh",
+    name: "정승호",
+    imageUrl: "/images/people/jsh.jpg",
+    role: "4th Member",
+    introduction: `Python, Cloud, 맛집을 사랑하는 개발자.`,
+    description: "더 넓은 세상 밖으로 🚀",
+    email: "wony9795@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/seungho-jeong-79684b210/",
+    githubURL: "https://github.com/Jeoungseungho",
+    awardList: ["2021_baekak_mountain"],
+  },
+  {
     nickname: "roeniss2",
     name: "문성혁",
     imageUrl: "/images/people/roeniss2.jpg",
@@ -781,18 +793,6 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
     introduction: "Android Fanatic",
     description: "AUSG였지만 AWS보다 안드로이드와 친한 개발자",
   },
-  {
-    nickname: "jsh",
-    name: "정승호",
-    imageUrl: "/images/people/jsh.jpg",
-    role: "4th Member",
-    introduction: `Python, Cloud, 맛집을 사랑하는 개발자.`,
-    description: "더 넓은 세상 밖으로 🚀",
-    email: "wony9795@gmail.com",
-    linkedinURL: "https://www.linkedin.com/in/seungho-jeong-79684b210/",
-    githubURL: "https://github.com/Jeoungseungho",
-    awardList: ["2021_baekak_mountain"],
-  }
 ];
 
 export default crewInfo;
