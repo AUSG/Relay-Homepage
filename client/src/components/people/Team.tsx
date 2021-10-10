@@ -3,6 +3,7 @@
 
 import CrewCard from "@ausg/components/people/CrewCard";
 import React, { useEffect, useState } from "react";
+
 import crewInfo from "./CrewInfo";
 
 export interface Crew {
@@ -37,9 +38,9 @@ const Team: React.FC = () => {
   };
   // ~ Easter egg
 
-  const isNewMember = (member: Crew) => member.role.startsWith("5");
-  const crews: Crew[] = crewInfo.filter((crew) => !isNewMember(crew));
-  const newCrews: Crew[] = crewInfo.filter(isNewMember);
+  // const isNewMember = (member: Crew) => member.role.startsWith("5");
+  // const crews: Crew[] = crewInfo.filter((crew) => !isNewMember(crew));
+  // const newCrews: Crew[] = crewInfo["5th"];
 
   return (
     <div
@@ -49,10 +50,10 @@ const Team: React.FC = () => {
     >
       <div className="container mx-auto">
         <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-          AUSG New Crew
+          AUSG 5th
         </h5>
         <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
-          {newCrews.map((crew) => (
+          {crewInfo["5th"].map((crew) => (
             <CrewCard
               key={crew.nickname}
               imageUrl={crew.imageUrl}
@@ -72,10 +73,79 @@ const Team: React.FC = () => {
 
       <div className="container mx-auto">
         <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-          AUSG Old Crew
+          AUSG 4th
         </h5>
         <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
-          {crews.map((crew) => (
+          {crewInfo["4th"].map((crew) => (
+            <CrewCard
+              key={crew.nickname}
+              imageUrl={crew.imageUrl}
+              name={crew.name}
+              role={crew.role}
+              introduction={crew.introduction}
+              description={crew.description}
+              githubURL={crew.githubURL}
+              linkedinURL={crew.linkedinURL}
+              blogURL={crew.blogURL}
+              otherURL={crew.otherURL}
+              awardList={crew.awardList}
+            />
+          ))}
+        </ul>
+      </div>
+
+      <div className="container mx-auto">
+        <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          AUSG 3rd
+        </h5>
+        <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
+          {crewInfo["3rd"].map((crew) => (
+            <CrewCard
+              key={crew.nickname}
+              imageUrl={crew.imageUrl}
+              name={crew.name}
+              role={crew.role}
+              introduction={crew.introduction}
+              description={crew.description}
+              githubURL={crew.githubURL}
+              linkedinURL={crew.linkedinURL}
+              blogURL={crew.blogURL}
+              otherURL={crew.otherURL}
+              awardList={crew.awardList}
+            />
+          ))}
+        </ul>
+      </div>
+
+      <div className="container mx-auto">
+        <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          AUSG 2nd
+        </h5>
+        <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
+          {crewInfo["2nd"].map((crew) => (
+            <CrewCard
+              key={crew.nickname}
+              imageUrl={crew.imageUrl}
+              name={crew.name}
+              role={crew.role}
+              introduction={crew.introduction}
+              description={crew.description}
+              githubURL={crew.githubURL}
+              linkedinURL={crew.linkedinURL}
+              blogURL={crew.blogURL}
+              otherURL={crew.otherURL}
+              awardList={crew.awardList}
+            />
+          ))}
+        </ul>
+      </div>
+
+      <div className="container mx-auto">
+        <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
+          AUSG 1st
+        </h5>
+        <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
+          {crewInfo["1st"].map((crew) => (
             <CrewCard
               key={crew.nickname}
               imageUrl={crew.imageUrl}
