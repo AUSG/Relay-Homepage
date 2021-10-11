@@ -44,13 +44,13 @@ const Team: React.FC = () => {
       tabIndex={0}
       className="w-full px-10"
     >
-      {Object.entries(crews).map(([key, crewInfo]) => (
-        <div className="container mx-auto">
+      {Object.keys(crews).map((number) => (
+        <div key={number} className="container mx-auto">
           <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-            AUSG {key}
+            AUSG {number}
           </h5>
           <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
-            {crewInfo[key].map((crew: Crew) => (
+            {crews[number].map((crew: Crew) => (
               <CrewCard
                 key={crew.nickname}
                 imageUrl={crew.imageUrl}
@@ -68,7 +68,6 @@ const Team: React.FC = () => {
           </ul>
         </div>
       ))}
-      ;
     </div>
   );
 };
