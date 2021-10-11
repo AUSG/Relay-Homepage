@@ -17,7 +17,7 @@
  * ----
  */
 
-const crewInfo = {
+const crews = {
   "5th": [
     {
       nickname: "yeongwoooo",
@@ -813,4 +813,4 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
   ],
 };
 
-export default crewInfo;
+export default crews;
