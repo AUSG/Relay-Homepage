@@ -44,13 +44,13 @@ const Team: React.FC = () => {
       tabIndex={0}
       className="w-full px-10"
     >
-      {Object.keys(crews).map((number) => (
-        <div key={number} className="container mx-auto">
+      {Object.keys(crews).map((generation) => (
+        <div key={generation} className="container mx-auto">
           <h5 className="typography text-2xl mt-10 mb-5 py-1 text-ausgPurple border-t-2 border-b-2 border-ausgPurple">
-            AUSG {number}
+            AUSG {generation}
           </h5>
           <ul className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10 flex-shrink-0">
-            {crews[number].map((crew: Crew) => (
+            {crews[generation].map((crew: Crew) => (
               <CrewCard
                 key={crew.nickname}
                 imageUrl={crew.imageUrl}
