@@ -27,6 +27,14 @@ const awardCatalog = {
     iconFile: "/images/icons/book.png",
     description: "한 글자만 읽어도 읽은거니까",
   },
+  "2021_awsCommunityDay_master": {
+    iconFile: "/images/icons/whistle.png",
+    description: "중앙홀로 모여주시기 바랍니다",
+  },
+  "2021_awsCommunityDay_presenter": {
+    iconFile: "/images/icons/speech.png",
+    description: "즉 aws는 클라우드라는 것이지요",
+  },
 };
 
 export default awardCatalog;
