@@ -29,11 +29,15 @@ const awardCatalog = {
   },
   "2021_awsCommunityDay_master": {
     iconFile: "/images/icons/whistle.png",
-    description: "AWS Community Day Operators",
+    description: "AWS Community Day 운영진",
   },
   "2021_awsCommunityDay_presenter": {
     iconFile: "/images/icons/speech.png",
-    description: "AWS Community Day Speaker",
+    description: "AWS Community Day 세션 발표자",
+  },
+  "2021_awsCommunityDay_participant": {
+    iconFile: "/images/icons/telescope.png",
+    description: "AWS Community Day 참가자",
   },
 };
 

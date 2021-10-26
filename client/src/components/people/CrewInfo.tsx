@@ -167,7 +167,11 @@ const crews = {
       githubURL: "https://github.com/JeoungSulMo",
       blogURL: "https://jeoungsulmo.github.io/",
       otherURL: "",
-      awardList: ["2021_chuseok_tetris_gold", "2021_book_reading"],
+      awardList: [
+        "2021_chuseok_tetris_gold",
+        "2021_book_reading",
+        "2021_awsCommunityDay_participant",
+      ],
     },
     {
       nickname: "nanaeu",
@@ -268,6 +272,7 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
       githubURL: "https://github.com/sang-w0o",
       blogURL: "https://github.com/sang-w0o/Study",
       otherURL: "",
+      awardList: ["2021_awsCommunityDay_participant"],
     },
     {
       nickname: "ywoosang",
@@ -507,7 +512,11 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
       linkedinURL: "https://www.linkedin.com/in/roenissmoon/",
       blogURL: "https://velog.io/@roeniss",
       otherURL: "https://roeniss.tistory.com/",
-      awardList: ["2021_baekak_mountain", "2021_book_reading"],
+      awardList: [
+        "2021_baekak_mountain",
+        "2021_book_reading",
+        "2021_awsCommunityDay_participant",
+      ],
     },
     {
       nickname: "cadenzah93",
