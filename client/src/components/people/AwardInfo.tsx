@@ -9,35 +9,35 @@ const awardCatalog = {
   },
   "2021_chuseok_tetris_gold": {
     iconFile: "/images/icons/tetris_gold.svg",
-    description: "한가위 테트리스 올림픽 금메달",
+    description: "2021 한가위 테트리스 올림픽 금메달",
   },
   "2021_chuseok_tetris_silver": {
     iconFile: "/images/icons/tetris_silver.svg",
-    description: "한가위 테트리스 올림픽 은메달",
+    description: "2021 한가위 테트리스 올림픽 은메달",
   },
   "2021_chuseok_tetris_bronze": {
     iconFile: "/images/icons/tetris_bronze.svg",
-    description: "한가위 테트리스 올림픽 동메달",
+    description: "2021 한가위 테트리스 올림픽 동메달",
   },
   "2021_chuseok_tetris_oops": {
     iconFile: "/images/icons/tetris_oops.svg",
-    description: "한가위 테트리스 올림픽 아차상",
+    description: "2021 한가위 테트리스 올림픽 아차상",
   },
   "2021_book_reading": {
     iconFile: "/images/icons/book.png",
-    description: "40 Minutes 독서모임 참가자",
+    description: "2021 40Minutes 독서모임 참가자",
   },
   "2021_awsCommunityDay_master": {
     iconFile: "/images/icons/whistle.png",
-    description: "AWS Community Day 운영진",
+    description: "2021 AWS Community Day 운영진",
   },
   "2021_awsCommunityDay_presenter": {
     iconFile: "/images/icons/speech.png",
-    description: "AWS Community Day 세션 발표자",
+    description: "2021 AWS Community Day 세션 발표자",
   },
   "2021_awsCommunityDay_participant": {
     iconFile: "/images/icons/telescope.png",
-    description: "AWS Community Day 참가자",
+    description: "2021 AWS Community Day 참가자",
   },
 };
 
