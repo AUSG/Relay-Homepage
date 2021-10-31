@@ -442,8 +442,7 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
       email: "kpic1638@gmail.com",
       introduction:
         "욕심과 기울기가 큰 사람이 되고 싶습니다. AIOps, DevOps, Backend, 무엇보다 스타트업계와 사람에 관심이 많습니다.",
-      description:
-        "AI 하지마\\n그게 뭔데\\nAI 하지말라고\\n그거 어떻게 하는건데",
+      description: "AI 하지마\n그게 뭔데\nAI 하지말라고\n그거 어떻게 하는건데",
       githubURL: "https://github.com/SeongIkKim",
       blogURL: "https://blogik.netlify.app/",
       awardList: ["2021_awsCommunityDay_master"],
