@@ -140,6 +140,7 @@ const crews = {
       awardList: [
         "2021_chuseok_tetris_bronze",
         "2021_aws_community_day_presenter",
+        "2021_bigchat",
       ],
     },
     {
@@ -231,6 +232,7 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
         "2021_baekak_mountain",
         "2021_book_reading",
         "2021_aws_community_day_master",
+        "2021_bigchat",
       ],
     },
     {
@@ -587,7 +589,7 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
       description: "김병규 사랑해",
       githubURL: "https://github.com/p4rksh",
       blogURL: "https://velog.io/@p4rksh",
-      awardList: ["2021_book_reading"],
+      awardList: ["2021_book_reading", "2021_bigchat"],
     },
     {
       nickname: "beygee",
@@ -598,6 +600,7 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
       introduction: "React, Flutter, Nest.js, Typescript 좋아해요",
       description: "이때다 싶을때 도망쳐",
       githubURL: "https://github.com/beygee",
+      awardList: ["2021_bigchat"],
     },
     {
       nickname: "sds",
