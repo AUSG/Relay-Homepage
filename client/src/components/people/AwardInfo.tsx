@@ -27,17 +27,21 @@ const awardCatalog = {
     iconFile: "/images/icons/book.png",
     description: "2021 40Minutes 독서모임 참가자",
   },
-  "2021_awsCommunityDay_master": {
+  "2021_aws_community_day_master": {
     iconFile: "/images/icons/whistle.png",
     description: "2021 AWS Community Day 운영진",
   },
-  "2021_awsCommunityDay_presenter": {
+  "2021_aws_community_day_presenter": {
     iconFile: "/images/icons/speech.png",
     description: "2021 AWS Community Day 세션 발표자",
   },
-  "2021_awsCommunityDay_participant": {
+  "2021_aws_community_day_participant": {
     iconFile: "/images/icons/telescope.png",
     description: "2021 AWS Community Day 참가자",
+  },
+  "2021_bigchat": {
+    iconFile: "/images/icons/chat.png",
+    description: "2021 빅챗 발표자",
   },
 };
 
