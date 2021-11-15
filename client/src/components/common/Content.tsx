@@ -37,7 +37,8 @@ const activityImages = [
 const Content: React.FC = () => {
   const [images, setImages] = useState<any>([]);
   useEffect(() => {
-    const randomlySelectedImages = [...Array(20).keys()] // 20 pictures in groupPhotos
+    const TOTAL_IMAGE_COUNT = 19;
+    const randomlySelectedImages = [...Array(TOTAL_IMAGE_COUNT).keys()] // 20 pictures in groupPhotos
       .sort(() => 0.5 - Math.random()) // shuffle
       .slice(0, 4) // take 4
       .map((num) => ({ url: `images/groupPhotos/${num}.jpg` })); // always jpg
