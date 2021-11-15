@@ -64,6 +64,7 @@ const crews = {
         "2021_baekak_mountain",
         "2021_book_reading",
         "2021_aws_community_day_master",
+        "2021_bigchat",
       ],
     },
     {
