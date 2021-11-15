@@ -46,8 +46,6 @@ const Content: React.FC = () => {
     setImages(randomlySelectedImages);
   }, []);
 
-  console.log(images);
-
   return (
     <main className="main">
       <section className="doc_content">
