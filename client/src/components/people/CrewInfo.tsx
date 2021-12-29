@@ -124,6 +124,7 @@ const crews = {
       githubURL: "https://github.com/dawonparkk",
       blogURL: "",
       otherURL: "",
+      awardList: ["2021_award_guessing_the_song_3rd"],
     },
     {
       nickname: "prayme",
@@ -234,6 +235,7 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
         "2021_book_reading",
         "2021_aws_community_day_master",
         "2021_bigchat",
+        "2021_award_guessing_the_song_1st",
       ],
     },
     {
@@ -454,7 +456,11 @@ Spring, MSA, DevOps에 관심이 많습니다.`,
       description: "AI 하지마\n그게 뭔데\nAI 하지말라고\n그거 어떻게 하는건데",
       githubURL: "https://github.com/SeongIkKim",
       blogURL: "https://blogik.netlify.app/",
-      awardList: ["2021_aws_community_day_master", "2021_bigchat"],
+      awardList: [
+        "2021_aws_community_day_master", 
+        "2021_bigchat",
+        "2021_award_guessing_the_song_2nd"
+      ],
     },
     {
       nickname: "eunsukimme",
