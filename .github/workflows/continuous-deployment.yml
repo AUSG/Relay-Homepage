@@ -30,7 +30,7 @@ jobs:
         working-directory: ./client
 
       - name: Deploy
-        run: yarn build && npx serverless
+        run: yarn deploy
         working-directory: ./client
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}

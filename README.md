@@ -47,6 +47,18 @@ yarn all-contributors add $GITHUB_NAME code
 
 이렇게 치면 .all-contributorsrc 파일에 새 이름을 넣고, 리드미를 업데이트하고, 커밋까지 마칩니다. 이 내용을 별도 브랜치에 올려서 PR 등록하면 됩니다.
 
+## 배포 방법
+
+`.github/workflows/continuous-deployment.yml`에 의해, `dev` 브랜치에 push/merge 되면 자동으로 배포 프로세스가 진행됩니다.
+
+자세한 내용은 `serverless.yml`을 참고하시면 되는데, 간단히 설명하면 [Serverless](https://www.serverless.com/) 프레임워크를 이용해 aws에 리소스를 배포합니다.
+
+@roeniss 가 관리하는 AWS 계정에서 Lambda, S3, ACM, CF 등이 생성, 유지됩니다. 서버리스라서 비용은 거의 없어요.
+
+### 배포 중 에러 발생 시 조치방법
+
+https://github.com/AUSG/Relay-Homepage/runs/4659668861?check_suite_focus=true 와 같이, 가끔 배포가 실패할 때가 있습니다. 2021년 12월 30일 커밋으로 해당 serverless 스택을 최신화해두었는데, 일단 이걸로 해결이 된 것 같고 또 유사한 문제가 생긴다면 다시 들춰봐야 할 것 같습니다.
+
 ## 그 외
 
 - 프론트 및 NextJS 작업은 `/client/README.md`를 참고하세요.
