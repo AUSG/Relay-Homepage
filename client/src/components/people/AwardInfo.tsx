@@ -43,6 +43,18 @@ const awardCatalog = {
     iconFile: "/images/icons/chat.png",
     description: "2021 빅챗 발표자",
   },
+  "2021_award_guessing_the_song_1st": {
+    iconFile: "/images/icons/chat.png",
+    description: "2021 Ausg Award 송잘알 1등",
+  },
+  "2021_award_guessing_the_song_2nd": {
+    iconFile: "/images/icons/chat.png",
+    description: "2021 Ausg Award 송잘알 2등",
+  },
+  "2021_award_guessing_the_song_3rd": {
+    iconFile: "/images/icons/chat.png",
+    description: "2021 Ausg Award 송잘알 3등",
+  },
 };
-
+  
 export default awardCatalog;
