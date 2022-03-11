@@ -1,12 +1,10 @@
 # -*- coding: utf8 -*-
-import time
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
-import requests
 
-from classes import Blog, BlogType, Post
+from classes import Post
 
 
 # Each parser
