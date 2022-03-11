@@ -1,4 +1,5 @@
-import asyncio
+from asyncio import run as async_run
+
 from parsingService import parsingService
 from ioService import ioService
 
@@ -10,5 +11,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main())
+    async_run(main())
