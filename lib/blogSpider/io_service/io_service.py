@@ -7,7 +7,7 @@ from pydantic import ValidationError
 from classes import Blog, Post
 
 
-def read_blog_list() -> List[Blog]:
+def read_blogs() -> List[Blog]:
     blogs = []
     with open("./blogList.csv", newline="") as f:
         lines = csv.reader(f, delimiter=",")

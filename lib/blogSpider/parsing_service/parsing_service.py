@@ -31,7 +31,7 @@ PARSERS = {
 }
 
 
-async def crawl_xml(blogType, url) -> Optional[ScrapResult]:
+async def _crawl_xml(blogType, url) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(
             url,
@@ -63,7 +63,7 @@ async def crawl_xml(blogType, url) -> Optional[ScrapResult]:
         return None
 
 
-async def crawl_html(blogType, url) -> Optional[ScrapResult]:
+async def _crawl_html(blogType, url) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(url, headers={"user-agent": "Mozilla/5.0"}) as res:
             text = await res.text()
@@ -93,11 +93,11 @@ async def crawl_html(blogType, url) -> Optional[ScrapResult]:
         return None
 
 
-async def create_post(blog: Blog) -> Post:
+async def _create_post(blog: Blog) -> Post:
     if blog.is_type_xml():
-        scrap_result = await crawl_xml(blog.blog_type, blog.parsing_url)
+        scrap_result = await _crawl_xml(blog.blog_type, blog.parsing_url)
     else:
-        scrap_result = await crawl_html(blog.blog_type, blog.parsing_url)
+        scrap_result = await _crawl_html(blog.blog_type, blog.parsing_url)
 
     if scrap_result is None:
         return None
@@ -111,7 +111,7 @@ async def create_post(blog: Blog) -> Post:
 
 
 async def parse(blogs: List[Blog]) -> List[Post]:
-    futures = [asyncio.ensure_future(create_post(blog)) for blog in blogs]
+    futures = [asyncio.ensure_future(_create_post(blog)) for blog in blogs]
 
     posts = await asyncio.gather(*futures)
     posts = [post for post in posts if post is not None]
