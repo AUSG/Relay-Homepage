@@ -2,8 +2,8 @@ ausgHomepage:
   component: "./node_modules/@sls-next/serverless-component"
   inputs:
     domain: ["www", "ausg.me"]
-    cloudfront:
-      distributionId: "E54C1B2MKSWXD"
+#    cloudfront:
+#      distributionId: "E54C1B2MKSWXD"
     domainType: "both"
     certificate:
       cloudFrontDefaultCertificate: false
