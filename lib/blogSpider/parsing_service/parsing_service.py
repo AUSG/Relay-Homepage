@@ -31,11 +31,6 @@ PARSERS = {
 }
 
 
-async def fetch(session, url) -> str:
-    async with session.get(url) as response:
-        return await response.text()
-
-
 async def crawl_xml(blogType, url) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(
