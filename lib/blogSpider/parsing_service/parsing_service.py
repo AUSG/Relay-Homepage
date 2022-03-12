@@ -1,10 +1,11 @@
-# -*- coding: utf8 -*-
+from typing import List, Optional
+
 import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 
-from classes import Post
+from classes import Blog, Post, ScrapResult
 
 
 # Each parser
@@ -30,12 +31,12 @@ PARSERS = {
 }
 
 
-async def fetch(session, url):
+async def fetch(session, url) -> str:
     async with session.get(url) as response:
         return await response.text()
 
 
-async def crawlXml(blogType, url):
+async def crawl_xml(blogType, url) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(
             url,
@@ -60,14 +61,14 @@ async def crawlXml(blogType, url):
         if len(title) == 0:
             raise Exception("No title")
 
-        return title, preface
+        return ScrapResult(title=title, preface=preface)
 
     except Exception as e:
         print(f"[crawlXml] error occured: {e} (at {url})")
-        return None, None
+        return None
 
 
-async def crawlHtml(blogType, url):
+async def crawl_html(blogType, url) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(url, headers={"user-agent": "Mozilla/5.0"}) as res:
             text = await res.text()
@@ -90,27 +91,32 @@ async def crawlHtml(blogType, url):
         if len(title) == 0:
             raise Exception("No title")
 
-        return title, preface
+        return ScrapResult(title=title, preface=preface)
 
     except Exception as e:
         print(f"[crawlHtml] error occured (maybe no post at all?): {e} (at {url})")
-        return None, None
-
-
-async def createPost(blog):
-    if "XML" in blog.blogType.name:
-        title, preface = await crawlXml(blog.blogType, blog.parsingUrl)
-    else:
-        title, preface = await crawlHtml(blog.blogType, blog.parsingUrl)
-
-    if title is None or preface is None:
         return None
 
-    return Post(title, preface, blog.homepageUrl, blog.author)
+
+async def create_post(blog: Blog) -> Post:
+    if blog.is_type_xml():
+        scrap_result = await crawl_xml(blog.blog_type, blog.parsing_url)
+    else:
+        scrap_result = await crawl_html(blog.blog_type, blog.parsing_url)
+
+    if scrap_result is None:
+        return None
+
+    return Post(
+        title=scrap_result.title,
+        preface=scrap_result.preface,
+        url=blog.homepage_url,
+        author=blog.author
+    )
 
 
-async def parse(blogs):
-    futures = [asyncio.ensure_future(createPost(blog)) for blog in blogs]
+async def parse(blogs: List[Blog]) -> List[Post]:
+    futures = [asyncio.ensure_future(create_post(blog)) for blog in blogs]
 
     posts = await asyncio.gather(*futures)
     posts = [post for post in posts if post is not None]
