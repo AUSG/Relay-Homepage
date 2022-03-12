@@ -1,37 +1,45 @@
 from enum import Enum
 
-
-class BlogType(Enum):
-    VELOG = 1
-    MEDIUM = 2
-    TISTORY1 = 101
-    TISTORY2 = 102
-    TISTORY3 = 103
-    ETC1 = 201
-    ETC2 = 202
-    ETC3 = 203
-    ETC4 = 204
-    XML1 = 301
-    XML2 = 302
+from pydantic import AnyHttpUrl, BaseModel
 
 
-class Blog:
-    def __init__(self, parsingUrl, author, blogType, homepageUrl):
-        self.parsingUrl = parsingUrl
-        self.author = author
-        self.blogType = BlogType[blogType]
-        self.homepageUrl = homepageUrl
+class BlogType(str, Enum):
+    VELOG = 'VELOG'
+    MEDIUM = 'MEDIUM'
+    TISTORY1 = 'TISTORY1'
+    TISTORY2 = 'TISTORY2'
+    TISTORY3 = 'TISTORY3'
+    ETC1 = 'ETC1'
+    ETC2 = 'ETC2'
+    ETC3 = 'ETC3'
+    ETC4 = 'ETC4'
+    XML1 = 'XML1'
+    XML2 = 'XML2'
 
-    def __str__(self):
+
+class Blog(BaseModel):
+    parsing_url: AnyHttpUrl
+    author: str
+    blog_type: BlogType
+    homepage_url: AnyHttpUrl
+
+    def __str__(self) -> str:
         return f"[Blog]\n  url: {self.url},\n  author: {self.author},\n  blogType: {self.blogType},\n homepageUrl: {self.homepageUrl}"
 
+    def is_type_xml(self) -> bool:
+        return 'XML' in self.blog_type.value
 
-class Post:
-    def __init__(self, title, preface, url, author):
-        self.title = title
-        self.preface = preface
-        self.url = url
-        self.author = author
 
-    def __str__(self):
+class ScrapResult(BaseModel):
+    title: str
+    preface: str
+
+
+class Post(BaseModel):
+    title: str
+    preface: str
+    url: AnyHttpUrl
+    author: str
+
+    def __str__(self) -> str:
         return f"[Post]\n  title: {self.title},\n  preface: {self.preface},\n  url: {self.url},\n  author: {self.author}"
