@@ -5,7 +5,7 @@ from parsing_service import parsing_service
 
 
 async def main():
-    blogs = io_service.read_blog_list()
+    blogs = io_service.read_blogs()
     posts = await parsing_service.parse(blogs)
     io_service.write_posts(posts)
 
