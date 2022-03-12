@@ -31,7 +31,7 @@ PARSERS = {
 }
 
 
-async def _crawl_xml(blogType, url) -> Optional[ScrapResult]:
+async def _crawl_xml(blogType: str, url: str) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(
             url,
@@ -63,7 +63,7 @@ async def _crawl_xml(blogType, url) -> Optional[ScrapResult]:
         return None
 
 
-async def _crawl_html(blogType, url) -> Optional[ScrapResult]:
+async def _crawl_html(blogType: str, url: str) -> Optional[ScrapResult]:
     async with aiohttp.ClientSession() as sess:
         async with sess.get(url, headers={"user-agent": "Mozilla/5.0"}) as res:
             text = await res.text()
